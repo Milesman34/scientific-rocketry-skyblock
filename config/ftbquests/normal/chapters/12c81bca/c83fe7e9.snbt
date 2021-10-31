@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	text: [
+		"Singularities, everyone's favorite crafting mechanic!"
+	],
+	dependencies: [
+		"c659da5d",
+		"ba862b49"
+	],
+	tasks: [{
+		uid: "fdd12720",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "35c1628a",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 16
+	}]
+}

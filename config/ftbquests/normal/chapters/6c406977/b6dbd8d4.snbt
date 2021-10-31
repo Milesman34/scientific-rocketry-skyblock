@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a65175ea",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}],
+	rewards: [{
+		uid: "8b123565",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"dcfcefdb"
+	],
+	tasks: [{
+		uid: "cd183ddb",
+		type: "item",
+		items: [{
+			item: "bhc:blue_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "f0ea7840",
+		type: "item",
+		item: "extendedcrafting:material 1 32",
+		count: 16
+	}]
+}

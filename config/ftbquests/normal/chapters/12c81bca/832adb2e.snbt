@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "Masochist Mode",
+	text: [
+		"You have to be a masochist to make one of these. You probably don't want to know how many of them you need."
+	],
+	dependencies: [
+		"c83fe7e9"
+	],
+	tasks: [{
+		uid: "6ca76f7c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "3890aeb0",
+		type: "item",
+		item: "minecraft:clay_ball",
+		count: 64
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	text: [
+		"Power generation by tier:",
+		"",
+		"Litherite: 373659 RF/t",
+		"Erodium: 825396 RF/t",
+		"Kyronite: 1837706 RF/t",
+		"Pladium: 4064957 RF/t",
+		"Ionite: 9002292 RF/t",
+		"Aethium: 19935916 RF/t"
+	],
+	dependencies: [
+		"3f4a7a32"
+	],
+	tasks: [{
+		uid: "f0caa881",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_6"
+		}]
+	}],
+	rewards: [{
+		uid: "28dea8e8",
+		type: "item",
+		auto: "disabled",
+		item: "deepmoblearning:glitch_infused_ingot",
+		count: 16
+	}]
+}

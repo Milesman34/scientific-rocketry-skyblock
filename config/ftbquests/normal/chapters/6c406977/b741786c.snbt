@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "31042026",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b8f2064e",
+		type: "item",
+		item: "extendedcrafting:material 1 36",
+		count: 16
+	}]
+}

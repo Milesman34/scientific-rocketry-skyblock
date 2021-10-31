@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	text: [
+		"Solar panels are re-balanced in this pack, so that it is more effcient to upgrade the solar cells than the controllers, in terms of power generation. This does mean the solar cells are expensive though."
+	],
+	tasks: [{
+		uid: "757a539d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_litherite"
+		}]
+	}],
+	rewards: [{
+		uid: "a2962bf0",
+		type: "item",
+		item: "environmentaltech:litherite_crystal",
+		count: 16
+	}]
+}

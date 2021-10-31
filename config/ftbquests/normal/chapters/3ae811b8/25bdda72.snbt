@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 6.5d,
+	dependencies: [
+		"3802e718"
+	],
+	tasks: [{
+		uid: "076fc2ca",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_3"
+		}]
+	}],
+	rewards: [{
+		uid: "8aa51773",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 4",
+		count: 32
+	}]
+}

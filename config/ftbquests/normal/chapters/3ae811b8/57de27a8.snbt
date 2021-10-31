@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"ac401549"
+	],
+	tasks: [{
+		uid: "da67bfe8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory"
+		}]
+	}],
+	rewards: [{
+		uid: "5140f5ac",
+		type: "item",
+		item: "minecraft:flint",
+		count: 24
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	dependencies: [
+		"e6aab5a9"
+	],
+	tasks: [{
+		uid: "cb60aad8",
+		type: "item",
+		items: [{
+			item: "environmentaltech:pladium_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "f682e9ec",
+		type: "item",
+		item: "environmentaltech:pladium_crystal",
+		count: 16
+	}]
+}

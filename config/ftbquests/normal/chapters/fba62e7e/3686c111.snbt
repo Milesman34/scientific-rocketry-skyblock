@@ -1,0 +1,29 @@
+{
+	title: "Fusion Reactor",
+	x: -4.0d,
+	y: 3.0d,
+	description: "Endgame power, endgame cost",
+	text: [
+		"You are highly recommended to build a Boiler and a Turbine to achieve maximum power. ",
+		"Each boiler + turbine produces 267 million RF/t, and you could potentially power multiple boilers off a single reactor."
+	],
+	tasks: [{
+		uid: "6d4d1a34",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "7aadbcf6",
+		type: "item",
+		item: "extendedcrafting:material 1 11",
+		count: 16
+	},
+	{
+		uid: "6aa297e6",
+		type: "item",
+		item: "contenttweaker:adamantium_ingot",
+		count: 16
+	}]
+}

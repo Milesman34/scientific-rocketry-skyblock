@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "35e69998",
+		type: "item",
+		items: [{
+			item: "rftoolscontrol:programmer"
+		}]
+	}],
+	rewards: [{
+		uid: "0d7185d2",
+		type: "item",
+		item: "enderio:item_alloy_ingot",
+		count: 16
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	description: "Can kill anything",
+	text: [
+		""
+	],
+	dependencies: [
+		"8d78784a"
+	],
+	tasks: [{
+		uid: "cd3e2015",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

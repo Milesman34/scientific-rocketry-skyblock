@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	description: "Produces 1048576 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"329b3001"
+	],
+	tasks: [{
+		uid: "1d2b0bd7",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_adamantium"
+		}]
+	}],
+	rewards: [{
+		uid: "e8b1150b",
+		type: "item",
+		item: "contenttweaker:adamantium_ingot",
+		count: 16
+	}]
+}

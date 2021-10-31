@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "Early-game logistics and autocrafting",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ab69ab78",
+		type: "item",
+		items: [{
+			item: "integratedterminals:part_terminal_storage_item"
+		}]
+	}],
+	rewards: [{
+		uid: "6166dab4",
+		type: "item",
+		item: "thermalfoundation:material 1 166",
+		count: 16
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"Power generation by tier:",
+		"",
+		"Litherite: 1098 RF/t",
+		"Erodium: 2439 RF/t",
+		"Kyronite: 5436 RF/t",
+		"Pladium: 12024 RF/t",
+		"Ionite: 23040 RF/t",
+		"Aethium: 23040 RF/t"
+	],
+	dependencies: [
+		"0eccf5e9"
+	],
+	tasks: [{
+		uid: "96069a1c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}]
+	}],
+	rewards: [{
+		uid: "dcd7c464",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered 1 1",
+		count: 16
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	dependencies: [
+		"20eed754"
+	],
+	tasks: [{
+		uid: "fa38a03b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "enderio:item_end_steel_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2a3d196",
+		type: "item",
+		item: "thermalfoundation:material 1 167",
+		count: 12
+	}]
+}

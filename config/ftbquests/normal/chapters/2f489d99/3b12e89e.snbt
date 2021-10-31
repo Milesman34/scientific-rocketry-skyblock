@@ -1,0 +1,49 @@
+{
+	title: "PackagedExCrafting",
+	x: 5.0d,
+	y: 5.5d,
+	text: [
+		"You can use these machines to automate ExtendedCrafting. ",
+		"",
+		"To automate Combination Crafting, you need Marked Pedestals."
+	],
+	dependencies: [
+		"41ce4a62",
+		"0e84b692"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "bb749596",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:combination_crafter"
+		}]
+	},
+	{
+		uid: "d3c6067e",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		}]
+	},
+	{
+		uid: "b677633a",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:elite_crafter"
+		}]
+	},
+	{
+		uid: "b3c23ae5",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:ultimate_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "2ea8856b",
+		type: "item",
+		item: "extendedcrafting:material 1 17",
+		count: 16
+	}]
+}

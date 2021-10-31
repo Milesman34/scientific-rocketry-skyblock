@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "54aa7f4b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "c6ff3574",
+		type: "item",
+		item: "thermalfoundation:material 1 130",
+		count: 16
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "Used for autocrafting with Integrated Dynamics",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7b7683cc",
+		type: "item",
+		items: [{
+			item: "integratedcrafting:part_interface_crafting_item"
+		}]
+	}],
+	rewards: [{
+		uid: "aeaeab50",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 5",
+		count: 16
+	}]
+}

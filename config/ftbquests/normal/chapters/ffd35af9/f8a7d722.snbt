@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	dependencies: [
+		"0761fb86"
+	],
+	tasks: [{
+		uid: "5f2ffe69",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae7ec54e",
+		type: "item",
+		item: "simplyjetpacks:metaitemmods 1 3",
+		count: 16
+	}]
+}

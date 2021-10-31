@@ -1,0 +1,33 @@
+{
+	title: "Gelid JetPlate",
+	x: -4.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"898c406d"
+	],
+	tasks: [{
+		uid: "ace380a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 19s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "adfa0d8e",
+		type: "item",
+		item: "redstonerepository:material 1 1",
+		count: 16
+	}]
+}

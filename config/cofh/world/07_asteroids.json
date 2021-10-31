@@ -1,0 +1,281 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "coal_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 12
+			},
+			"cluster-count": 34,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+
+		"skystone_asteroid": {
+			"distribution": "gaussian",
+			"generator": {
+				"block": "appliedenergistics2:sky_stone_block",
+				"material": "minecraft:air",
+				"cluster-size": 4000,
+				"type": "cluster"
+			},
+			"cluster-count": 2,
+			"center-height": 116,
+			"spread": 108,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+
+		"iron_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 16
+			},
+			"cluster-count": 46,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+
+		"diamond_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+
+		"emerald_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "emerald_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 5
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+		
+		"silver_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 2
+                },
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 8
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+		
+		"lead_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 3
+                },
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 8
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+		
+		"black_quartz_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "actuallyadditions:block_misc",
+					"metadata": 3
+				},
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 8
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+
+		"uranium_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 4
+				},
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 12
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+
+		"thorium_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 3
+				},
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 11
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+		
+		"charged_certus_quartz_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:charged_quartz_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 4
+			},
+			"cluster-count": 14,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+		
+		"biotite_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quark:biotite_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 6
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+		},
+		
+		"tungsten_asteroids": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:tungsten_ore",
+				"material": "appliedenergistics2:sky_stone_block",
+				"cluster-size": 8
+			},
+			"cluster-count": 11,
+			"min-height": 0,
+			"max-height": 240,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					102
+				]
+			}
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+	x: 3.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2d1a965e",
+		"1fc51edb"
+	],
+	tasks: [{
+		uid: "c717930c",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:ic"
+		}]
+	}],
+	rewards: [{
+		uid: "6b649ed6",
+		type: "item",
+		item: "thermalfoundation:material 1 166",
+		count: 16
+	}]
+}

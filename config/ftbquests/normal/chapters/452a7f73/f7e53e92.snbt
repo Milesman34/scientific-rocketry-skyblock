@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 6.0d,
+	text: [
+		"The Rocket Monitoring Station can be used to monitor your rockets and launch unmanned rockets.",
+		"",
+		"It can also be used to track missions."
+	],
+	dependencies: [
+		"3a5b48dd"
+	],
+	tasks: [{
+		uid: "dd89c0da",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:monitoringstation"
+		}]
+	}],
+	rewards: [{
+		uid: "6a619db2",
+		type: "item",
+		item: "thermalfoundation:material 1 166",
+		count: 24
+	}]
+}

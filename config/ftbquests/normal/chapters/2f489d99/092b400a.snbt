@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"8b55f7d5",
+		"d6843b4b"
+	],
+	tasks: [{
+		uid: "8afeb648",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "ffc88388",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 64
+	}]
+}

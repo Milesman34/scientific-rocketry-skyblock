@@ -1,0 +1,346 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "rocto_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 12,
+			"min-height": 22,
+			"max-height": 52,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_crag_rock": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "traverse:blue_rock_cobblestone",
+				"material": "minecraft:stone",
+				"cluster-size": 96
+			},
+			"cluster-count": 2,
+			"min-height": 47,
+			"max-height": 159,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_limestone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quark:limestone",
+				"material": "minecraft:stone",
+				"cluster-size": 96
+			},
+			"cluster-count": 2,
+			"min-height": 17,
+			"max-height": 97,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_marble": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quark:marble",
+				"material": "minecraft:stone",
+				"cluster-size": 96
+			},
+			"cluster-count": 2,
+			"min-height": 3,
+			"max-height": 79,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_basalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quark:basalt",
+				"material": "minecraft:stone",
+				"cluster-size": 96
+			},
+			"cluster-count": 2,
+			"min-height": 1,
+			"max-height": 36,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_slate": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quark:slate",
+				"material": "minecraft:stone",
+				"cluster-size": 96
+			},
+			"cluster-count": 2,
+			"min-height": 33,
+			"max-height": 88,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_jasper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quark:jasper",
+				"material": "minecraft:stone",
+				"cluster-size": 96
+			},
+			"cluster-count": 2,
+			"min-height": 52,
+			"max-height": 132,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_thorium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "metadata": 3
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 11
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_boron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "metadata": 5
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 8,
+			"min-height": 13,
+			"max-height": 63,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 7
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 14,
+			"min-height": 17,
+			"max-height": 57,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 5
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 8,
+			"min-height": 32,
+			"max-height": 63,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 3
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 19,
+			"min-height": 0,
+			"max-height": 33,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_rutile": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "libvulpes:ore0",
+                    "metadata": 8
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 15,
+			"min-height": 0,
+			"max-height": 39,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_tungsten": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:tungsten_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 117,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 6,
+			"min-height": 36,
+			"max-height": 69,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		},
+
+		"rocto_cobalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:cobalt_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 11,
+			"min-height": 25,
+			"max-height": 95,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					107
+				]
+			}
+		}
+    }
+}

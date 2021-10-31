@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -5.0d,
+	dependencies: [
+		"e33803d5"
+	],
+	tasks: [{
+		uid: "684bec34",
+		type: "item",
+		items: [{
+			id: "redstonerepository:tool.pickaxe_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1271f5eb",
+		type: "item",
+		item: "redstonerepository:material 1 1",
+		count: 16
+	}]
+}

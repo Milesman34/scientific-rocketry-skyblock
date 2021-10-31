@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "859a3dbd",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "1716b492",
+		type: "item",
+		item: "thermalfoundation:material 1 128",
+		count: 8
+	}]
+}

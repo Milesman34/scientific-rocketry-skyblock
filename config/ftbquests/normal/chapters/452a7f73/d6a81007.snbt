@@ -1,0 +1,34 @@
+{
+	title: "Launch Pad",
+	icon: "advancedrocketry:launchpad",
+	x: 0.5d,
+	y: 2.0d,
+	text: [
+		"A launch pad is made from Launch Pad blocks and Structure Tower Blocks. It must be big enough to fit your rocket."
+	],
+	dependencies: [
+		"dbfca412"
+	],
+	tasks: [{
+		uid: "653fd7cd",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:launchpad"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5c7504b3",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:structuretower"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "32ca87f9",
+		type: "item",
+		item: "advancedrocketry:launchpad",
+		count: 9
+	}]
+}

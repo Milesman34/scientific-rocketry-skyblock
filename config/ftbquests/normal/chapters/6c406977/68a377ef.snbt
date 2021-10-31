@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "dbe48598",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "f30b5b16",
+		type: "item",
+		item: "actuallyadditions:block_misc 1 4"
+	}]
+}

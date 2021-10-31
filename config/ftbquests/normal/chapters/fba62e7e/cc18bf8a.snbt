@@ -1,0 +1,21 @@
+{
+	title: "Syngas Producer",
+	x: -2.0d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "47374d84",
+		type: "item",
+		items: [{
+			item: "advgenerators:syngas_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "907d0a44",
+		type: "item",
+		item: "enderio:item_alloy_ingot",
+		count: 16
+	}]
+}

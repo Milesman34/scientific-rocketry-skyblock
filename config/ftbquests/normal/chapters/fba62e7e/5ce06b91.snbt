@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "Transfers 500k RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"f9a560b8"
+	],
+	tasks: [{
+		uid: "366129bb",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "4057a160",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

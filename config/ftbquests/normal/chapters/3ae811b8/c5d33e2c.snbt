@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	dependencies: [
+		"61bcc934"
+	],
+	tasks: [{
+		uid: "0de254d4",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}],
+	rewards: [{
+		uid: "1b8cd6a7",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 16
+	}]
+}

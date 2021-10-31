@@ -1,0 +1,24 @@
+{
+	title: "Crystaltine",
+	x: 3.0d,
+	y: 7.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"aac07ac6"
+	],
+	tasks: [{
+		uid: "6b791534",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "a89ea312",
+		type: "item",
+		item: "extendedcrafting:material 1 48",
+		count: 32
+	}]
+}

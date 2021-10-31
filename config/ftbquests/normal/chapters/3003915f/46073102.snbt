@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: -1.5d,
+	text: [
+		"Tiers 1-4 of the Crystals have crafting recipes, and cannot be made from Void Ore Miners until you get up to Tier 4."
+	],
+	tasks: [{
+		uid: "e20ab358",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "936b900c",
+		type: "item",
+		item: "environmentaltech:litherite_crystal",
+		count: 16
+	}]
+}

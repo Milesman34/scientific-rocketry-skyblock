@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "7699e095",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "8192a2b7",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	}]
+}

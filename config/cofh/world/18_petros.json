@@ -1,0 +1,208 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "petros_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 75,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_tungsten": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:tungsten_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 11,
+			"min-height": 0,
+			"max-height": 56,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_cobalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:cobalt_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_thorium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 43,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 35,
+			"max-height": 95,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 5
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 15
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 49,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_titanium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "libvulpes:ore0",
+					"metadata": 8
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 9,
+			"min-height": 13,
+			"max-height": 37,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_blackquartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "actuallyadditions:block_misc",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 7,
+			"min-height": 21,
+			"max-height": 71,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		},
+
+		"petros_oil_shale_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore_fluid",
+					"properties": {
+						"type": "crude_oil_gravel"
+					}
+				},
+				"material": [
+					"minecraft:stone"
+				],
+				"cluster-size": 32
+			},
+			"cluster-count": 2,
+			"min-height": 10,
+			"max-height": 80,
+			"in-village": "false",
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					113
+				]
+			}
+		}
+    }
+}

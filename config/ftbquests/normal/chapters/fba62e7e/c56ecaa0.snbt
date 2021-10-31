@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	description: "Holds 3.2 billion RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"4b397671"
+	],
+	tasks: [{
+		uid: "c70c6aab",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 1
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "80109503",
+		type: "item",
+		item: "thermalfoundation:material 1 167",
+		count: 32
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "96b98c67",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b74ee066",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	}]
+}

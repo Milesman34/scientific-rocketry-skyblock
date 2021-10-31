@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "8f0b690d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "redstonearsenal:tool.sword_flux",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ba1e770",
+		type: "item",
+		item: "redstonearsenal:material 1 160",
+		count: 16
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	dependencies: [
+		"ac401549"
+	],
+	tasks: [{
+		uid: "c71e2a7c",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "411ffd9e",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 16
+	}]
+}

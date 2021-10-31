@@ -1,0 +1,93 @@
+{
+	title: "5x5 Exchanger",
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"42908ed0"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d86040a4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:golden_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c34c8fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:pulsating_iron_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b60992b4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:energetic_silver_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b62e497",
+		type: "item",
+		item: "actuallyadditions:item_crystal 1 1",
+		count: 8
+	},
+	{
+		uid: "6ff3be35",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 8
+	},
+	{
+		uid: "08418008",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 5",
+		count: 8
+	}]
+}

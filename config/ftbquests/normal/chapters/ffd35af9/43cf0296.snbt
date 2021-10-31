@@ -1,0 +1,30 @@
+{
+	title: "Hardened Fluxbore",
+	x: 0.5d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"21534c8f"
+	],
+	tasks: [{
+		uid: "dcd5485d",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 120000,
+				Mode: 2
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b842048",
+		type: "item",
+		item: "thermalfoundation:material 1 163",
+		count: 16
+	}]
+}

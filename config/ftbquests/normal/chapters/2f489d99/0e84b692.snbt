@@ -1,0 +1,23 @@
+{
+	x: 5.0d,
+	y: 6.5d,
+	text: [
+		"Basic automation for ExtendedCrafting. It is better to use PackagedExCrafting though, so this is mainly a crafting component."
+	],
+	dependencies: [
+		"0a54a20a"
+	],
+	tasks: [{
+		uid: "d3d4635e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "3cb20e82",
+		type: "item",
+		item: "nuclearcraft:alloy 1 10",
+		count: 32
+	}]
+}

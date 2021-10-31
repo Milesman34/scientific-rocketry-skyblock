@@ -1,0 +1,28 @@
+{
+	title: "Basic Drawer",
+	x: -2.5d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f3eed67a",
+		type: "item",
+		title: "Any drawerBasic",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "drawerBasic",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "f03727b0",
+		type: "item",
+		item: "minecraft:chest",
+		count: 4
+	}]
+}

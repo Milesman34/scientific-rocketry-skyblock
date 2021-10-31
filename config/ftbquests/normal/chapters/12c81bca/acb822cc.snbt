@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	description: "Good luck.",
+	text: [
+		""
+	],
+	dependencies: [
+		"832adb2e"
+	],
+	tasks: [{
+		uid: "e0428ef9",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "ec42027f",
+		type: "item",
+		item: "appliedenergistics2:material 1 38",
+		count: 32
+	}]
+}

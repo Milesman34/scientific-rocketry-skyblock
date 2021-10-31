@@ -1,0 +1,48 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "eternity": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:eternity_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 32,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					104
+				]
+			}
+		},
+
+        "infinity_block": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "avaritia:block_resource",
+                    "metadata": 1
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 24
+			},
+			"cluster-count": 40,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					104
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,39 @@
+{
+	title: "Space Station Assembler",
+	icon: "advancedrocketry:stationbuilder",
+	x: 3.5d,
+	y: 5.0d,
+	text: [
+		"The Space Station Assembler can be used with launch pads to create a Space Station.",
+		"",
+		"The assembler produces a Space Station ID Chip that can be used with a rocket to access your space station.",
+		"",
+		"The Space Station Container is produced by the assembler and must be placed in a Satellite Bay as part of a rocket.",
+		"",
+		"Space Stations can be used for various purposes, most importantly for space travel."
+	],
+	dependencies: [
+		"b3cb515e",
+		"09cc807f"
+	],
+	tasks: [{
+		uid: "d011cf26",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationbuilder"
+		}]
+	},
+	{
+		uid: "a49580be",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:loader 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1045b6a7",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 16
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		"This modpack adds 3 custom multiblocks not strictly required for progression: the Cosmic Forge, Primal Furnace, and Advanced Assembler.",
+		"",
+		"While not technically required, they are heavily recommended, as the pack is near impossible otherwise.",
+		"",
+		"The Advanced Assembler makes components more cheaply.",
+		"",
+		"The Primal Furnace 3x (or more) processes ores at 64 ores/tick.",
+		"",
+		"The Cosmic Forge does almost all Metallurgic Fabricator/Advanced Metallurgic Fabricator recipes at 1 operation per tick and with better yield and",
+		" cheaper costs."
+	],
+	tasks: [{
+		uid: "361eeaa7",
+		type: "checkmark",
+		title: "Other Multiblocks",
+		icon: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:cosmic_forge"
+			}
+		}
+	}]
+}

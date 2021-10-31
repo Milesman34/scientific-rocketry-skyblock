@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	description: "Holds 400 million RF",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fb3e75a8",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "7dd9f031",
+		type: "item",
+		item: "nuclearcraft:ingot 1 6",
+		count: 32
+	}]
+}

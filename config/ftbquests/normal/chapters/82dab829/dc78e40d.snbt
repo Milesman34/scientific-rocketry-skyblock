@@ -1,0 +1,33 @@
+{
+	title: "Composting",
+	icon: "exnihilocreatio:block_barrel0",
+	x: 1.0d,
+	y: 1.0d,
+	text: [
+		"Compost organic matter (like saplings) in a barrel to get Dirt. "
+	],
+	dependencies: [
+		"e8d449a5"
+	],
+	tasks: [{
+		uid: "3a1c171a",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}]
+	},
+	{
+		uid: "b68ac92c",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "c101f308",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 16
+	}]
+}

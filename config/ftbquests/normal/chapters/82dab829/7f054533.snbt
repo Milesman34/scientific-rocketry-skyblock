@@ -1,0 +1,32 @@
+{
+	title: "Cobblegen",
+	icon: "minecraft:lava_bucket",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"You can set up a cobblegen using water and lava. You get water from a Wooden Crucible with Leaves, or from waiting for rain.",
+		"",
+		"Use the quest rewards to automate cobblestone collection."
+	],
+	dependencies: [
+		"480d9273"
+	],
+	tasks: [{
+		uid: "0cbb2cbd",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "034123f6",
+		type: "item",
+		item: "projectred-expansion:machine2"
+	},
+	{
+		uid: "a35847c6",
+		type: "item",
+		item: "cyclicmagic:clock"
+	}]
+}

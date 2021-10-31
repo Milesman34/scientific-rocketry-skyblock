@@ -1,0 +1,21 @@
+{
+	title: "Heat Exchanger",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a35fa244",
+		type: "item",
+		items: [{
+			item: "advgenerators:exchanger_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "f2f7d3aa",
+		type: "item",
+		item: "thermalfoundation:material 1 165",
+		count: 16
+	}]
+}

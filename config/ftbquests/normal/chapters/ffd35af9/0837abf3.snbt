@@ -1,0 +1,30 @@
+{
+	title: "Signalum Fluxbore",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a853d70a"
+	],
+	tasks: [{
+		uid: "18ea095e",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 400000,
+				Mode: 3
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2068e295",
+		type: "item",
+		item: "thermalfoundation:material 1 1027",
+		count: 16
+	}]
+}

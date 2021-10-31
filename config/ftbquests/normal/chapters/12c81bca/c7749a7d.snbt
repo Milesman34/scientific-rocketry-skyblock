@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	shape: "diamond",
+	text: [
+		"Wait, you actually did it? You beat the pack? GG, I didn't think you would actually get it done. I thought it was supposed to be borderline impossible.",
+		"",
+		"Well, you did it. You are free. Go outside."
+	],
+	dependencies: [
+		"b642892c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "39ad60a1",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7dc371a6",
+		type: "xp_levels",
+		xp_levels: 9001
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"207106ed",
+		"ac553bd6"
+	],
+	tasks: [{
+		uid: "30fbcb22",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3dcc3ccb",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 8
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Rocket Fuel",
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"Rocket Fuel is needed to power your rocket.",
+		"",
+		"The variant from Ender IO is required, and requires Zephyrean Aerotheum and Mana Dust in a Fluid Enricher."
+	],
+	dependencies: [
+		"a4a51f99"
+	],
+	tasks: [{
+		uid: "d81c73ad",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ad2947be",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "rocket_fuel",
+				Amount: 1000
+			}
+		}
+	}]
+}

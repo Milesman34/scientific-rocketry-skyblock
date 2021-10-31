@@ -1,0 +1,26 @@
+{
+	title: "Black Iron",
+	x: -1.0d,
+	y: 1.5d,
+	description: "Important resource for ExtendedCrafting",
+	text: [
+		""
+	],
+	dependencies: [
+		"8572411c"
+	],
+	tasks: [{
+		uid: "de05d7fa",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d09d3aa0",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 16
+	}]
+}

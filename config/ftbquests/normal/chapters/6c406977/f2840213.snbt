@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"249c18b8"
+	],
+	tasks: [{
+		uid: "f4fad4a1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "e1663e92",
+		type: "item",
+		item: "projectred-core:resource_item 1 104",
+		count: 16
+	}]
+}

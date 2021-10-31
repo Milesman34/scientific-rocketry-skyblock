@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	description: "Stores 8 million RF",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ec6a553d",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0330d51",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 32
+	}]
+}

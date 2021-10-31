@@ -1,0 +1,57 @@
+{
+	title: "1x1 Exchanger",
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "b2ae9242",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:wooden_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c31201f0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:tuberous_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66b20b98",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 4
+	}]
+}

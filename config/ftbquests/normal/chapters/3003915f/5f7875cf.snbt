@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	description: "Uses 800 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"46073102"
+	],
+	tasks: [{
+		uid: "fb02e29e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	}],
+	rewards: [{
+		uid: "8d770541",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 16
+	}]
+}

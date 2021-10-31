@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"The Auto Sieve allows you to automate sieving using RF. It is buffed in this pack to work a good deal faster while using slightly more RF/t. ",
+		"",
+		"You can enchant the mesh using Sieve Efficiency or Sieve Fortune. You can also feed the Auto Sieve (using an Automated User or similar) to speed it up.",
+		"",
+		"Warning: Do not use excessively high-tier foods (like the max-tier NuclearCraft smores) to feed your sieves. It will crash your game. Use reasonable foods like Steak or Bread."
+	],
+	dependencies: [
+		"f8e7aa62"
+	],
+	tasks: [{
+		uid: "1114c965",
+		type: "item",
+		items: [{
+			item: "excompressum:auto_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "ff4e196e",
+		type: "item",
+		item: "thermalfoundation:material 1 162",
+		count: 16
+	}]
+}

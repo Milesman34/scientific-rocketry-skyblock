@@ -1,0 +1,39 @@
+{
+	title: "Building a Rocket",
+	icon: "advancedrocketry:rocketbuilder",
+	x: -1.5d,
+	y: 3.0d,
+	text: [
+		"A Rocket can be made using any blocks, but requires a Guidance Computer, a Seat, Liquid Fuel Tanks, and Rocket Engines.",
+		"",
+		"The Rocket Assembling Machine must be placed one block above the launch pad."
+	],
+	dependencies: [
+		"f6984018",
+		"571d9d14",
+		"45f9db82",
+		"0800fd84",
+		"915193ad",
+		"d6a81007"
+	],
+	tasks: [{
+		uid: "d3984351",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder"
+		}]
+	},
+	{
+		uid: "3e2ed6aa",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:seat"
+		}]
+	}],
+	rewards: [{
+		uid: "28c93d22",
+		type: "item",
+		item: "nuclearcraft:alloy 1 15",
+		count: 16
+	}]
+}

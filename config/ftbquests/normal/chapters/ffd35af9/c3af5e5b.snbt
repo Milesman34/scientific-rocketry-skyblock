@@ -1,0 +1,30 @@
+{
+	title: "Resonant Flux Capacitor",
+	x: -1.5d,
+	y: 1.0d,
+	description: "Stores 50 million RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b2f0afb"
+	],
+	tasks: [{
+		uid: "4890fc2e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 50000000
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e7342ffd",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered",
+		count: 16
+	}]
+}

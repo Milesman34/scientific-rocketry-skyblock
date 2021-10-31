@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "995b5e77",
+		type: "item",
+		items: [{
+			item: "rftools:powercell"
+		}]
+	}],
+	rewards: [{
+		uid: "c752e73a",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 4
+	}]
+}

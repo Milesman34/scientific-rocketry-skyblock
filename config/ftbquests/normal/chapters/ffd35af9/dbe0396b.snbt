@@ -1,0 +1,93 @@
+{
+	title: "7x7 Exchanger",
+	x: 4.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2643cf07"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "97f76e27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:iron_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dd61a7d0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:hardened_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b01e79da",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exchangers:basic_exchanger",
+			tag: {
+				exmode: 0,
+				directionalPlacement: 0b,
+				forceDropItems: 0b,
+				range: 0,
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86ae351a",
+		type: "item",
+		item: "actuallyadditions:item_crystal 1 5",
+		count: 8
+	},
+	{
+		uid: "f4b2a1f0",
+		type: "item",
+		item: "thermalfoundation:material 1 162",
+		count: 8
+	},
+	{
+		uid: "ef18d02c",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 8
+	}]
+}

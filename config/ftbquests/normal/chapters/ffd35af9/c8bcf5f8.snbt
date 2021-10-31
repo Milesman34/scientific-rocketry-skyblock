@@ -1,0 +1,77 @@
+{
+	title: "Enderium Flux Armor",
+	x: 1.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"db1f5bcc"
+	],
+	tasks: [{
+		uid: "04c1c306",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "redstonerepository:armor.plate_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e439221",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "redstonerepository:armor.legs_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfd26cb3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "redstonerepository:armor.boots_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9895192f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "redstonerepository:armor.helmet_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "128af7e7",
+		type: "item",
+		item: "thermalfoundation:material 1 1028",
+		count: 16
+	}]
+}

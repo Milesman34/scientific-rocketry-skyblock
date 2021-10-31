@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "633c0653",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	}],
+	rewards: [{
+		uid: "bd28d3a6",
+		type: "item",
+		item: "thermalfoundation:material 1 167",
+		count: 16
+	}]
+}

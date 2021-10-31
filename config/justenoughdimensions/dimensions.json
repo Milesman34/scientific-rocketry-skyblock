@@ -1,0 +1,683 @@
+{
+    "dimensions": [
+        {
+            "dim": 100,
+            "biome": "biometweaker:custom_moon",
+
+            "dimensiontype": {
+                "id": 100,
+                "name": "Luna",
+                "suffix": "_dim100",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+
+            "jed": {
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 101,
+            "biome": "biometweaker:volcanus",
+
+            "dimensiontype": {
+                "id": 101,
+                "name": "Volcanus",
+                "suffix": "_dim101",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+
+            "jed": {
+                "FogColor": "ff000d",
+                "SkyColor": "ff000d",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 480000,
+                "NightLength": 480000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 102,
+            "biome": "biometweaker:asteroids",
+
+            "dimensiontype": {
+                "id": 102,
+                "name": "Asteroids",
+                "suffix": "_dim102",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "FogColor": "000000",
+                "SkyColor": "000000",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;minecraft:air;1;"
+            }
+        },
+
+        {
+            "dim": 103,
+            "biome": "biometweaker:creative_realm",
+
+            "dimensiontype": {
+                "id": 103,
+                "name": "Creative Realm",
+                "suffix": "_dim103",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "FogColor": "ffffff",
+                "SkyColor": "ffffff",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 104,
+            "biome": "biometweaker:infinity",
+
+            "dimensiontype": {
+                "id": 104,
+                "name": "Infinity Dimension",
+                "suffix": "_dim104",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "FogColor": "00ffff",
+                "SkyColor": "00ffff",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 36000,
+                "NightLength": 12000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 105,
+            "biome": "biometweaker:aquatica",
+
+            "dimensiontype": {
+                "id": 105,
+                "name": "Aquatica",
+                "suffix": "_dim105",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "FogColor": "00ffff",
+                "SkyColor": "00ffff",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 36000,
+                "NightLength": 36000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 106,
+            "biome": "biometweaker:blazor",
+
+            "dimensiontype": {
+                "id": 106,
+                "name": "Blazor",
+                "suffix": "_dim106",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "FogColor": "616161",
+                "SkyColor": "8c0000",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 16000,
+                "NightLength": 16000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 107,
+            "biome": "biometweaker:rocto",
+
+            "dimensiontype": {
+                "id": 107,
+                "name": "Rocto",
+                "suffix": "_dim107",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "616161",
+                "FogColor": "292929",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 56000,
+                "NightLength": 78000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 108,
+            "biome": "biometweaker:friigo",
+
+            "dimensiontype": {
+                "id": 108,
+                "name": "Friigo",
+                "suffix": "_dim108",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "00ffff",
+                "FogColor": "00ffff",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 4800,
+                "NightLength": 48000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "generatorOptions": "{\"useWaterLakes\":false}",
+                "MapFeatures": 0
+            },
+
+            "worldinfo": {
+                "thundering": true,
+                "thunderTime": 9999999
+            }
+        },
+
+        {
+            "dim": 109,
+            "biome": "biometweaker:manatel",
+
+            "dimensiontype": {
+                "id": 109,
+                "name": "Manatel",
+                "suffix": "_dim109",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "ff00dd",
+                "FogColor": "ff00dd",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 9001,
+                "NightLength": 9001
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 110,
+            "biome": "minecraft:jungle_hills",
+
+            "dimensiontype": {
+                "id": 110,
+                "name": "Verda",
+                "suffix": "_dim110",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "ffbf57",
+                "FogColor": "ffbf57",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 111,
+            "biome": "biometweaker:grafel",
+
+            "dimensiontype": {
+                "id": 111,
+                "name": "Grafel",
+                "suffix": "_dim111",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "616161",
+                "FogColor": "292929",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 18000,
+                "NightLength": 18000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 112,
+            "biome": "biometweaker:aktric",
+
+            "dimensiontype": {
+                "id": 112,
+                "name": "Aktric",
+                "suffix": "_dim112",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "6b6860",
+                "FogColor": "87866c",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 3000,
+                "NightLength": 3000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 113,
+            "biome": "biometweaker:petros",
+
+            "dimensiontype": {
+                "id": 113,
+                "name": "Petros",
+                "suffix": "_dim113",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "545445",
+                "FogColor": "545445",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 9000,
+                "NightLength": 6000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            "dim": 114,
+            "biome": "minecraft:plains",
+
+            "dimensiontype": {
+                "id": 114,
+                "name": "The Garden",
+                "suffix": "_dim114",
+                "keeploaded": false,
+                "worldprovider": "WorldProviderSurfaceJED"
+            },
+
+            "jed": {
+                "SkyColor": "00ffff",
+                "FogColor": "00ffff",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 1000000,
+                "NightLength": 240
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "flat",
+                "generatorOptions": "3;1*minecraft:bedrock,57*minecraft:stone,4*minecraft:dirt,1*minecraft:grass;1;",
+                "DayTime": 6000,
+                    "GameRules": {
+                        "doDaylightCycle": "false"
+                    }
+            }
+            
+        },
+
+        {
+            
+            "dim": 115,
+            "biome": "biometweaker:polus",
+
+            "dimensiontype": {
+                "id": 115,
+                "name": "Polus",
+                "suffix": "_dim115",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "00604a",
+                "FogColor": "01d5a4",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 13000,
+                "NightLength": 26000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 116,
+            "biome": "biometweaker:cerste",
+
+            "dimensiontype": {
+                "id": 116,
+                "name": "Cerste",
+                "suffix": "_dim116",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "00bfff",
+                "FogColor": "00bfff",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 44000,
+                "NightLength": 36000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 117,
+            "biome": "biometweaker:reslon",
+
+            "dimensiontype": {
+                "id": 117,
+                "name": "Reslon",
+                "suffix": "_dim117",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "f76e6e",
+                "FogColor": "f76e6e",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 1600,
+                "NightLength": 1600
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 118,
+            "biome": "biometweaker:palo",
+
+            "dimensiontype": {
+                "id": 118,
+                "name": "Palo",
+                "suffix": "_dim118",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "3a3ccf",
+                "FogColor": "3a3ccf",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 128,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 48000,
+                "NightLength": 44000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 119,
+            "biome": "biometweaker:stellos",
+
+            "dimensiontype": {
+                "id": 119,
+                "name": "Stellos",
+                "suffix": "_dim119",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "0afff3",
+                "FogColor": "0afff3",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 1200,
+                "NightLength": 1200
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        },
+
+        {
+            
+            "dim": 122,
+            "biome": "biometweaker:anchios",
+
+            "dimensiontype": {
+                "id": 122,
+                "name": "Anchios",
+                "suffix": "_dim122",
+                "keeploaded": false,
+                "worldprovider": "OTGWorldProvider"
+            },
+
+            "jed": {
+                "SkyColor": "7d7d7d",
+                "FogColor": "7d7d7d",
+                "CanSpawnHostiles": false,
+                "CanSpawnPeacefulMobs": false,
+                "CloudRenderer": "DummyRenderer",
+                "CloudHeight": 512,
+                "SkyRenderType": 1,
+                "SkyDisableFlags": 2,
+                "CustomDayCycle": true,
+                "DayLength": 8000,
+                "NightLength": 8000
+            },
+            
+            "worldinfo_onetime": {
+                "generatorName": "customized",
+                "MapFeatures": 0
+            }
+        }
+    ]
+}

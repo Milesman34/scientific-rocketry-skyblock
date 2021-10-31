@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	dependencies: [
+		"efaf7c8b"
+	],
+	tasks: [{
+		uid: "1279d379",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 13s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b7e8ced",
+		type: "item",
+		item: "thermalfoundation:material 1 167",
+		count: 16
+	}]
+}

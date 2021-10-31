@@ -1,0 +1,27 @@
+{
+	title: "Meteors",
+	x: -3.5d,
+	y: 5.0d,
+	text: [
+		"AE2 Meteors do not spawn in the Overworld. They spawn on the Moon instead.",
+		"",
+		"You can make Sky Stone yourself, but this is the other early way of getting it."
+	],
+	dependencies: [
+		"cf25a854"
+	],
+	tasks: [{
+		uid: "6e0e33a6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "e63a9eae",
+		type: "item",
+		item: "appliedenergistics2:smooth_sky_stone_block",
+		count: 16
+	}]
+}

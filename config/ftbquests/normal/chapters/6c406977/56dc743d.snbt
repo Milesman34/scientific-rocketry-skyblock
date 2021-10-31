@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	dependencies: [
+		"809f988b",
+		"b741786c",
+		"b6dbd8d4"
+	],
+	tasks: [{
+		uid: "4d18f2bd",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "16faf238",
+		type: "item",
+		item: "extendedcrafting:material 1 48",
+		count: 16
+	}]
+}

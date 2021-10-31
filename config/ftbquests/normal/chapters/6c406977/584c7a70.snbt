@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"dd3f7a4a"
+	],
+	tasks: [{
+		uid: "db9afdf0",
+		type: "item",
+		items: [{
+			item: "extracells:storage.component"
+		}]
+	}],
+	rewards: [{
+		uid: "0ac0d1e3",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	}]
+}

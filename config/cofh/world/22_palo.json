@@ -1,0 +1,269 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "palo_lapis": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:lapis_ore",
+						"weight": 95
+					},
+
+					{
+						"name": "actuallyadditions:block_crystal_empowered",
+						"metadata": 1,
+						"weight": 5
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 500,
+				"type": "large-vein"
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 69,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_lapis2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 44,
+			"max-height": 90,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_electrotine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "projectred-exploration:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 5,
+			"min-height": 23,
+			"max-height": 57,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 49,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 2
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 49,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 36,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 36,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 13
+			},
+			"cluster-count": 6,
+			"min-height": 33,
+			"max-height": 66,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 4,
+			"min-height": 36,
+			"max-height": 76,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 76,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_glowstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:glowstone",
+				"material": "minecraft:stone",
+				"cluster-size": 36
+			},
+			"cluster-count": 3,
+			"min-height": 23,
+			"max-height": 56,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		},
+
+		"palo_cobalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:cobalt_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 27,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					118
+				]
+			}
+		}
+    }
+}

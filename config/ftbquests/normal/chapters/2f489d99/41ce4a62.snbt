@@ -1,0 +1,47 @@
+{
+	title: "PackagedAuto",
+	x: 5.0d,
+	y: 4.5d,
+	text: [
+		"PackagedAuto can be used to automate various tasks in ExtendedCrafting, as well as potentially other mods. ",
+		"It allows for various new and interesting forms of mass-scale automation.",
+		"",
+		"PackagedExCrafting is also in the pack, but it requires Crystaltine to use."
+	],
+	dependencies: [
+		"35536415"
+	],
+	tasks: [{
+		uid: "8cd37a90",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "e4f4e198",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	},
+	{
+		uid: "8151fc7d",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}]
+	}],
+	rewards: [{
+		uid: "23c9b788",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 6",
+		count: 16
+	},
+	{
+		uid: "a6210960",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	}]
+}

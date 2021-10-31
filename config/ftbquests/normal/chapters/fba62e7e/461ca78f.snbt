@@ -1,0 +1,21 @@
+{
+	title: "Steam Turbine",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "998741f3",
+		type: "item",
+		items: [{
+			item: "advgenerators:steam_turbine_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "76084f0a",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 16
+	}]
+}

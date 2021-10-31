@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	description: "Produces 1024 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"f03cf535"
+	],
+	tasks: [{
+		uid: "57830146",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_iridium"
+		}]
+	}],
+	rewards: [{
+		uid: "9ae288d7",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 16
+	}]
+}

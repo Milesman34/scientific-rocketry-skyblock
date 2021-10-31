@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: 3.0d,
+	dependencies: [
+		"25734936"
+	],
+	tasks: [{
+		uid: "161b31af",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_aethium"
+		}]
+	}],
+	rewards: [{
+		uid: "597c219c",
+		type: "item",
+		item: "environmentaltech:aethium_crystal",
+		count: 16
+	}]
+}

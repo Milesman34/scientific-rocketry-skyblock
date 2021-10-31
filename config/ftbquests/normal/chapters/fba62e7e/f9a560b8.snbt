@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	description: "Transfers 128k RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef676a78"
+	],
+	tasks: [{
+		uid: "235e46c5",
+		type: "item",
+		items: [{
+			item: "enderio:item_endergy_conduit 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "f2c663bd",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 16
+	}]
+}

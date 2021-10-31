@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: -7.0d,
+	dependencies: [
+		"020a3925"
+	],
+	tasks: [{
+		uid: "26247c61",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "fa6111cb",
+		type: "item",
+		item: "enderio:item_material 1 15",
+		count: 8
+	}]
+}

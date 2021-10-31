@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	description: "Uses 89971 RF/t with full upgrades",
+	text: [
+		""
+	],
+	dependencies: [
+		"6e829176",
+		"29eb219d"
+	],
+	tasks: [{
+		uid: "24c7d103",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_4"
+		}]
+	}],
+	rewards: [{
+		uid: "fea6ef2d",
+		type: "item",
+		item: "contenttweaker:manyullyn_ingot",
+		count: 16
+	}]
+}

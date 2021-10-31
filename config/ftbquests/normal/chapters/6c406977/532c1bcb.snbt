@@ -1,0 +1,21 @@
+{
+	title: "XNet Controller",
+	x: 1.5d,
+	y: -7.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a536339a",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "6cf15d30",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 16
+	}]
+}

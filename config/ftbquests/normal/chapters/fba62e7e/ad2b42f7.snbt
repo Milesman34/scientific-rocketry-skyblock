@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	text: [
+		"Power generation by tier:",
+		"",
+		"Litherite: 18032 RF/t",
+		"Erodium: 39886 RF/t",
+		"Kyronite: 88788 RF/t",
+		"Pladium: 196392 RF/t",
+		"Ionite: 435022 RF/t",
+		"Aethium: 963340 RF/t"
+	],
+	dependencies: [
+		"33892851"
+	],
+	tasks: [{
+		uid: "efd62e2a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_3"
+		}]
+	}],
+	rewards: [{
+		uid: "16e8d54a",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 6",
+		count: 16
+	}]
+}

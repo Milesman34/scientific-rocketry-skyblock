@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: 1.0d,
+	dependencies: [
+		"5616efba"
+	],
+	tasks: [{
+		uid: "06cad3cd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 18s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6252156a",
+		type: "item",
+		item: "redstonearsenal:material 1 32",
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Moon Landing",
+	icon: "advancedrocketry:moonturf",
+	x: -1.5d,
+	y: 5.0d,
+	shape: "hexagon",
+	text: [
+		"Use your rocket to go to the Moon."
+	],
+	dependencies: [
+		"95f9bb04"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "dcdf8dfd",
+		type: "dimension",
+		dim: 100
+	}],
+	rewards: [{
+		uid: "bd7dd406",
+		type: "xp_levels",
+		xp_levels: 60
+	}]
+}

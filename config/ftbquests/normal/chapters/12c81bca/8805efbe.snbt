@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	description: "Use this in the Warp Controller to unlock the Infinity Dimension, a dimension with Infinity Blocks and Eternity Ore",
+	text: [
+		""
+	],
+	dependencies: [
+		"8d78784a"
+	],
+	tasks: [{
+		uid: "e6e03d35",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinite_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "6a5575fa",
+		type: "item",
+		item: "avaritia:endest_pearl"
+	}]
+}

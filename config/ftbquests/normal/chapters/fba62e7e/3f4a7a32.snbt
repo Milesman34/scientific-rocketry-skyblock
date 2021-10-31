@@ -1,0 +1,31 @@
+{
+	disable_toast: true,
+	x: -7.0d,
+	y: 2.0d,
+	text: [
+		"Power generation by tier:",
+		"",
+		"Litherite: 148588 RF/t",
+		"Erodium: 328273 RF/t",
+		"Kyronite: 730961 RF/t",
+		"Pladium: 1616923 RF/t",
+		"Ionite: 3580753 RF/t",
+		"Aethium: 7929856 RF/t"
+	],
+	dependencies: [
+		"c6c243bc"
+	],
+	tasks: [{
+		uid: "21ce09c0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_5"
+		}]
+	}],
+	rewards: [{
+		uid: "51c450d2",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 16
+	}]
+}

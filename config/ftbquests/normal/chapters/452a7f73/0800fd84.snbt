@@ -1,0 +1,78 @@
+{
+	title: "Spacesuit",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "advancedrocketry:spacechestplate"
+	},
+	x: 2.5d,
+	y: 3.0d,
+	text: [
+		"To survive in space, you need a Space Suit. You can install various modules, such as fuel tanks, using a Suit Workstation."
+	],
+	dependencies: [
+		"e0b7e5f3"
+	],
+	tasks: [{
+		uid: "b8929ba4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "advancedrocketry:spacechestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ca218b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "advancedrocketry:spaceboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "68815951",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "advancedrocketry:spacehelmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f580d4e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "advancedrocketry:spaceleggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a6ed09e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:suitworkstation"
+		}]
+	}],
+	rewards: [{
+		uid: "5b9521da",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 32
+	}]
+}

@@ -1,0 +1,231 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "manatel_mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 8
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 15,
+			"min-height": 0,
+			"max-height": 89,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+        },
+
+        "manatel_dimshard": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "rftools:dimensional_shard_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 155,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+        },
+
+        "manatel_dilithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "libvulpes:ore0",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 16,
+			"min-height": 0,
+			"max-height": 155,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+        },
+
+        "manatel_redstone_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "redstone"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_redstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+		},
+		"manatel_glowstone_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "glowstone"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_glowstone",
+						"weight": 10
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+		},
+		"manatel_ender_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+                    {
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "ender"
+						},
+						"weight": 90
+					},
+					{
+						"name": "thermalfoundation:fluid_ender",
+						"weight": 10
+					}
+                ],
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 128,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+		},
+        
+        "manatel_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 21,
+			"max-height": 53,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+        },
+        
+        "manatel_lapis": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "lapis_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 12,
+			"min-height": 5,
+			"max-height": 79,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+        },
+        
+        "manatel_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 22
+			},
+			"cluster-count": 4,
+			"min-height": 16,
+			"max-height": 66,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					109
+				]
+			}
+		}
+    }
+}

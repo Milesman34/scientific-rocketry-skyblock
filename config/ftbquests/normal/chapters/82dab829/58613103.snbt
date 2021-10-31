@@ -1,0 +1,26 @@
+{
+	title: "Sieving Sky Stone",
+	x: 3.0d,
+	y: 4.0d,
+	text: [
+		"Crushed Sky Stone can be crafted from Sky Stone Dust gotten from sieving Dust, and is sieved into Certus Quartz.",
+		"",
+		"Weirdly enough, regular Sky Stone is more difficult to make and requires more progression."
+	],
+	dependencies: [
+		"f8e7aa62"
+	],
+	tasks: [{
+		uid: "be73c5e4",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_skystone_crushed"
+		}]
+	}],
+	rewards: [{
+		uid: "e6cd8d8c",
+		type: "item",
+		item: "exnihilocreatio:block_skystone_crushed",
+		count: 16
+	}]
+}

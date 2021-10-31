@@ -1,0 +1,28 @@
+{
+	x: 1.5d,
+	y: -6.0d,
+	dependencies: [
+		"00bd1623"
+	],
+	tasks: [{
+		uid: "fc439d44",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "redstonerepository:tool.sword_gelid",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f85a899e",
+		type: "item",
+		item: "redstonerepository:material 1 5",
+		count: 16
+	}]
+}

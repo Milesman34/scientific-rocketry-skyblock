@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	text: [
+		"The Precision Assembler is used to make various items from Advanced Rocketry."
+	],
+	dependencies: [
+		"91acd35e"
+	],
+	tasks: [{
+		uid: "331f27e8",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:precisionassemblingmachine"
+		}]
+	}],
+	rewards: [{
+		uid: "8fab82fb",
+		type: "item",
+		item: "nuclearcraft:alloy 1 2",
+		count: 16
+	}]
+}

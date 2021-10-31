@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: 4.5d,
+	dependencies: [
+		"57de27a8"
+	],
+	tasks: [{
+		uid: "dc5ff8fb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part"
+		}]
+	}],
+	rewards: [{
+		uid: "55d307d5",
+		type: "item",
+		item: "thermalfoundation:material 1 130",
+		count: 8
+	}]
+}

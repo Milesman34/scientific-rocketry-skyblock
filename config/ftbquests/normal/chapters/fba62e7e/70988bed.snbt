@@ -1,0 +1,39 @@
+{
+	title: "Basic Energy Cell",
+	x: 4.0d,
+	y: 3.0d,
+	description: "Stores 4 million RF",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "10f69d16",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 4000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 4000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "24a09bfb",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 12
+	}]
+}

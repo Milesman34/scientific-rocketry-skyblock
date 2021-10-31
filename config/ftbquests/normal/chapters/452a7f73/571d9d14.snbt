@@ -1,0 +1,27 @@
+{
+	title: "Guidance Computer",
+	icon: "advancedrocketry:guidancecomputer",
+	x: 3.5d,
+	y: 3.0d,
+	text: [
+		"A Guidance Computer can be placed on your rocket.",
+		"",
+		"A Planet ID Chip can be used to select the destination."
+	],
+	dependencies: [
+		"b3dac577"
+	],
+	tasks: [{
+		uid: "f17fd5ea",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:guidancecomputer"
+		}]
+	}],
+	rewards: [{
+		uid: "6eb2cd5f",
+		type: "item",
+		item: "thermalfoundation:material 1 1028",
+		count: 2
+	}]
+}

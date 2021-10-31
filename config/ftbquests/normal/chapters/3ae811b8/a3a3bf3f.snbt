@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -1.5d,
+	dependencies: [
+		"b666a9ce"
+	],
+	tasks: [{
+		uid: "04064cb3",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 132"
+		}]
+	}],
+	rewards: [{
+		uid: "c1f2836e",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 24
+	}]
+}

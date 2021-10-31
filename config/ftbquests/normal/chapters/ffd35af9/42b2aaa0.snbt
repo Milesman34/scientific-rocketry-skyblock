@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "7267b5a0",
+		type: "item",
+		items: [{
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ecb2787a",
+		type: "item",
+		item: "mekanism:ingot",
+		count: 8
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Reinforced Flux Capacitor",
+	x: -1.5d,
+	y: -1.0d,
+	description: "Stores 18 million RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"1fbee9ef"
+	],
+	tasks: [{
+		uid: "f2de303a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 18000000
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2608d38",
+		type: "item",
+		item: "actuallyadditions:item_crystal",
+		count: 16
+	}]
+}

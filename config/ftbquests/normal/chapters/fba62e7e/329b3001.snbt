@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	description: "Produces 65536 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"3217b0f2"
+	],
+	tasks: [{
+		uid: "f30ff3b1",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_mithril"
+		}]
+	}],
+	rewards: [{
+		uid: "9876d7a3",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

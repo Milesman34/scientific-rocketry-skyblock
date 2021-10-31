@@ -1,0 +1,25 @@
+{
+	title: "Adamantium",
+	x: 2.0d,
+	y: 6.5d,
+	description: "You can later get this with a T6 Void Ore Miner, but for now you have to fabricate it yourself",
+	text: [
+		""
+	],
+	dependencies: [
+		"aac07ac6"
+	],
+	tasks: [{
+		uid: "e6358378",
+		type: "item",
+		items: [{
+			item: "contenttweaker:adamantium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9a27f356",
+		type: "item",
+		item: "contenttweaker:adamantium_ingot",
+		count: 16
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "e91e596e",
+		type: "item",
+		items: [{
+			item: "rftools:storage_module_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73e14982",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 12
+	}]
+}

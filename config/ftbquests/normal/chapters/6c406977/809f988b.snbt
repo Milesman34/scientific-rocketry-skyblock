@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b5440ddc",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fc77fab",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 2",
+		count: 64
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 5.5d,
+	dependencies: [
+		"c13ec99a"
+	],
+	tasks: [{
+		uid: "fa033b7c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2"
+		}]
+	}],
+	rewards: [{
+		uid: "817943de",
+		type: "item",
+		item: "contenttweaker:reinforced_thermalloy_ingot",
+		count: 16
+	}]
+}

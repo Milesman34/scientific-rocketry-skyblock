@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	dependencies: [
+		"71feea30",
+		"4a3739d4"
+	],
+	tasks: [{
+		uid: "0eb7beea",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c24ea3cd",
+		type: "item",
+		item: "actuallyadditions:item_crystal",
+		count: 16
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Neutronium",
+	x: -3.0d,
+	y: -2.0d,
+	description: "At least it doesn't use the Neutron Collector?",
+	text: [
+		""
+	],
+	dependencies: [
+		"aac07ac6"
+	],
+	tasks: [{
+		uid: "b9f27fd5",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "aff9c120",
+		type: "item",
+		item: "contenttweaker:tungstensteel_ingot",
+		count: 16
+	}]
+}

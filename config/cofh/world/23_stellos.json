@@ -1,0 +1,393 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "stellos_diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:diamond_ore",
+						"weight": 95
+					},
+
+					{
+						"name": "actuallyadditions:block_crystal",
+						"metadata": 2,
+						"weight": 5
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 500,
+				"type": "large-vein"
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_diamond2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 57,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 11,
+			"min-height": 0,
+			"max-height": 37,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+
+        "stellos_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 4,
+			"min-height": 36,
+			"max-height": 79,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+
+        "stellos_glowstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:glowstone",
+				"material": "minecraft:stone",
+				"cluster-size": 88
+			},
+			"cluster-count": 2,
+			"min-height": 55,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 6
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 47,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 2
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 3,
+			"min-height": 22,
+			"max-height": 61,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 7
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 27,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal1": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 0
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 1
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal3": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 2
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal4": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 3
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal5": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 4
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal6": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 5
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal7": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 6
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal8": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 7
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+        },
+        
+        "stellos_crystal9": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "quark:crystal",
+                    "metadata": 8
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 64
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					119
+				]
+			}
+		}
+    }
+}

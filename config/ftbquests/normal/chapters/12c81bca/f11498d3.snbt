@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	description: "Sort of the end of the pack",
+	text: [
+		"This device outputs 10 million RF/t per side, and marks the end of the pack.",
+		"",
+		"The Creative Vending Upgrade is an optional, grindy, untested challenge, and is near impossible to get legitimately due to the sheer amount of resources and processing",
+		"required. I hope you enjoyed my modpack."
+	],
+	dependencies: [
+		"8d78784a"
+	],
+	tasks: [{
+		uid: "3331b95f",
+		type: "item",
+		items: [{
+			id: "enderio:block_cap_bank",
+			tag: {
+				"enderio:energy": 50000000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "580859d1",
+		type: "item",
+		item: "extendedcrafting:singularity_custom 1 149"
+	}]
+}

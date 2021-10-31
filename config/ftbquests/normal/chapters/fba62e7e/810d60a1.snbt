@@ -1,0 +1,18 @@
+{
+	x: -3.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "cf7dff0a",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fa45637",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered 1 4",
+		count: 8
+	}]
+}

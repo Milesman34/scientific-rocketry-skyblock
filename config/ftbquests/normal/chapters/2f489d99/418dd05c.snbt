@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 2.5d,
+	dependencies: [
+		"44fb60df",
+		"d6843b4b"
+	],
+	tasks: [{
+		uid: "fe26d2ea",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "70c8582e",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered 1 2",
+		count: 64
+	}]
+}

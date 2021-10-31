@@ -1,0 +1,44 @@
+{
+	title: "Getting String",
+	x: -1.0d,
+	y: 2.0d,
+	text: [
+		"Use a Crook on Leaves to get more saplings + Silkworms. Use Silkworms on leaves to eventually get special leaves that drop String."
+	],
+	dependencies: [
+		"e8d449a5"
+	],
+	tasks: [{
+		uid: "fe0ef058",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c8545c04",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	},
+	{
+		uid: "a38fc6fd",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d0272963",
+		type: "item",
+		item: "minecraft:string",
+		count: 16
+	}]
+}

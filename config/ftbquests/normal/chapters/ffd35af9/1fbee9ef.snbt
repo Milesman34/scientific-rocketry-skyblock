@@ -1,0 +1,30 @@
+{
+	title: "Hardened Flux Capacitor",
+	x: -1.5d,
+	y: -2.0d,
+	description: "Stores 8 million RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"1c42fe2b"
+	],
+	tasks: [{
+		uid: "ca564e90",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 8000000
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49d24a96",
+		type: "item",
+		item: "thermalfoundation:material 1 162",
+		count: 12
+	}]
+}

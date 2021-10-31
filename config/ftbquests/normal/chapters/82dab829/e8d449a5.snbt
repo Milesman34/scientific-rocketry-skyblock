@@ -1,0 +1,36 @@
+{
+	title: "Getting Wood",
+	icon: "minecraft:log",
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"OreExcavate is in the pack. By pressing ~ while mining, you can mine an entire vein of ores or other resources at once."
+	],
+	tasks: [{
+		uid: "740cae5a",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80af8ebf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:stone_axe"
+		}
+	}]
+}

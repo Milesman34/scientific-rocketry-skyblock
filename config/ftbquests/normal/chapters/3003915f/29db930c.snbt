@@ -1,0 +1,25 @@
+{
+	title: "Quarry Shape Card",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ff6907b8"
+	],
+	tasks: [{
+		uid: "fbe50ed7",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c38f2718",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered",
+		count: 12
+	}]
+}

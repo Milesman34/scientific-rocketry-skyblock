@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	description: "Holds 204.8 billion RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"87a4c2bd"
+	],
+	tasks: [{
+		uid: "5ac21997",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "6c3f65a1",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 32
+	}]
+}

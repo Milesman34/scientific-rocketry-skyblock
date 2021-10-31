@@ -1,0 +1,35 @@
+{
+	title: "Sieving Tips",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Gravel gives you flint initially, which is quite important. It later gives you various metals, including Iron. Later on, you can get various metals, as well as some gems.",
+		"",
+		"Sand gives you various things, including some metals later on.",
+		"",
+		"Dust gives you bonemeal early on, and later dusts like redstone and glowstone, and even grains of infinity."
+	],
+	dependencies: [
+		"2711e91d"
+	],
+	tasks: [{
+		uid: "2d458cd9",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b3ced24b",
+		type: "item",
+		item: "minecraft:sand",
+		count: 16
+	},
+	{
+		uid: "8013303d",
+		type: "item",
+		item: "exnihilocreatio:block_dust",
+		count: 16
+	}]
+}

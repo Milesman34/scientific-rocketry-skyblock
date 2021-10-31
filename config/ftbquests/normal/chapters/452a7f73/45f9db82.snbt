@@ -1,0 +1,25 @@
+{
+	title: "Fueling your Rocket",
+	icon: "advancedrocketry:fuelingstation",
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"The Fueling Station can be filled with Rocket Fuel. You can then use a Linker to get the fuel into your rocket."
+	],
+	dependencies: [
+		"99316a91"
+	],
+	tasks: [{
+		uid: "6b76b4ac",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation"
+		}]
+	}],
+	rewards: [{
+		uid: "f2c28113",
+		type: "item",
+		item: "thermalfoundation:storage_alloy 1 2",
+		count: 4
+	}]
+}

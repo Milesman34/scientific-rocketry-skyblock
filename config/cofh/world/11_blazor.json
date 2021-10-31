@@ -1,0 +1,235 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "blazor_copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 0
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 11,
+			"min-height": 33,
+			"max-height": 75,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "projectred-exploration:ore",
+                    "metadata": 0
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "projectred-exploration:ore",
+                    "metadata": 1
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "projectred-exploration:ore",
+                    "metadata": 2
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_obsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "obsidian",
+				"material": "minecraft:stone",
+				"cluster-size": 128
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 34,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 7
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 3,
+			"min-height": 22,
+			"max-height": 44,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_brimstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:biome_cobblestone",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 128
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 66,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"blazor_ardite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:ardite_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 7,
+			"min-height": 44,
+			"max-height": 66,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+
+		"charged_certus_quartz_blazor": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:charged_quartz_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 11,
+			"min-height": 35,
+			"max-height": 68,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+		},
+		
+		"blazor_lithium": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "libvulpes:ore0",
+						"metadata": 0,
+						"weight": 34
+					},
+					{
+						"name": "nuclearcraft:ore",
+						"metadata": 6,
+						"weight": 66
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 76
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 36,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					106
+				]
+			}
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+	title: "Station Docking Port",
+	x: 4.5d,
+	y: 5.0d,
+	text: [
+		"When using the Space Docking Ports, one must be placed on a construction pad and the other placed on your space station. Both must be given the same name for this to work.",
+		"",
+		"The Space Station Assembler can be used to create a station module, which can be sent up to your space station."
+	],
+	dependencies: [
+		"3a5b48dd"
+	],
+	tasks: [{
+		uid: "6c6cff1a",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:stationmarker"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "bb9756c1",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 16
+	}]
+}

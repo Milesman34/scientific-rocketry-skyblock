@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	text: [
+		"The Gas Charge Pad can be used to charge your spacesuit with Hydrogen or Oxygen.",
+		"",
+		"You need to use Oxygen to fill your oxygen tanks."
+	],
+	dependencies: [
+		"f6984018"
+	],
+	tasks: [{
+		uid: "f1129aee",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:oxygencharger"
+		}]
+	}],
+	rewards: [{
+		uid: "d98f8bfb",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 16
+	}]
+}

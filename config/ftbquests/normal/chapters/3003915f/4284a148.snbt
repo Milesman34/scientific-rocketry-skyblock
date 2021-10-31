@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "e5be7ed2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_relocator"
+		}]
+	}],
+	rewards: [{
+		uid: "512e7173",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 32
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "ceec6333",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:material_stonework_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "2ff18a5f",
+		type: "item",
+		item: "industrialforegoing:pink_slime",
+		count: 8
+	}]
+}

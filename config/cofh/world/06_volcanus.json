@@ -1,0 +1,260 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "coal_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 18
+			},
+			"cluster-count": 8,
+			"min-height": 35,
+			"max-height": 105,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "copper_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 0
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 24
+			},
+			"cluster-count": 8,
+			"min-height": 12,
+			"max-height": 62,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+        
+        "iron_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 35,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "silver_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 2
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 6,
+			"min-height": 25,
+			"max-height": 57,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "lead_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 3
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 35,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "gold_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 17,
+			"max-height": 47,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "nickel_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 5
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 23,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "dimshard_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "rftools:dimensional_shard_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 15,
+			"min-height": 0,
+			"max-height": 66,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "cobalt_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:cobalt_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 86,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "ardite_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:ardite_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 86,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "diamond_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 35,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        },
+
+        "ruby_volcanus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "projectred-exploration:ore",
+                    "metadata": 0
+                },
+				"material": "minecraft:stone",
+				"cluster-size":4
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 57,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					101
+				]
+			}
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"The Fluid Enricher enriches fluids using materials."
+	],
+	tasks: [{
+		uid: "1a58a617",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:enricher"
+		}]
+	}],
+	rewards: [{
+		uid: "b5696a34",
+		type: "item",
+		item: "actuallyadditions:item_crystal 1 1",
+		count: 32
+	}]
+}

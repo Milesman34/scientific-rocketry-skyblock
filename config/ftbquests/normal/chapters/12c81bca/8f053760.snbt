@@ -1,0 +1,29 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	description: "Can mine anything",
+	text: [
+		""
+	],
+	dependencies: [
+		"8d78784a"
+	],
+	tasks: [{
+		uid: "97ebfed8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

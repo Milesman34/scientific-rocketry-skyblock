@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: -1.5d,
+	dependencies: [
+		"207106ed"
+	],
+	tasks: [{
+		uid: "507b5ab0",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0f06862",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 8
+	}]
+}

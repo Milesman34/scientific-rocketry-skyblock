@@ -1,0 +1,26 @@
+{
+	title: "Sieving Netherrack",
+	x: 3.0d,
+	y: 3.0d,
+	text: [
+		"Sieve Crushed Netherrack for Black Quartz or NuclearCraft ores (besides Thorium which is gated to spawn on other planets or through a Void Ore Miner)",
+		"",
+		"You can get Netherrack with a barrel of lava + redstone. Later on, you can use a cheaper DML-based recipe."
+	],
+	dependencies: [
+		"f8e7aa62"
+	],
+	tasks: [{
+		uid: "725019ee",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_netherrack_crushed"
+		}]
+	}],
+	rewards: [{
+		uid: "f87c1cfd",
+		type: "item",
+		item: "exnihilocreatio:block_netherrack_crushed",
+		count: 16
+	}]
+}

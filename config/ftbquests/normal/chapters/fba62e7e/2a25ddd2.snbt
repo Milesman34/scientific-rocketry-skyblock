@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"0eccf5e9"
+	],
+	tasks: [{
+		uid: "6cbfadca",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_erodium"
+		}]
+	}],
+	rewards: [{
+		uid: "9ac4ae8c",
+		type: "item",
+		item: "environmentaltech:erodium_crystal",
+		count: 16
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Combination Crafting",
+	icon: "extendedcrafting:crafting_core",
+	x: 3.0d,
+	y: 4.5d,
+	text: [
+		"The first ExtendedCrafting mechanic you will need to set up and automate.",
+		"",
+		"It is basically a better version of the Empowerer, which can accept more items and runs faster."
+	],
+	dependencies: [
+		"092b400a"
+	],
+	tasks: [{
+		uid: "13f51008",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "8de3d366",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "80c0f2fc",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

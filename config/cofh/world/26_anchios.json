@@ -1,0 +1,179 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+        "anchios_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "minecraft:iron_ore",
+						"weight": 95
+					},
+
+					{
+						"name": "actuallyadditions:block_crystal",
+						"metadata": 5,
+						"weight": 5
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 500,
+				"type": "large-vein"
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 56,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        },
+        
+        "anchios_iron2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 11
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 34,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        },
+
+        "anchios_coal": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 45,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        },
+
+        "anchios_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:coal_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 9,
+			"min-height": 23,
+			"max-height": 51,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        },
+
+        "anchios_obsidian": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:obsidian",
+				"material": "minecraft:stone",
+				"cluster-size": 11
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 26,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        },
+
+        "anchios_aluminum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "thermalfoundation:ore",
+                    "metadata": 4
+                },
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 7,
+			"min-height": 23,
+			"max-height": 48,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        },
+
+        "anchios_nickel": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+                        "metadata": 5,
+                        "weight": 75
+					},
+
+					{
+						"name": "thermalfoundation:ore",
+                        "metadata": 6,
+						"weight": 21
+                    },
+                    
+                    {
+                        "name": "thermalfoundation:ore",
+                        "metadata": 8,
+                        "weight": 4
+                    }
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 500,
+				"type": "large-vein"
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					122
+				]
+			}
+        }
+    }
+}

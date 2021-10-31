@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"ac401549"
+	],
+	tasks: [{
+		uid: "9bff7dee",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_misc 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "49e5fd02",
+		type: "item",
+		item: "thermalfoundation:material 1 129",
+		count: 12
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "fd75a063",
+		type: "item",
+		items: [{
+			item: "rftools:storage_scanner"
+		}]
+	}],
+	rewards: [{
+		uid: "bda49612",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 4
+	}]
+}

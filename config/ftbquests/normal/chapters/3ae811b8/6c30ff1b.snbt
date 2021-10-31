@@ -1,0 +1,36 @@
+{
+	title: "Magma Crucible",
+	x: 2.0d,
+	y: 1.5d,
+	dependencies: [
+		"4a3739d4"
+	],
+	tasks: [{
+		uid: "33b28acb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "9d5fdb30",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 32
+	}]
+}

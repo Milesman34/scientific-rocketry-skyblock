@@ -1,0 +1,4 @@
+"Put in here the recipes for converting S.T.E.M fluid into items"
+"Output Item ID","Output Item Metadata","Input fluid amount"
+""
+"minecraft:diamond","0","10"

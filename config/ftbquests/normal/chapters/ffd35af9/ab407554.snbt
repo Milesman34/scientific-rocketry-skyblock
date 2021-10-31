@@ -1,0 +1,33 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	description: "The best flight in the pack",
+	text: [
+		""
+	],
+	dependencies: [
+		"f8a7d722",
+		"899e5b68"
+	],
+	tasks: [{
+		uid: "f68c1695",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 200000,
+				JetpackParticleType: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a3eef20",
+		type: "item",
+		item: "extendedcrafting:material 1 32",
+		count: 16
+	}]
+}

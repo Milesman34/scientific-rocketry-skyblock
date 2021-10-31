@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"cb90834d"
+	],
+	tasks: [{
+		uid: "8444ebd4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f747b2d",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 8.0d,
+	description: "Produces 16777216 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"510ec5e8"
+	],
+	tasks: [{
+		uid: "ebd0eb84",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_infinity"
+		}]
+	}],
+	rewards: [{
+		uid: "11cc7766",
+		type: "item",
+		item: "avaritia:resource 1 6",
+		count: 16
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Resonant Fluxbore",
+	x: 0.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0837abf3"
+	],
+	tasks: [{
+		uid: "8c090328",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e630189",
+		type: "item",
+		item: "thermalfoundation:material 1 166",
+		count: 16
+	}]
+}

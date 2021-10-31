@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"620f9dc5"
+	],
+	tasks: [{
+		uid: "12e63f18",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_template"
+		}]
+	}],
+	rewards: [{
+		uid: "b49b8118",
+		type: "item",
+		item: "minecraft:stick",
+		count: 32
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	description: "9x9 Crafting",
+	text: [
+		"It only gets harder after this."
+	],
+	dependencies: [
+		"31316439",
+		"147f18af"
+	],
+	tasks: [{
+		uid: "28f3c20d",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "d8419725",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 16
+	}]
+}

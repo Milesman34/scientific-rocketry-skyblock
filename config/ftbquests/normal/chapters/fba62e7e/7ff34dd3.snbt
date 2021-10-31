@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	description: "Produces 4 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"7da1599a"
+	],
+	tasks: [{
+		uid: "0ac2aa80",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_hardened"
+		}]
+	}],
+	rewards: [{
+		uid: "ddc869d7",
+		type: "item",
+		item: "thermalfoundation:material 1 162",
+		count: 16
+	}]
+}

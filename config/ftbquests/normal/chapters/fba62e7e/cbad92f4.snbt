@@ -1,0 +1,28 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	description: "Transfers 1.63 million RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"0cc43a9c"
+	],
+	tasks: [{
+		uid: "f04b7155",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 2
+			},
+			Damage: 4s
+		}]
+	}],
+	rewards: [{
+		uid: "fcdebfe7",
+		type: "item",
+		item: "mekanism:controlcircuit 1 2",
+		count: 16
+	}]
+}

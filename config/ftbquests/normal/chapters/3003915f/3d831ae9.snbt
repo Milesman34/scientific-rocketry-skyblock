@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "c5611265",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}]
+	},
+	{
+		uid: "e4109e4a",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}],
+	rewards: [{
+		uid: "e06c4f63",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 16
+	},
+	{
+		uid: "e38a1bba",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 16
+	}]
+}

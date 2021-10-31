@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	dependencies: [
+		"81efa4c1"
+	],
+	tasks: [{
+		uid: "44df3ee6",
+		type: "item",
+		items: [{
+			item: "bhc:orange_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "58dcd245",
+		type: "item",
+		item: "actuallyadditions:item_crystal_empowered 1 2",
+		count: 8
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"c52f1e0a"
+	],
+	tasks: [{
+		uid: "04267d73",
+		type: "item",
+		items: [{
+			item: "extracells:storage.component 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "034d9540",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

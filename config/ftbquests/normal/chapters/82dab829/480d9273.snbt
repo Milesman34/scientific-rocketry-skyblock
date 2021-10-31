@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	text: [
+		"Melt Cobblestone into Lava using a heat source",
+		"",
+		"You can use a clay bucket to move it or water."
+	],
+	dependencies: [
+		"fbe2e028"
+	],
+	tasks: [{
+		uid: "ba3c12f6",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}]
+}

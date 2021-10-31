@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "a5de0aaa",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_drill",
+			tag: {
+				Energy: 0
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5c9ad4d",
+		type: "item",
+		item: "actuallyadditions:item_crystal 1 5",
+		count: 24
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	dependencies: [
+		"725e7305"
+	],
+	tasks: [{
+		uid: "6ab25f3e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "d2bcc450",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	}]
+}

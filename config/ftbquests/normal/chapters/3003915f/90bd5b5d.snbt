@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"d88f8e19"
+	],
+	tasks: [{
+		uid: "31715e8b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:ionite_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "9588005a",
+		type: "item",
+		item: "environmentaltech:ionite_crystal",
+		count: 16
+	}]
+}

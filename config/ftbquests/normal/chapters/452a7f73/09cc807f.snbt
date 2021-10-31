@@ -1,0 +1,42 @@
+{
+	title: "Moon Ores",
+	icon: "libvulpes:productgem",
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"The Moon contains Dilithium, Rutile (Titanium), and Platinum Ores."
+	],
+	dependencies: [
+		"cf25a854"
+	],
+	tasks: [{
+		uid: "b43baf1f",
+		type: "item",
+		items: [{
+			item: "libvulpes:productgem"
+		}],
+		count: 16L
+	},
+	{
+		uid: "65fba75b",
+		type: "item",
+		items: [{
+			item: "libvulpes:productingot 1 7"
+		}],
+		count: 16L
+	},
+	{
+		uid: "430ab5ba",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 134"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9a0866f2",
+		type: "item",
+		item: "libvulpes:productdust",
+		count: 32
+	}]
+}

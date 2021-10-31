@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"620f9dc5"
+	],
+	tasks: [{
+		uid: "67749d82",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "84e41647",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 24
+	}]
+}

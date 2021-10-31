@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"You can spam the sneak button when near a tree to make it grow faster. This is very important for the earlygame."
+	],
+	tasks: [{
+		uid: "d7a01f43",
+		type: "checkmark",
+		title: "Twerking",
+		icon: "minecraft:sapling"
+	}]
+}

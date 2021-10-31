@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	text: [
+		"The Lathe can turn ingots into rods more efficiently."
+	],
+	dependencies: [
+		"91acd35e"
+	],
+	tasks: [{
+		uid: "4a85166d",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:lathe"
+		}]
+	}],
+	rewards: [{
+		uid: "126a7c29",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 16
+	}]
+}

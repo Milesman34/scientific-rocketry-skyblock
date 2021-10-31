@@ -1,0 +1,24 @@
+{
+	title: "Creative Flux Capacitor",
+	x: -2.5d,
+	y: 1.5d,
+	description: "Infinite RF for charging items",
+	text: [
+		""
+	],
+	dependencies: [
+		"f11498d3"
+	],
+	tasks: [{
+		uid: "52440b07",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 50000000
+			},
+			Damage: 32000s
+		}],
+		ignore_nbt: 1b
+	}]
+}

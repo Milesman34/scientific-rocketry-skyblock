@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	dependencies: [
+		"620f9dc5"
+	],
+	tasks: [{
+		uid: "355e6239",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}],
+	rewards: [{
+		uid: "f293902d",
+		type: "item",
+		item: "projectred-core:resource_item 1 103",
+		count: 10
+	}]
+}

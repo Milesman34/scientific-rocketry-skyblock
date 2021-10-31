@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"The endgame of this pack is really brutal, so attempt at your own peril!"
+	],
+	dependencies: [
+		"f4494c2c"
+	],
+	tasks: [{
+		uid: "cf5b4803",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "71e60b2d",
+		type: "item",
+		item: "extendedcrafting:material 1 24",
+		count: 16
+	}]
+}

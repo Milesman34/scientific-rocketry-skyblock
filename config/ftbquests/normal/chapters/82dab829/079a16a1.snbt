@@ -1,0 +1,26 @@
+{
+	title: "Sieving End Stone",
+	x: 3.0d,
+	y: 5.0d,
+	text: [
+		"Sieving End Stone can get you Ender Pearls, Dimensional Shards, Biotite, and Platinum.",
+		"",
+		"You can get End Stone using glowstone in a barrel of Lava, or from DML."
+	],
+	dependencies: [
+		"f8e7aa62"
+	],
+	tasks: [{
+		uid: "2dc7dfcc",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_endstone_crushed"
+		}]
+	}],
+	rewards: [{
+		uid: "4a94c728",
+		type: "item",
+		item: "exnihilocreatio:block_endstone_crushed",
+		count: 16
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -2.5d,
+	text: [
+		"This is a very \"fun\" recipe. You will likely want to automate this, due to the quantity needed."
+	],
+	dependencies: [
+		"6a3c758d"
+	],
+	tasks: [{
+		uid: "4a009c26",
+		type: "item",
+		items: [{
+			item: "contenttweaker:terrestrial_artifact"
+		}]
+	}],
+	rewards: [{
+		uid: "a0ae72a9",
+		type: "item",
+		item: "redstonearsenal:material 1 160",
+		count: 16
+	}]
+}

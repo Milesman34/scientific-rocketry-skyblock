@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "adabd4fe",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "0b01dffc",
+		type: "item",
+		item: "deepmoblearning:data_model_blank"
+	}]
+}

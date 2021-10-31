@@ -1,0 +1,324 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+		"aktric_copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 26,
+			"min-height": 0,
+			"max-height": 157,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 2
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 13,
+			"min-height": 0,
+			"max-height": 109,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_dilithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "libvulpes:ore0",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 101,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 9,
+			"min-height": 0,
+			"max-height": 67,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_glowstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:glowstone",
+				"material": "minecraft:stone",
+				"cluster-size": 69
+			},
+			"cluster-count": 5,
+			"min-height": 37,
+			"max-height": 185,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_redstone": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:glowstone",
+				"material": "minecraft:stone",
+				"cluster-size": 21
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 46,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:quartz_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 7,
+			"min-height": 0,
+			"max-height": 36,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "minecraft:quartz_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 44,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_chargedcertus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:charged_quartz_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 7,
+			"min-height": 36,
+			"max-height": 78,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_electrotine": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "projectred-exploration:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 18
+			},
+			"cluster-count": 7,
+			"min-height": 32,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_redstone_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "redstone"
+						},
+						"weight": 75
+					},
+					{
+						"name": "minecraft:redstone_block",
+						"weight": 10
+					},
+					{
+						"name": "projectred-exploration:stone",
+						"metadata": 11,
+						"weight": 10
+					},
+					{
+						"name": "thermalfoundation:fluid_redstone",
+						"weight": 5
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 155,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		},
+
+		"aktric_glowstone_clathrate": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore_fluid",
+						"properties": {
+							"type": "glowstone"
+						},
+						"weight": 75
+					},
+					{
+						"name": "minecraft:redstone_block",
+						"weight": 10
+					},
+					{
+						"name": "projectred-exploration:stone",
+						"metadata": 11,
+						"weight": 10
+					},
+					{
+						"name": "thermalfoundation:fluid_glowstone",
+						"weight": 5
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 155,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					112
+				]
+			}
+		}
+    }
+}

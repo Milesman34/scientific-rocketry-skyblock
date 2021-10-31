@@ -1,0 +1,30 @@
+{
+	title: "Processing Custom Ores",
+	x: -3.5d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"Cobalt and Ardite Ore require at least 3x processing from Mekanism to process.",
+		"",
+		"Other ContentTweaker ores also require Mekanism to process, but some need higher tiers than others, such as 5x processing for Adamantium."
+	],
+	dependencies: [
+		"17b0bbdd"
+	],
+	tasks: [{
+		uid: "606d42e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cobalt_crystal"
+		}],
+		count: 12L
+	},
+	{
+		uid: "be439ee2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ardite_crystal"
+		}],
+		count: 12L
+	}]
+}

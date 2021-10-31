@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "f5183b17",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:crop_recolector"
+		}]
+	}],
+	rewards: [{
+		uid: "254e9c63",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 12
+	}]
+}

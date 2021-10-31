@@ -1,0 +1,20 @@
+{
+	title: "The Garden",
+	icon: "minecraft:grass",
+	x: 0.5d,
+	y: 7.0d,
+	shape: "square",
+	text: [
+		"The Garden is a flat planet with no natural spawns.",
+		"",
+		"It can be discovered by placing a Basic Catalyst in the Warp Controller."
+	],
+	dependencies: [
+		"17b0bbdd"
+	],
+	tasks: [{
+		uid: "3593094b",
+		type: "dimension",
+		dim: 114
+	}]
+}

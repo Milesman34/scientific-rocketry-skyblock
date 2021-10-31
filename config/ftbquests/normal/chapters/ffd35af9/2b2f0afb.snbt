@@ -1,0 +1,30 @@
+{
+	title: "Signalum Flux Capacitor",
+	x: -1.5d,
+	y: 0.0d,
+	description: "Stores 32 million RF",
+	text: [
+		""
+	],
+	dependencies: [
+		"32586247"
+	],
+	tasks: [{
+		uid: "630d0757",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:capacitor",
+			tag: {
+				Energy: 32000000
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "215c28b1",
+		type: "item",
+		item: "thermalfoundation:material 1 1024",
+		count: 16
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"3887f470"
+	],
+	tasks: [{
+		uid: "5f69c6fd",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "26c2602b",
+		type: "item",
+		item: "contenttweaker:adamantium_ingot",
+		count: 16
+	}]
+}

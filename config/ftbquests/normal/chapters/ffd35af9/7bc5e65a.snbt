@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "385222c6",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "63d30d33",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 8
+	}]
+}

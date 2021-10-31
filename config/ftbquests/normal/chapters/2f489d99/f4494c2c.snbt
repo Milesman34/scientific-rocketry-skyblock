@@ -1,0 +1,25 @@
+{
+	title: "Ultimate Ingots",
+	x: 1.0d,
+	y: 10.5d,
+	description: "The endgame begins...",
+	text: [
+		"If you can make these, you are in the endgame."
+	],
+	dependencies: [
+		"ba3f7785"
+	],
+	tasks: [{
+		uid: "650220a2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "270c0ce4",
+		type: "item",
+		item: "extendedcrafting:material 1 32",
+		count: 8
+	}]
+}

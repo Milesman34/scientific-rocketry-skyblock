@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	description: "Uses 6294 RF/t with full upgrades",
+	text: [
+		""
+	],
+	dependencies: [
+		"04fe06d7",
+		"5f7875cf"
+	],
+	tasks: [{
+		uid: "fba09ba5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_2"
+		}]
+	}],
+	rewards: [{
+		uid: "bf5fe08f",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 16
+	}]
+}

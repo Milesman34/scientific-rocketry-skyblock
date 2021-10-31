@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	dependencies: [
+		"cf65efdc"
+	],
+	tasks: [{
+		uid: "12ff725c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "5512d390",
+		type: "item",
+		item: "thermalfoundation:material 1 132",
+		count: 12
+	}]
+}

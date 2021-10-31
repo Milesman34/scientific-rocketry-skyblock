@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	description: "Produces 16 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"7ff34dd3"
+	],
+	tasks: [{
+		uid: "708e0a62",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_reinforced"
+		}]
+	}],
+	rewards: [{
+		uid: "31b43fb1",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 16
+	}]
+}

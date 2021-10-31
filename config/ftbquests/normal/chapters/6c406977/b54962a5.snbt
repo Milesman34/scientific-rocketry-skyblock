@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -7.0d,
+	dependencies: [
+		"aa8d5297"
+	],
+	tasks: [{
+		uid: "27de0769",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b04a52e6",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 16
+	}]
+}

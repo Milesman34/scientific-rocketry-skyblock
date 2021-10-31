@@ -1,0 +1,17 @@
+{
+	title: "Gadgetry",
+	icon: {
+		ForgeCaps: {
+			"ocdevices:item_analyze": {}
+		},
+		id: "simplyjetpacks:itemjetpack",
+		tag: {
+			Energy: 0,
+			JetpackParticleType: 0
+		},
+		Damage: 4s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

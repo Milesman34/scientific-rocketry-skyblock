@@ -1,0 +1,32 @@
+{
+	title: "Creative Realm",
+	icon: "mekanism:saltblock",
+	x: 0.5d,
+	y: 8.0d,
+	shape: "square",
+	text: [
+		"The Creative Realm requires a Salt Singularity as an artifact. It contains Opinionium Ore.",
+		"",
+		"The planet is very bright, so it is recommended to go there at night."
+	],
+	dependencies: [
+		"17b0bbdd"
+	],
+	tasks: [{
+		uid: "a7d102e3",
+		type: "dimension",
+		dim: 103
+	}],
+	rewards: [{
+		uid: "39df344d",
+		type: "item",
+		item: {
+			id: "mekanism:salt",
+			tag: {
+				display: {
+					Name: "CreativeRealms"
+				}
+			}
+		}
+	}]
+}

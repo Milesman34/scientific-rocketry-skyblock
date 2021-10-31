@@ -1,0 +1,35 @@
+{
+	title: "Flux Networks",
+	x: -2.0d,
+	y: 7.0d,
+	text: [
+		"In the lategame and endgame, you can use Flux Networks for limitless wireless RF transfer. It is quite gated, however."
+	],
+	tasks: [{
+		uid: "df2c2e89",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	},
+	{
+		uid: "525e9796",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	},
+	{
+		uid: "89597257",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	}],
+	rewards: [{
+		uid: "de74c2de",
+		type: "item",
+		item: "fluxnetworks:fluxcore",
+		count: 4
+	}]
+}

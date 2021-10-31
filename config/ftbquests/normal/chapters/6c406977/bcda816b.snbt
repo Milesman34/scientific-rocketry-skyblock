@@ -1,0 +1,17 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "6ab99612",
+		type: "item",
+		items: [{
+			item: "rftools:modular_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "359e6e93",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 64
+	}]
+}

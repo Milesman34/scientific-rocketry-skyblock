@@ -1,0 +1,20 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"For an optional challenge, complete the pack without using the Quarry/Pump shape cards for mining on other planets. With the Digital Miner, it should be possible."
+	],
+	tasks: [{
+		uid: "eebdf0da",
+		type: "item",
+		items: [{
+			item: "rftools:builder"
+		}]
+	}],
+	rewards: [{
+		uid: "fa5437a8",
+		type: "item",
+		item: "thermalfoundation:material 1 165",
+		count: 16
+	}]
+}

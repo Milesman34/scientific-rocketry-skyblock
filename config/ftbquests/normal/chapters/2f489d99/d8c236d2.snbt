@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"d6e5b17c",
+		"d6843b4b"
+	],
+	tasks: [{
+		uid: "6ce4edec",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "3a76320c",
+		type: "item",
+		item: "enderio:item_alloy_ingot",
+		count: 64
+	}]
+}

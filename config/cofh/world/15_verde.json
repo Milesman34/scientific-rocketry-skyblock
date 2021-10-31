@@ -1,0 +1,228 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+		"verde_emerald": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "emerald_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 32
+			},
+			"cluster-count": 13,
+			"min-height": 0,
+			"max-height": 113,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_gold": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "gold_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 19,
+			"min-height": 0,
+			"max-height": 75,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 26,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_osmium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "mekanism:oreblock",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 6,
+			"min-height": 0,
+			"max-height": 83,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 11
+			},
+			"cluster-count": 14,
+			"min-height": 43,
+			"max-height": 97,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 8
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 22,
+			"max-height": 59,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "projectred-exploration:ore",
+					"metadata": 2
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 10
+			},
+			"cluster-count": 8,
+			"min-height": 23,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "nuclearcraft:ore",
+					"metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 6,
+			"min-height": 17,
+			"max-height": 51,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_black_quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "actuallyadditions:block_misc",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 11,
+			"min-height": 23,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		},
+
+		"verde_emeradic": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "actuallyadditions:block_crystal",
+					"metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 13,
+			"min-height": 0,
+			"max-height": 97,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		}
+
+
+    }
+}

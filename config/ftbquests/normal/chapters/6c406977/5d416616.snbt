@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "99d6515e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "105f85fa",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	}]
+}

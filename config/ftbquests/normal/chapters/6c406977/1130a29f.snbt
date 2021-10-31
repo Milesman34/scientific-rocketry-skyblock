@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"9ab99f4b"
+	],
+	tasks: [{
+		uid: "bd77becf",
+		type: "item",
+		items: [{
+			item: "extracells:storage.component 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "ef8b3753",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 16
+	}]
+}

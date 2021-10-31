@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	description: "Produces 1 RF/t",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "eaf5e100",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_leadstone"
+		}]
+	}],
+	rewards: [{
+		uid: "a6c6d9c8",
+		type: "item",
+		item: "thermalfoundation:material 1 131",
+		count: 16
+	}]
+}

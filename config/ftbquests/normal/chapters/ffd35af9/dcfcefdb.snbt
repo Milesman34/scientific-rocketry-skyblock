@@ -1,0 +1,20 @@
+{
+	x: 6.5d,
+	y: -1.0d,
+	dependencies: [
+		"9c89fd17"
+	],
+	tasks: [{
+		uid: "4a124b25",
+		type: "item",
+		items: [{
+			item: "bhc:green_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "72c1966c",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 16
+	}]
+}

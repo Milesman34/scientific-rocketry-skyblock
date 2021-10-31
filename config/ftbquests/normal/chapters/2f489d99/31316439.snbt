@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 6.5d,
+	description: "7x7 Crafting",
+	text: [
+		""
+	],
+	dependencies: [
+		"71bfdf07",
+		"63d61406"
+	],
+	tasks: [{
+		uid: "8c5e64bd",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}],
+	rewards: [{
+		uid: "46f58412",
+		type: "item",
+		item: "contenttweaker:reinforced_thermalloy_ingot",
+		count: 32
+	}]
+}

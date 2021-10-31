@@ -1,0 +1,24 @@
+{
+	title: "Rocket Engine",
+	x: -2.5d,
+	y: 3.0d,
+	text: [
+		"Rocket Engines are used to power your rocket. They consume Rocket Fuel."
+	],
+	dependencies: [
+		"aed5eb7a"
+	],
+	tasks: [{
+		uid: "3f527f01",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketmotor"
+		}]
+	}],
+	rewards: [{
+		uid: "00cb0a38",
+		type: "item",
+		item: "nuclearcraft:alloy 1 10",
+		count: 8
+	}]
+}

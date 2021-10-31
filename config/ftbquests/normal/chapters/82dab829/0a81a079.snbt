@@ -1,0 +1,48 @@
+{
+	title: "Sieve Enchants",
+	x: 0.0d,
+	y: 5.0d,
+	text: [
+		"Enchanting the meshes with Sieve Efficiency and Sieve Fortune can improve their speed and luck respectively.",
+		"",
+		"The first tier of each book is craftable, then you can combine them together in an anvil to get higher tiers."
+	],
+	dependencies: [
+		"7dd22376"
+	],
+	tasks: [{
+		uid: "aaa5a7d3",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 28s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "52cb86b5",
+		type: "item",
+		items: [{
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 27s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed0bed03",
+		type: "xp_levels",
+		xp_levels: 32
+	}]
+}

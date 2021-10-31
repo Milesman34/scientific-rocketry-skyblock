@@ -1,0 +1,26 @@
+{
+	title: "Sieving Soul Sand",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Sieve Soul Sand for Quartz and other products.",
+		"",
+		"You can get Soul Sand from sand in a bucket of Witch Water. Later on, you can make it with an Atomic Reconstructor or from DML."
+	],
+	dependencies: [
+		"9f6fe820"
+	],
+	tasks: [{
+		uid: "8c36fe8a",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}]
+	}],
+	rewards: [{
+		uid: "011a95bf",
+		type: "item",
+		item: "minecraft:soul_sand",
+		count: 16
+	}]
+}

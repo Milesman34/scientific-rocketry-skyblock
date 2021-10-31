@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "68a73c1c",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "30a2ae83",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 3
+	}]
+}

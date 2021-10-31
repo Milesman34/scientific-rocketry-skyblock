@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/lithium_manganese_dioxide_alloy_gear"
+  }
+}

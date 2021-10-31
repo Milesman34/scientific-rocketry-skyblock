@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	description: "Produces 8192 RF/t",
+	text: [
+		""
+	],
+	dependencies: [
+		"9043f734"
+	],
+	tasks: [{
+		uid: "3dfb10d2",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_osgloglas"
+		}]
+	}],
+	rewards: [{
+		uid: "5d3b557b",
+		type: "item",
+		item: "contenttweaker:osgloglas_ingot",
+		count: 16
+	}]
+}

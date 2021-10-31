@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"85c83bb0"
+	],
+	tasks: [{
+		uid: "d810989c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "8c308ddc",
+		type: "item",
+		item: "thermalfoundation:material 1 135",
+		count: 16
+	}]
+}

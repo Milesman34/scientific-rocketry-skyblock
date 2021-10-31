@@ -1,0 +1,39 @@
+{
+	title: "Compactor",
+	x: 2.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"44a28a67"
+	],
+	tasks: [{
+		uid: "6ee0066e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}]
+	}],
+	rewards: [{
+		uid: "8f53d622",
+		type: "item",
+		item: "thermalfoundation:material 1 131",
+		count: 10
+	}]
+}

@@ -1,0 +1,84 @@
+{
+	title: "Advanced Metallurgic Fabricator",
+	x: 3.0d,
+	y: 6.5d,
+	text: [
+		"Similar principle to the Metallurgic Fabricator, but more powerful and generally better. It accepts 3 different fluids.",
+		"",
+		"Good luck automating this one :^)"
+	],
+	dependencies: [
+		"71bfdf07"
+	],
+	tasks: [{
+		uid: "9db68ee7",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:advanced_metallurgic_fabricator"
+			}
+		}]
+	},
+	{
+		uid: "579b46ad",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "b22dc1d3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:osmiridium_machine_casing"
+		}],
+		count: 64L
+	},
+	{
+		uid: "3353257d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:osmiridium_machine_casing"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ab8414da",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "03f103cc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}],
+		count: 4L
+	},
+	{
+		uid: "a79fd61a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ardite_block"
+		}],
+		count: 10L
+	},
+	{
+		uid: "d0473669",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage 1 8"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "0ae2e730",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 64
+	}]
+}

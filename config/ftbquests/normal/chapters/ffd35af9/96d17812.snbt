@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "15c4981e",
+		type: "item",
+		items: [{
+			item: "torchmaster:feral_flare_lantern"
+		}]
+	}],
+	rewards: [{
+		uid: "90144a2a",
+		type: "item",
+		item: "thermalfoundation:material 1 165",
+		count: 16
+	}]
+}

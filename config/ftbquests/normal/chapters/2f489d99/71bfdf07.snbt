@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 4.5d,
+	description: "5x5 Crafting",
+	text: [
+		""
+	],
+	dependencies: [
+		"35536415"
+	],
+	tasks: [{
+		uid: "7c7741f8",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "b3f5aeca",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 32
+	}]
+}

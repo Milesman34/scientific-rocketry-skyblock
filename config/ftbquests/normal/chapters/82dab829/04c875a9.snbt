@@ -1,0 +1,33 @@
+{
+	title: "Sieving",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"You can sieve various resources using a Sieve. Multiple can be connected together (up to 9x9) to do multiple operations at once.",
+		"",
+		"You can use different meshes to get different resources. Check JEI!"
+	],
+	dependencies: [
+		"46169e0b"
+	],
+	tasks: [{
+		uid: "f500a57c",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "c9306ba6",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "49156297",
+		type: "item",
+		item: "minecraft:string",
+		count: 16
+	}]
+}

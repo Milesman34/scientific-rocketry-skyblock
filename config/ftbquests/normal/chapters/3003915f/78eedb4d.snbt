@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	description: "Uses 547356 RF/t with full upgrades",
+	text: [
+		""
+	],
+	dependencies: [
+		"90bd5b5d"
+	],
+	tasks: [{
+		uid: "a1fa4597",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_5"
+		}]
+	}],
+	rewards: [{
+		uid: "b3591d5a",
+		type: "item",
+		item: "extendedcrafting:material 1 24",
+		count: 16
+	}]
+}

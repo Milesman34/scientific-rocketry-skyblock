@@ -1,0 +1,25 @@
+{
+	title: "Mithril",
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"Can also be found in ore form, but not yet for you."
+	],
+	dependencies: [
+		"8572411c"
+	],
+	tasks: [{
+		uid: "738111f8",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 136"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8a7874cc",
+		type: "item",
+		item: "thermalfoundation:material 1 136",
+		count: 16
+	}]
+}

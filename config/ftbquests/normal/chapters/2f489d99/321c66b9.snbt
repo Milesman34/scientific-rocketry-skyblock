@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"It is recommended to set up robust automation to produce this, due to the large quantities needed. It also takes a while to make, so keep that in mind."
+	],
+	dependencies: [
+		"f5687107"
+	],
+	tasks: [{
+		uid: "63d8a292",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}]
+	}],
+	rewards: [{
+		uid: "3bdac84e",
+		type: "item",
+		item: "thermalfoundation:material 1 1028",
+		count: 4
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "60713529",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "ec31b634",
+		type: "item",
+		item: "actuallyadditions:item_crystal 1 2",
+		count: 16
+	}]
+}

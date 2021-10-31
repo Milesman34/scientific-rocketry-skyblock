@@ -1,0 +1,25 @@
+{
+	title: "Liquid Fuel Tank",
+	x: 0.5d,
+	y: 3.0d,
+	text: [
+		"The Liquid Fuel Tank is used as part of a rocket to store Rocket Fuel."
+	],
+	dependencies: [
+		"dbfca412"
+	],
+	tasks: [{
+		uid: "308a3266",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fueltank"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "a68778b2",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 24
+	}]
+}

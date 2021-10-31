@@ -1,0 +1,27 @@
+{
+	title: "Cobblestone at Last",
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"Sieve Dirt to get Pebbles, which can be crafted into Cobblestone.",
+		"",
+		"You can hammer it down with a Hammer into Gravel, Sand, and Dust."
+	],
+	dependencies: [
+		"04c875a9",
+		"dc78e40d"
+	],
+	tasks: [{
+		uid: "44139151",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "1c0944e8",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 64
+	}]
+}

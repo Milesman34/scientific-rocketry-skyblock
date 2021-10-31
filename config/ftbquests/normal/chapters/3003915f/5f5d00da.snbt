@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "cdbc4a56",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "2ae7cb78",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	}]
+}

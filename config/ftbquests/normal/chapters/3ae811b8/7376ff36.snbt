@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	dependencies: [
+		"2ca2ffd5"
+	],
+	tasks: [{
+		uid: "daddf2a0",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 131"
+		}]
+	}],
+	rewards: [{
+		uid: "9b4965ae",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	}]
+}

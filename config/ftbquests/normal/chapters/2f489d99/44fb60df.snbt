@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	dependencies: [
+		"ccbf4c28"
+	],
+	tasks: [{
+		uid: "eda6838a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "5d5b03f4",
+		type: "item",
+		item: "redstonerepository:material 1 1",
+		count: 16
+	}]
+}

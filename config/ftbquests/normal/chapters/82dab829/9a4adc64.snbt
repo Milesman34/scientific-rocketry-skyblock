@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	dependencies: [
+		"f8e7aa62"
+	],
+	tasks: [{
+		uid: "bcb4a549",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "1727051f",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 16
+	}]
+}

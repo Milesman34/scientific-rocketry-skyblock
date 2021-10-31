@@ -1,0 +1,66 @@
+{
+	title: "Metallurgic Fabricator",
+	x: -1.0d,
+	y: 0.5d,
+	text: [
+		"This is the first of two distinct modular machines you will need to create. You need to use input and output hatches corresponding to the recipe you want.",
+		"",
+		"You will need multiple of these in the future."
+	],
+	dependencies: [
+		"321c66b9"
+	],
+	tasks: [{
+		uid: "11a24ada",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:metallurgic_fabricator"
+			}
+		}]
+	},
+	{
+		uid: "49d6de96",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "f681f079",
+		type: "item",
+		items: [{
+			item: "contenttweaker:titanium_machine_casing"
+		}],
+		count: 35L
+	},
+	{
+		uid: "69a9fe6f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage 1 6"
+		}],
+		count: 3L
+	},
+	{
+		uid: "8875384c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 1"
+		}]
+	},
+	{
+		uid: "bad493ec",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "1b167252",
+		type: "item",
+		item: "libvulpes:productingot 1 7",
+		count: 64
+	}]
+}

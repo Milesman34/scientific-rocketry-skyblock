@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "Actually infinite RF",
+	text: [
+		"Have fun."
+	],
+	dependencies: [
+		"f11498d3",
+		"8805efbe"
+	],
+	tasks: [{
+		uid: "394e433f",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				tier: 4,
+				mekData: {
+					energyStored: 1.7976931348623157E308d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d1aa917",
+		type: "item",
+		item: "avaritia:resource 1 5"
+	}]
+}

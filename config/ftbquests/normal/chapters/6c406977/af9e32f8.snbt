@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: -2.0d,
+	dependencies: [
+		"f2840213"
+	],
+	tasks: [{
+		uid: "77dbc944",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "931b27d1",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 5",
+		count: 16
+	}]
+}

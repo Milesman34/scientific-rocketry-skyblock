@@ -1,0 +1,67 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	shape: "gear",
+	text: [
+		"Welcome to Scientific Rocketry Skyblock!",
+		"This is an expert pack based on tech progression and space travel, now as a Skyblock."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "176ae4c2",
+		type: "checkmark",
+		title: "Pack Intro"
+	}],
+	rewards: [{
+		uid: "33fa6bbd",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:leather_helmet"
+		}
+	},
+	{
+		uid: "862bbf05",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:leather_chestplate"
+		}
+	},
+	{
+		uid: "c0d967ed",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:leather_leggings"
+		}
+	},
+	{
+		uid: "580a88a6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "minecraft:leather_boots"
+		}
+	},
+	{
+		uid: "71b2e948",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		uid: "84bba2a3",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 8
+	}]
+}

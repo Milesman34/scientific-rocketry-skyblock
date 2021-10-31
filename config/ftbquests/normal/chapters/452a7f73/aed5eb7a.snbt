@@ -1,0 +1,22 @@
+{
+	title: "Extreme Alloy",
+	x: -3.5d,
+	y: 3.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a156969c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 10"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "978df143",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 12
+	}]
+}

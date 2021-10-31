@@ -1,0 +1,228 @@
+{
+    "dependencies": "advancedrocketry",
+
+    "populate": {
+		"friigo_permafrost": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "quark:biome_cobblestone",
+					"metadata": 1
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 128
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 66,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_dimshard": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "rftools:dimensional_shard_ore",
+					"metadata": 0
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 13,
+			"min-height": 0,
+			"max-height": 200,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		
+
+		"friigo_platinum": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 6
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 47,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_mithril": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 8
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 47,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 2
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 11
+			},
+			"cluster-count": 19,
+			"min-height": 0,
+			"max-height": 78,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_lead": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 11
+			},
+			"cluster-count": 19,
+			"min-height": 0,
+			"max-height": 78,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_black_quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "actuallyadditions:block_misc",
+					"metadata": 3
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 34,
+			"max-height": 98,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_diamond": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "diamond_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 11,
+			"min-height": 53,
+			"max-height": 139,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_cobalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:cobalt_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 14,
+			"min-height": 1,
+			"max-height": 89,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		},
+
+		"friigo_certus": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "appliedenergistics2:quartz_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 9,
+			"min-height": 26,
+			"max-height": 72,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					108
+				]
+			}
+		}
+    }
+}

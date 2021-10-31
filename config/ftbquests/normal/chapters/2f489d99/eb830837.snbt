@@ -1,0 +1,13 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	text: [
+		"Bosses in this pack are all buffed via the Champions mod. However, you can craft Dragon Eggs and Nether Stars. Check JEI for the recipes."
+	],
+	tasks: [{
+		uid: "96fec985",
+		type: "checkmark",
+		title: "A Word on Bosses",
+		icon: "minecraft:dragon_egg"
+	}]
+}

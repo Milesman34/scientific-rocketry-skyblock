@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: -1.0d,
+	text: [
+		"Power generation by tier:",
+		"",
+		"Litherite: 3050 RF/t",
+		"Erodium: 6775 RF/t",
+		"Kyronite: 15100 RF/t",
+		"Pladium: 33400 RF/t",
+		"Ionite: 56125 RF/t",
+		"Aethium: 128000 RF/t"
+	],
+	dependencies: [
+		"b40681b0"
+	],
+	tasks: [{
+		uid: "f908346e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_2"
+		}]
+	}],
+	rewards: [{
+		uid: "f5fc3243",
+		type: "item",
+		item: "thermalfoundation:material 1 134",
+		count: 16
+	}]
+}

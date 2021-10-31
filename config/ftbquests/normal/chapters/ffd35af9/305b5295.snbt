@@ -1,0 +1,26 @@
+{
+	x: 0.5d,
+	y: -6.0d,
+	dependencies: [
+		"13135aab",
+		"e4013dce"
+	],
+	tasks: [{
+		uid: "bee0270a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			},
+			id: "enderio:item_stellar_alloy_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "446b912b",
+		type: "item",
+		item: "contenttweaker:osmiridium_ingot",
+		count: 16
+	}]
+}

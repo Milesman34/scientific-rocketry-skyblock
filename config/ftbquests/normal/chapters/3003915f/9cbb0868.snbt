@@ -1,0 +1,25 @@
+{
+	title: "Pump Shape Card",
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ff6907b8"
+	],
+	tasks: [{
+		uid: "a059bf36",
+		type: "item",
+		items: [{
+			item: "rftools:shape_card 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b167ac7f",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 16
+	}]
+}

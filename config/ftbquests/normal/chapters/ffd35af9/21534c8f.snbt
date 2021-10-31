@@ -1,0 +1,28 @@
+{
+	title: "Basic Fluxbore",
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"Some of the recipes for upgrading Thermal devices can be buggy, so it is recommended to take items out of satchels and remove enchantments in general, for instance.",
+		"",
+		"The pack dev was unable to get them to work properly, so you unfortunately just have to deal with it for now."
+	],
+	tasks: [{
+		uid: "d089eb9a",
+		type: "item",
+		items: [{
+			id: "thermalinnovation:drill",
+			tag: {
+				Energy: 40000,
+				Mode: 1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4352e3f",
+		type: "item",
+		item: "thermalfoundation:material 1 130",
+		count: 12
+	}]
+}

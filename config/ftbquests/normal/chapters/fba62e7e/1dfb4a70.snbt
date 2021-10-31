@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	description: "Buffed",
+	text: [
+		"Must be placed around a black hole.",
+		"",
+		"Makes 100k RF/t"
+	],
+	tasks: [{
+		uid: "5aac9078",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:blackholegenerator"
+		}]
+	}],
+	rewards: [{
+		uid: "ecadd784",
+		type: "item",
+		item: "contenttweaker:tungsten_ingot",
+		count: 64
+	}]
+}

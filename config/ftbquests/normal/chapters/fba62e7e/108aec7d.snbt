@@ -1,0 +1,28 @@
+{
+	title: "Compression Dynamo",
+	x: -4.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6bbfa4d3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 2s
+		}]
+	}],
+	rewards: [{
+		uid: "73f2e896",
+		type: "item",
+		item: "thermalfoundation:material 1 129",
+		count: 12
+	}]
+}

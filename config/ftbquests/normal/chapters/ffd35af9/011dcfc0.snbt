@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "d81e18e2",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:magnet_anti_block"
+		}]
+	}],
+	rewards: [{
+		uid: "577ef08e",
+		type: "item",
+		item: "actuallyadditions:item_crystal 1 4",
+		count: 12
+	}]
+}
