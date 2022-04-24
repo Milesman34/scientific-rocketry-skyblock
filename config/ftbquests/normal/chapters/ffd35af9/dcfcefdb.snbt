@@ -1,4 +1,5 @@
 {
+	title: "Green Heart Canister",
 	x: 6.5d,
 	y: -1.0d,
 	dependencies: [
@@ -9,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "bhc:green_heart_canister"
-		}]
+		}],
+		count: 10L
 	}],
 	rewards: [{
 		uid: "72c1966c",

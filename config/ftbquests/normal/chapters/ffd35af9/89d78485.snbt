@@ -1,0 +1,22 @@
+{
+	title: "Ender Utilities",
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		"The Ender Utilities mod adds a lot of miscellaneous blocks and items that may be useful in your playthrough. They are complicated to explain though, so rely on the tooltips."
+	],
+	tasks: [{
+		uid: "52f79825",
+		type: "item",
+		items: [{
+			item: "enderutilities:enderpart"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "353f12fc",
+		type: "item",
+		item: "enderutilities:enderpart",
+		count: 8
+	}]
+}

@@ -5,7 +5,7 @@ var m = "advanced_metallurgic_fabricator";
 
 // Crystaltine
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_crystaltine", m, 50)
-    .addEnergyPerTickInput(1000000)
+    .addEnergyPerTickInput(500000)
     .addItemOutput(<extendedcrafting:material:24> * 3)
     .addItemInput(<ore:ingotStellarAlloy>)
     .addItemInput(<ore:ingotVividAlloy>)
@@ -17,7 +17,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_crystaltine", m, 50)
 
 // Crystal matrix
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_crystal_matrix", m, 100)
-    .addEnergyPerTickInput(10000000)
+    .addEnergyPerTickInput(1000000)
     .addItemOutput(<avaritia:resource:1> * 8)
     .addItemInput(<avaritia:resource:0> * 5)
     .addItemInput(<ore:ingotCrystaltine>, 4)
@@ -28,7 +28,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_crystal_matrix", m, 100)
 
 // Tungstensteel
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_tungstensteel", m, 25)
-    .addEnergyPerTickInput(5000000)
+    .addEnergyPerTickInput(500000)
     .addItemOutput(<contenttweaker:tungstensteel_ingot> * 2)
     .addItemInput(<thermalfoundation:material:160>)
     .addItemInput(<contenttweaker:tungsten_ingot>)
@@ -39,7 +39,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_tungstensteel", m, 25)
 
 // Adamantium
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_adamantium", m, 50)
-    .addEnergyPerTickInput(10000000)
+    .addEnergyPerTickInput(2500000)
     .addItemOutput(<contenttweaker:adamantium_ingot> * 4)
     .addItemInput(<contenttweaker:manyullyn_ingot> * 2)
     .addItemInput(<contenttweaker:tungstensteel_ingot>)
@@ -62,7 +62,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infinite_photovoltaic", m, 
 
 // Neutronium
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_neutronium", m, 100)
-    .addEnergyPerTickInput(10000000)
+    .addEnergyPerTickInput(5000000)
     .addItemOutput(<avaritia:resource:4>)
     .addItemInput(<extendedcrafting:material:0>)
     .addFluidInput(<liquid:osmiridium> * 1152)

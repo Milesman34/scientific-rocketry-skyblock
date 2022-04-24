@@ -5,7 +5,7 @@ var m = "metallurgic_fabricator";
 
 // Ender ingot
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_ender", m, 10)
-    .addEnergyPerTickInput(100000)
+    .addEnergyPerTickInput(50000)
     .addItemOutput(<extendedcrafting:material:36> * 3)
     .addItemInput(<ore:ingotEndSteel>, 4)
     .addItemInput(<ore:ingotEnderium>, 4)
@@ -14,7 +14,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_ender", m, 10)
 
 // Reinforced thermalloy
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_reinforced_thermalloy", m, 10)
-    .addEnergyPerTickInput(150000)
+    .addEnergyPerTickInput(50000)
     .addItemOutput(<contenttweaker:reinforced_thermalloy_ingot> * 2)
     .addItemInput(<ore:ingotSignalum>, 2)
     .addItemInput(<ore:ingotLumium>, 2)
@@ -33,7 +33,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_mithril", m, 10)
 
 // Osmiridium
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_osmiridium", m, 20)
-    .addEnergyPerTickInput(50000)
+    .addEnergyPerTickInput(25000)
     .addItemOutput(<contenttweaker:osmiridium_ingot> * 2)
     .addItemInput(<ore:ingotOsmium>)
     .addItemInput(<ore:ingotIridium>)
@@ -42,7 +42,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_osmiridium", m, 20)
 
 // Osgloglas
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_osgloglas", m, 20)
-    .addEnergyPerTickInput(75000)
+    .addEnergyPerTickInput(25000)
     .addItemOutput(<contenttweaker:osgloglas_ingot> * 2)
     .addItemInput(<ore:ingotOsmium>)
     .addItemInput(<ore:ingotRefinedObsidian>)
@@ -52,8 +52,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_osgloglas", m, 20)
 
 // Dark soularium
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_dark_soularium", m, 20)
-    .addEnergyPerTickInput(250000)
-    .addItemOutput(<simplyjetpacks:metaitemmods:3> * 3)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<simplyjetpacks:metaitemmods:12> * 3)
     .addItemInput(<ore:ingotSoularium>, 4)
     .addItemInput(<ore:ingotMelodicAlloy>, 6)
     .addItemInput(<ore:itemEnderCrystal>)
@@ -62,7 +62,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_dark_soularium", m, 20)
 
 // Enhanced ender ingot
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_enhanced_ender", m, 20)
-    .addEnergyPerTickInput(200000)
+    .addEnergyPerTickInput(250000)
     .addItemOutput(<extendedcrafting:material:48> * 2)
     .addItemInput(<extendedcrafting:material:36> * 4)
     .addItemInput(<ore:ingotGelidEnderium>, 3)
@@ -71,7 +71,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_enhanced_ender", m, 20)
 
 // Black iron
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_black_iron", m, 20)
-    .addEnergyPerTickInput(25000)
+    .addEnergyPerTickInput(50000)
     .addItemOutput(<extendedcrafting:material:0> * 2)
     .addItemInput(<ore:ingotDarkSteel>, 3)
     .addItemInput(<ore:ingotTough>, 3)
@@ -81,7 +81,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_black_iron", m, 20)
 
 // Stellar alloy
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_stellar_alloy", m, 10)
-    .addEnergyPerTickInput(500000)
+    .addEnergyPerTickInput(200000)
     .addItemOutput(<enderio:item_alloy_endergy_ingot:3> * 2)
     .addItemInput(<ore:ingotMelodicAlloy>, 2)
     .addItemInput(<ore:ingotCrystallineAlloy>, 2)
@@ -91,7 +91,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_stellar_alloy", m, 10)
 
 // Titanium-iridium alloy
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_ti_alloy", m, 10)
-    .addEnergyPerTickInput(100000)
+    .addEnergyPerTickInput(50000)
     .addItemOutput(<advancedrocketry:productingot:1>)
     .addItemInput(<ore:ingotTitanium>)
     .addItemInput(<ore:ingotIridium>)
@@ -100,7 +100,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_ti_alloy", m, 10)
 
 // Titanium aluminide
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_ti_aluminide", m, 10)
-    .addEnergyPerTickInput(100000)
+    .addEnergyPerTickInput(50000)
     .addItemOutput(<advancedrocketry:productingot:0>)
     .addItemInput(<ore:ingotTitanium>)
     .addItemInput(<ore:ingotAluminum>)
@@ -109,7 +109,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_ti_aluminide", m, 10)
 
 // Glitch infused metal
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_glitch", m, 20)
-    .addEnergyPerTickInput(150000)
+    .addEnergyPerTickInput(75000)
     .addItemOutput(<deepmoblearning:glitch_infused_ingot> * 2)
     .addItemInput(<actuallyadditions:item_crystal_empowered:1>)
     .addItemInput(<ore:ingotGelidEnderium>, 2)
@@ -119,7 +119,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_glitch", m, 20)
 
 // Manyullyn
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_manyullyn", m, 20)
-    .addEnergyPerTickInput(100000)
+    .addEnergyPerTickInput(50000)
     .addItemOutput(<contenttweaker:manyullyn_ingot>)
     .addItemInput(<contenttweaker:cobalt_ingot>)
     .addItemInput(<contenttweaker:ardite_ingot>)
@@ -128,10 +128,19 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_manyullyn", m, 20)
 
 // Flux
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_flux", m, 20)
-    .addEnergyPerTickInput(500000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<fluxnetworks:flux> * 3)
     .addItemInput(<contenttweaker:tungsten_dust>)
     .addItemInput(<enderio:item_material:35>)
     .addItemInput(<enderio:item_material:20>)
     .addFluidInput(<liquid:black_iron> * 144)
+    .build();
+
+// Advanced ender alloy
+mods.modularmachinery.RecipeBuilder.newBuilder(m + "_advanced_ender_alloy", m, 20)
+    .addEnergyPerTickInput(300000)
+    .addItemOutput(<enderutilities:enderpart:2> * 2)
+    .addItemInput(<enderutilities:enderpart:1> * 2)
+    .addItemInput(<ore:ingotEnhancedEnder>, 1)
+    .addFluidInput(<liquid:mithril> * 288)
     .build();

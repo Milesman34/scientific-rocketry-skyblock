@@ -201,8 +201,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<rftools:creative_screen>, 1
 
 // Creative jetpack
 mods.extendedcrafting.CombinationCrafting.addRecipe(<simplyjetpacks:itemjetpack:0>.withTag({Energy: 200000, JetpackParticleType: 0}), 2000000000, 1000000, <extendedcrafting:material:13>, [
-	<simplyjetpacks:itemjetpack:9>,
-	<simplyjetpacks:itemjetpack:19>,
+	<simplyjetpacks:itemjetpack:24>,
+	<simplyjetpacks:itemjetpack:15>,
+	<simplyjetpacks:itemjetpack:6>,
+	<simplyjetpacks:itemjetpack:33>,
 	<environmentaltech:modifier_creative_flight>,
 	<solarflux:custom_solar_panel_adamantium>
 ]);
@@ -251,4 +253,4 @@ recipes.remove(<minecraft:ender_eye>);
 mods.nuclearcraft.Infuser.addRecipe(<ore:dustEnderium>, <liquid:pyrotheum> * 1000, <minecraft:ender_eye>, 2.5);
 
 // Bedrock
-mods.extendedcrafting.CompressionCrafting.addRecipe(<minecraft:bedrock>, <enderio:block_reinforced_obsidian>, 10000, <advancedrocketry:blackholegenerator>, 2147483647, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<minecraft:bedrock>, <enderio:block_reinforced_obsidian>, 1024, <advancedrocketry:blackholegenerator>, 2147483647, 1000000);

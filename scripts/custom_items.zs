@@ -20,8 +20,6 @@ function registerItem2(name as string) {
 
 // Registers custom items
 var items = [
-    "fluix_plate",
-    "certus_quartz_plate",
     "ferroboron_alloy_plate",
     "ferroboron_alloy_gear",
     "tough_alloy_plate",

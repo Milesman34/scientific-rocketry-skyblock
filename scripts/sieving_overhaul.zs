@@ -83,6 +83,8 @@ Sieve.addStringMeshRecipe(<minecraft:dirt>, <exnihilocreatio:item_seed_darkoak>,
 Sieve.addStringMeshRecipe(<minecraft:dirt>, <exnihilocreatio:item_seed_carrot>, 0.05);
 Sieve.addStringMeshRecipe(<minecraft:dirt>, <exnihilocreatio:item_seed_potato>, 0.05);
 Sieve.addStringMeshRecipe(<minecraft:dirt>, <actuallyadditions:item_canola_seed>, 0.05);
+Sieve.addStringMeshRecipe(<minecraft:dirt>, <actuallyadditions:item_coffee_seed>, 0.05);
+Sieve.addStringMeshRecipe(<minecraft:dirt>, <actuallyadditions:item_rice_seed>, 0.05);
 
 Sieve.addDiamondMeshRecipe(<minecraft:dirt>, <integrateddynamics:menril_sapling:0>, 0.1);
 

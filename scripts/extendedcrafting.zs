@@ -243,11 +243,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:1
 
 // Ender star
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:40>, [
-	[null, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, null], 
-	[<ore:blockAethium>, <minecraft:dragon_egg>, <ore:blockEnhancedEnder>, <minecraft:dragon_egg>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <ore:blockEnhancedEnder>, <ore:netherStar>, <ore:blockEnhancedEnder>, <ore:blockAethium>], 
-	[<ore:blockAethium>, <minecraft:dragon_egg>, <ore:blockEnhancedEnder>, <minecraft:dragon_egg>, <ore:blockAethium>], 
-	[null, <ore:blockAethium>, <ore:blockAethium>, <ore:blockAethium>, null]
+	[null, <ore:ingotEnhancedEnder>, <actuallyadditions:item_misc:19>, <ore:ingotEnhancedEnder>, null], 
+	[<ore:ingotEnhancedEnder>, <enderutilities:enderpart:2>, <minecraft:dragon_egg>, <enderutilities:enderpart:2>, <ore:ingotEnhancedEnder>], 
+	[<actuallyadditions:item_misc:19>, <minecraft:dragon_egg>, <ore:blockAethium>, <minecraft:dragon_egg>, <actuallyadditions:item_misc:19>], 
+	[<ore:ingotEnhancedEnder>, <enderutilities:enderpart:2>, <minecraft:dragon_egg>, <enderutilities:enderpart:2>, <ore:ingotEnhancedEnder>], 
+	[null, <ore:ingotEnhancedEnder>, <actuallyadditions:item_misc:19>, <ore:ingotEnhancedEnder>, null]
 ]);
 
 // Remove ender package crafter
@@ -269,11 +269,11 @@ recipes.remove(<packagedexcrafting:elite_crafter>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <packagedexcrafting:elite_crafter>, [
 	[<extendedcrafting:material:12>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <extendedcrafting:material:12>], 
-	[<ore:plateCrystalMatrix>, <ore:blockNetherStar>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:blockNetherStar>, <ore:plateCrystalMatrix>], 
+	[<ore:plateCrystalMatrix>, <ore:blockNetherStar>, <simplyjetpacks:metaitemmods:2>, <simplyjetpacks:metaitemmods:38>, <simplyjetpacks:metaitemmods:2>, <ore:blockNetherStar>, <ore:plateCrystalMatrix>], 
 	[<ore:plateCrystalMatrix>, <simplyjetpacks:metaitemmods:11>, <contenttweaker:osmiridium_machine_casing>, <extendedcrafting:interface>, <contenttweaker:osmiridium_machine_casing>, <simplyjetpacks:metaitemmods:11>, <ore:plateCrystalMatrix>], 
-	[<ore:plateCrystalMatrix>, <simplyjetpacks:metaitemmods:30>, <packagedexcrafting:advanced_crafter>, <extendedcrafting:table_elite>, <packagedexcrafting:advanced_crafter>, <simplyjetpacks:metaitemmods:30>, <ore:plateCrystalMatrix>], 
+	[<ore:plateCrystalMatrix>, <simplyjetpacks:metaitemmods:24>, <packagedexcrafting:advanced_crafter>, <extendedcrafting:table_elite>, <packagedexcrafting:advanced_crafter>, <simplyjetpacks:metaitemmods:24>, <ore:plateCrystalMatrix>], 
 	[<ore:plateCrystalMatrix>, <simplyjetpacks:metaitemmods:11>, <contenttweaker:osmiridium_machine_casing>, <packagedauto:me_package_component>, <contenttweaker:osmiridium_machine_casing>, <simplyjetpacks:metaitemmods:11>, <ore:plateCrystalMatrix>], 
-	[<ore:plateCrystalMatrix>, <ore:blockNetherStar>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:blockNetherStar>, <ore:plateCrystalMatrix>], 
+	[<ore:plateCrystalMatrix>, <ore:blockNetherStar>, <simplyjetpacks:metaitemmods:2>, <simplyjetpacks:metaitemmods:38>, <simplyjetpacks:metaitemmods:2>, <ore:blockNetherStar>, <ore:plateCrystalMatrix>], 
 	[<extendedcrafting:material:12>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <extendedcrafting:material:12>]
 ]);
 
@@ -379,7 +379,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_cata
 ]);
 
 // Sus amogus item
-mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:heart_of_the_smogus>, <nuclearcraft:foursmore>, 10000, <avaritia:resource:5>, 1000000000, 1000000);
+mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:heart_of_the_smogus>, <nuclearcraft:foursmore>, 1024, <avaritia:resource:5>, 1000000000, 1000000);
 
 // Vending upgrade
 mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative:1> * 2, [
@@ -418,7 +418,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<storagedrawers:upgrade_crea
     <danknull:dank_null_4>,
     <thermalexpansion:cache:0>.withTag({Level:4 as byte,RSControl:0 as byte,Creative:0 as byte}),
     <mekanism:basicblock:6>.withTag({tier: 3}),
-    <mekanism:basicblock2:3>.withTag({tier: 3})
+    <mekanism:basicblock2:3>.withTag({tier: 3}),
+    <enderutilities:msu:0>
 ]);
 
 // Le endgame recipe thing

@@ -193,7 +193,7 @@ var gears_items = [
     <projectred-core:resource_item:105>,
     <redstonearsenal:material:160>,
     <redstonerepository:material:5>,
-    <simplyjetpacks:metaitemmods:3>,
+    <simplyjetpacks:metaitemmods:12>,
 	<extendedcrafting:material:0>,
     <deepmoblearning:glitch_infused_ingot>,
     <contenttweaker:reinforced_thermalloy_ingot>,

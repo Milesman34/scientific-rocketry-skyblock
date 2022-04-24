@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"The Adjustable Storage Unit has up to 27 slots that can store up to 1024 items each, although these numbers can be toggled. The slots can be locked which can help automation."
+	],
+	tasks: [{
+		uid: "fba63e13",
+		type: "item",
+		items: [{
+			item: "enderutilities:asu"
+		}]
+	}],
+	rewards: [{
+		uid: "ca90cafe",
+		type: "item",
+		item: "appliedenergistics2:material 1 22",
+		count: 64
+	}]
+}

@@ -1,4 +1,5 @@
 {
+	title: "Yellow Heart Canister",
 	x: 6.5d,
 	y: -2.0d,
 	dependencies: [
@@ -8,8 +9,9 @@
 		uid: "44df3ee6",
 		type: "item",
 		items: [{
-			item: "bhc:orange_heart_canister"
-		}]
+			item: "bhc:yellow_heart_canister"
+		}],
+		count: 10L
 	}],
 	rewards: [{
 		uid: "58dcd245",

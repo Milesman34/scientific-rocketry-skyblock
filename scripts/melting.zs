@@ -361,7 +361,6 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 1332, <applied
 mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 1332, <appliedenergistics2:quartz_pillar_slab:0>, 16000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 5994, <jaopca:block_blockcertusquartz>, 64000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 5994, <jaopca:block_blockchargedcertusquartz>, 64000);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 666, <contenttweaker:certus_quartz_plate>, 8000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 666, <jaopca:item_platechargedcertusquartz>, 8000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 2664, <moreplates:certus_quartz_gear>, 32000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:certus_quartz> * 2664, <jaopca:item_gearchargedcertusquartz>, 32000);
@@ -385,7 +384,6 @@ mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:chiseled_quartz_slab:0>,
 mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:quartz_pillar_slab:0>, <liquid:certus_quartz> * 1332, 2.0);
 mods.nuclearcraft.Melter.addRecipe(<jaopca:block_blockcertusquartz>, <liquid:certus_quartz> * 5994, 8.0);
 mods.nuclearcraft.Melter.addRecipe(<jaopca:block_blockchargedcertusquartz>, <liquid:certus_quartz> * 5994, 8.0);
-mods.nuclearcraft.Melter.addRecipe(<contenttweaker:certus_quartz_plate>, <liquid:certus_quartz> * 666);
 mods.nuclearcraft.Melter.addRecipe(<jaopca:item_platechargedcertusquartz>, <liquid:certus_quartz> * 666);
 mods.nuclearcraft.Melter.addRecipe(<moreplates:certus_quartz_gear>, <liquid:certus_quartz> * 2664, 4.0);
 mods.nuclearcraft.Melter.addRecipe(<jaopca:item_gearchargedcertusquartz>, <liquid:certus_quartz> * 2664, 4.0);
@@ -399,7 +397,6 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:fluix> * 333, <appliedenergisti
 mods.thermalexpansion.Crucible.addRecipe(<liquid:fluix> * 2664, <appliedenergistics2:fluix_block>, 32000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:fluix> * 1998, <appliedenergistics2:fluix_stairs>, 24000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:fluix> * 1332, <appliedenergistics2:fluix_slab>, 16000);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:fluix> * 666, <contenttweaker:fluix_plate>, 8000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:fluix> * 2664, <moreplates:fluix_gear>, 32000);
 
 mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:material:7>, <liquid:fluix> * 666);
@@ -408,7 +405,6 @@ mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:material:12>, <liquid:fl
 mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:fluix_block>, <liquid:fluix> * 2664, 4.0);
 mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:fluix_stairs>, <liquid:fluix> * 1998, 3.0);
 mods.nuclearcraft.Melter.addRecipe(<appliedenergistics2:fluix_slab>, <liquid:fluix> * 1332, 2.0);
-mods.nuclearcraft.Melter.addRecipe(<contenttweaker:fluix_plate>, <liquid:fluix> * 666);
 mods.nuclearcraft.Melter.addRecipe(<moreplates:fluix_gear>, <liquid:fluix> * 2664, 4.0);
 
 // Crystallized obsidian
@@ -1435,19 +1431,19 @@ mods.nuclearcraft.IngotFormer.addRecipe(<liquid:gelid_gem> * 666, <redstonerepos
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:emerald> * 666, <liquid:cryotheum> * 1000, <liquid:gelid_gem> * 666);
 
 // Molten dark soularium
-mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_soularium> * 144, <simplyjetpacks:metaitemmods:3>, 4000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_soularium> * 144, <simplyjetpacks:metaitemmods:12>, 4000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_soularium> * 16, <contenttweaker:dark_soularium_nugget>, 500);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_soularium> * 1296, <contenttweaker:dark_soularium_block>, 32000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_soularium> * 144, <contenttweaker:dark_soularium_plate>, 4000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:dark_soularium> * 576, <contenttweaker:dark_soularium_gear>, 16000);
 
-mods.nuclearcraft.Melter.addRecipe(<simplyjetpacks:metaitemmods:3>, <liquid:dark_soularium> * 144);
+mods.nuclearcraft.Melter.addRecipe(<simplyjetpacks:metaitemmods:12>, <liquid:dark_soularium> * 144);
 mods.nuclearcraft.Melter.addRecipe(<contenttweaker:dark_soularium_block>, <liquid:dark_soularium> * 1296, 8.0);
 mods.nuclearcraft.Melter.addRecipe(<contenttweaker:dark_soularium_nugget>, <liquid:dark_soularium> * 16, 0.125);
 mods.nuclearcraft.Melter.addRecipe(<contenttweaker:dark_soularium_plate>, <liquid:dark_soularium> * 144);
 mods.nuclearcraft.Melter.addRecipe(<contenttweaker:dark_soularium_gear>, <liquid:dark_soularium> * 576, 4.0);
 
-mods.nuclearcraft.IngotFormer.addRecipe(<liquid:dark_soularium> * 144, <simplyjetpacks:metaitemmods:3>);
+mods.nuclearcraft.IngotFormer.addRecipe(<liquid:dark_soularium> * 144, <simplyjetpacks:metaitemmods:12>);
 
 // Molten copper
 mods.thermalexpansion.Crucible.addRecipe(<liquid:copper> * 288, <thermalfoundation:ore:0>, 8000);

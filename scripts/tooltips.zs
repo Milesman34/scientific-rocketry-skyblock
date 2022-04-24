@@ -41,7 +41,7 @@
 
 <enderio:item_material:44>.addTooltip(format.aqua("Requires 1 million RF"));
 
-<bhc:orange_heart_canister>.addTooltip(format.aqua("Requires 1 million RF"));
+<bhc:yellow_heart_canister>.addTooltip(format.aqua("Requires 1 million RF"));
 
 // Satchel warning
 <thermalexpansion:satchel>.addTooltip(format.red("Remove items before upgrading, and upgrading will affect enchants!"));
@@ -91,6 +91,11 @@
 <thermalfoundation:geode:0>.addTooltip(format.aqua("Requires Tier 5 Void Ore Miner"));
 <libvulpes:ore0:8>.addTooltip(format.aqua("Requires Tier 2 Void Ore Miner"));
 
+// Ender cores
+<enderutilities:enderpart:15>.addTooltip(format.aqua("Activation can be automated with a Player Simulator"));
+<enderutilities:enderpart:16>.addTooltip(format.aqua("Activation can be automated with a Player Simulator"));
+<enderutilities:enderpart:17>.addTooltip(format.aqua("Activation can be automated with a Player Simulator"));
+
 // Bedrock
 <minecraft:bedrock>.addTooltip(format.red("Do NOT place unless you have a World Breaker or are 100% sure"));
 
@@ -138,3 +143,9 @@
 <mekanism:machineblock:5>.addTooltip(format.aqua("Made by right-clicking a machine with a Basic Tier Installer"));
 <mekanism:machineblock:6>.addTooltip(format.aqua("Made by right-clicking a basic factory with an Advanced Tier Installer"));
 <mekanism:machineblock:7>.addTooltip(format.aqua("Made by right-clicking an advanced factory with an Elite Tier Installer"));
+
+// EnvironmentalTech crystals
+<environmentaltech:litherite_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));
+<environmentaltech:erodium_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));
+<environmentaltech:pladium_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));
+<environmentaltech:kyronite_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));

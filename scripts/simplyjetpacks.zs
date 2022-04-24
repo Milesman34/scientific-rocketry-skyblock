@@ -48,86 +48,116 @@ recipes.remove(<simplyjetpacks:metaitemmods:11>);
 recipes.addShaped(<simplyjetpacks:metaitemmods:11>, [
     [<ore:ingot_dark_soularium>, <enderio:item_capacitor_stellar>, <ore:ingot_dark_soularium>], 
 	[<enderio:item_endergy_conduit:9>, <enderio:item_capacitor_stellar>, <enderio:item_endergy_conduit:9>], 
-	[<ore:itemEnderCrystal>, <simplyjetpacks:metaitemmods:6>, <ore:itemEnderCrystal>]
+	[<ore:itemEnderCrystal>, <simplyjetpacks:metaitemmods:15>, <ore:itemEnderCrystal>]
 ]);
 
 // Leadstone thruster
-recipes.remove(<simplyjetpacks:metaitemmods:26>);
+recipes.remove(<simplyjetpacks:metaitemmods:20>);
 
-recipes.addShaped(<simplyjetpacks:metaitemmods:26>, [
+recipes.addShaped(<simplyjetpacks:metaitemmods:20>, [
     [<ore:ingotLead>, <ore:gearSilver>, <ore:ingotLead>], 
 	[<thermaldynamics:duct_0>, <thermalfoundation:material:513>, <thermaldynamics:duct_0>], 
 	[<thermalexpansion:dynamo:3>, <ore:alloyBasic>, <thermalexpansion:dynamo:3>]
 ]);
 
 // Hardened thruster
-recipes.remove(<simplyjetpacks:metaitemmods:27>);
+recipes.remove(<simplyjetpacks:metaitemmods:21>);
 
-recipes.addShaped(<simplyjetpacks:metaitemmods:27>, [
+recipes.addShaped(<simplyjetpacks:metaitemmods:21>, [
     [<ore:ingotInvar>, <ore:gearSteel>, <ore:ingotInvar>], 
 	[<thermaldynamics:duct_0:1>, <thermalfoundation:material:513>, <thermaldynamics:duct_0:1>], 
 	[<thermalexpansion:dynamo:1>, <ore:ingotRedstoneAlloy>, <thermalexpansion:dynamo:1>]
 ]);
 
 // Reinforced thruster
-recipes.remove(<simplyjetpacks:metaitemmods:28>);
+recipes.remove(<simplyjetpacks:metaitemmods:22>);
 
-recipes.addShaped(<simplyjetpacks:metaitemmods:28>, [
+recipes.addShaped(<simplyjetpacks:metaitemmods:22>, [
     [<ore:ingotElectrum>, <ore:gearRefinedGlowstone>, <ore:ingotElectrum>], 
 	[<thermaldynamics:duct_0:2>, <thermalfoundation:material:513>, <thermaldynamics:duct_0:2>], 
 	[<thermalexpansion:dynamo:4>, <ore:blockRedstoneAlloy>, <thermalexpansion:dynamo:4>]
 ]);
 
 // Resonant thruster
-recipes.remove(<simplyjetpacks:metaitemmods:29>);
+recipes.remove(<simplyjetpacks:metaitemmods:23>);
 
-recipes.addShaped(<simplyjetpacks:metaitemmods:29>, [
+recipes.addShaped(<simplyjetpacks:metaitemmods:23>, [
     [<ore:ingotEnderium>, <ore:gearVibrantAlloy>, <ore:ingotEnderium>], 
 	[<thermaldynamics:duct_0:4>, <thermalfoundation:material:513>, <thermaldynamics:duct_0:4>], 
 	[<thermalexpansion:dynamo:5>, <ore:blockSignalum>, <thermalexpansion:dynamo:5>]
 ]);
 
 // Fluxed thruster
-recipes.remove(<simplyjetpacks:metaitemmods:30>);
+recipes.remove(<simplyjetpacks:metaitemmods:24>);
 
-recipes.addShaped(<simplyjetpacks:metaitemmods:30>, [
+recipes.addShaped(<simplyjetpacks:metaitemmods:24>, [
     [<ore:ingotGelidEnderium>, <ore:gearOsgloglas>, <ore:ingotGelidEnderium>], 
-	[<simplyjetpacks:metaitemmods:19>, <redstonerepository:material:7>, <simplyjetpacks:metaitemmods:19>], 
-	[<simplyjetpacks:metaitemmods:29>, <ore:blockArdite>, <simplyjetpacks:metaitemmods:29>]
+	[<simplyjetpacks:metaitemmods:28>, <redstonerepository:material:7>, <simplyjetpacks:metaitemmods:28>], 
+	[<simplyjetpacks:metaitemmods:23>, <ore:blockArdite>, <simplyjetpacks:metaitemmods:23>]
 ]);
 
 // Gelid jetplate
-recipes.removeByRecipeName("simplyjetpacks:upgraderecipe38");
-
-recipes.addShaped(<simplyjetpacks:itemjetpack:19>, [
-    [<redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>],
-    [<redstonerepository:material:7>, <simplyjetpacks:itemjetpack:18>, <redstonerepository:material:7>],
-    [<redstonerepository:material:7>, <redstonerepository:material:7>, <redstonerepository:material:7>]
-]);
+recipes.removeByRecipeName("simplyjetpacks:upgraderecipeshaped24");
 
 // Electrical steel jetpack
-recipes.removeByRecipeName("simplyjetpacks:upgraderecipe2");
+recipes.removeByRecipeName("simplyjetpacks:upgraderecipeshaped1");
 
-recipes.addShaped(<simplyjetpacks:itemjetpack:2>, [
+recipes.addShaped(<simplyjetpacks:itemjetpack:8>, [
     [<ore:ingotElectricalSteel>, <enderio:item_basic_capacitor:1>, <ore:ingotElectricalSteel>], 
-	[<ore:ingotElectricalSteel>, <simplyjetpacks:itemjetpack:1>, <ore:ingotElectricalSteel>], 
+	[<ore:ingotElectricalSteel>, <simplyjetpacks:itemjetpack:7>, <ore:ingotElectricalSteel>], 
 	[<simplyjetpacks:metaitemmods:8>, null, <simplyjetpacks:metaitemmods:8>]
 ]);
 
 // Energetic jetpack
-recipes.removeByRecipeName("simplyjetpacks:upgraderecipe3");
+recipes.removeByRecipeName("simplyjetpacks:upgraderecipeshaped2");
 
-recipes.addShaped(<simplyjetpacks:itemjetpack:3>, [
+recipes.addShaped(<simplyjetpacks:itemjetpack:9>, [
     [<ore:ingotEnergeticAlloy>, <enderio:item_basic_capacitor:2>, <ore:ingotEnergeticAlloy>], 
-	[<ore:ingotEnergeticAlloy>, <simplyjetpacks:itemjetpack:2>, <ore:ingotEnergeticAlloy>], 
+	[<ore:ingotEnergeticAlloy>, <simplyjetpacks:itemjetpack:8>, <ore:ingotEnergeticAlloy>], 
 	[<simplyjetpacks:metaitemmods:9>, null, <simplyjetpacks:metaitemmods:9>]
 ]);
 
 // Vibrant jetpack
-recipes.removeByRecipeName("simplyjetpacks:upgraderecipe4");
+recipes.removeByRecipeName("simplyjetpacks:upgraderecipeshaped3");
 
-recipes.addShaped(<simplyjetpacks:itemjetpack:4>, [
+recipes.addShaped(<simplyjetpacks:itemjetpack:10>, [
     [<ore:ingotVibrantAlloy>, <enderio:item_capacitor_crystalline>, <ore:ingotVibrantAlloy>], 
-	[<ore:ingotVibrantAlloy>, <simplyjetpacks:itemjetpack:3>, <ore:ingotVibrantAlloy>], 
+	[<ore:ingotVibrantAlloy>, <simplyjetpacks:itemjetpack:9>, <ore:ingotVibrantAlloy>], 
 	[<simplyjetpacks:metaitemmods:10>, null, <simplyjetpacks:metaitemmods:10>]
+]);
+
+// Iron thruster
+recipes.remove(<simplyjetpacks:metaitemmods:0>);
+
+recipes.addShaped(<simplyjetpacks:metaitemmods:0>, [
+	[null, <ore:ingotInvar>, null], 
+	[<ore:ingotInvar>, <morefurnaces:furnaceblock>, <ore:ingotInvar>], 
+	[<ore:ingotInvar>, <ore:itemBlazePowder>, <ore:ingotInvar>]
+]);
+
+// Gold thruster
+recipes.remove(<simplyjetpacks:metaitemmods:1>);
+
+recipes.addShaped(<simplyjetpacks:metaitemmods:1>, [
+	[null, <ore:ingotLumium>, null], 
+	[<ore:ingotLumium>, <morefurnaces:furnaceblock:1>, <ore:ingotLumium>], 
+	[<ore:ingotLumium>, <ore:dustPyrotheum>, <ore:ingotLumium>]
+]);
+
+// Diamond thruster
+recipes.remove(<simplyjetpacks:metaitemmods:2>);
+
+recipes.addShaped(<simplyjetpacks:metaitemmods:2>, [
+	[null, <ore:ingotCrystallineAlloy>, null], 
+	[<ore:ingotCrystallineAlloy>, <morefurnaces:furnaceblock:2>, <ore:ingotCrystallineAlloy>], 
+	[<ore:ingotCrystallineAlloy>, <ore:gearRestoniaEmpowered>, <ore:ingotCrystallineAlloy>]
+]);
+
+// Ultimate thruster
+recipes.remove(<simplyjetpacks:metaitemmods:38>);
+
+recipes.addShaped(<simplyjetpacks:metaitemmods:38>, [
+	[<ore:ingotOsmium>, <ore:circuitUltimate>, <ore:ingotOsmium>], 
+	[<mekanism:basicblock2:1>, <mekanism:basicblock2:3>.withTag({tier: 2}), <mekanism:basicblock2:1>], 
+	[<ore:ingotOsmium>, <ore:circuitUltimate>, <ore:ingotOsmium>]
 ]);

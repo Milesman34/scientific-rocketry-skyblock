@@ -15,7 +15,7 @@
 			ForgeCaps: {
 				"ocdevices:item_analyze": {}
 			},
-			id: "redstonerepository:armor.plate_gelid",
+			id: "redstonerepository:armor.chestplategelid",
 			tag: {
 				Energy: 0
 			}
@@ -30,7 +30,7 @@
 			ForgeCaps: {
 				"ocdevices:item_analyze": {}
 			},
-			id: "redstonerepository:armor.legs_gelid",
+			id: "redstonerepository:armor.leggings_gelid",
 			tag: {
 				Energy: 0
 			}

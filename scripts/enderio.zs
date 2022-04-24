@@ -52,6 +52,10 @@ recipes.addShaped(<enderio:item_material:15>, [
 	[<ore:ingotEnderium>, <ore:ingotVibrantAlloy>, <ore:ingotEnderium>]
 ]);
 
+// Enticing crystal
+mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_material:17>, <enderio:item_material:14>, <cyclicmagic:apple_emerald>, 8000);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_material:14>, <cyclicmagic:apple_emerald>, <enderio:item_material:17>);
+
 // Fused quartz
 mods.thermalexpansion.Compactor.addPressRecipe(<enderio:block_fused_quartz:0>, <appliedenergistics2:quartz_glass> * 4, 4000);
 
@@ -196,13 +200,13 @@ recipes.addShaped(<enderio:item_end_steel_boots>, [
 ]);
 
 // Armor plating
-mods.thermalexpansion.InductionSmelter.addRecipe(<simplyjetpacks:metaitemmods:13>, <simplyjetpacks:metaitemmods:12>, <enderio:item_alloy_ingot:4> * 10, 3200);
-mods.thermalexpansion.InductionSmelter.addRecipe(<simplyjetpacks:metaitemmods:14>, <simplyjetpacks:metaitemmods:13>, <enderio:item_alloy_ingot:0> * 10, 4800);
-mods.thermalexpansion.InductionSmelter.addRecipe(<simplyjetpacks:metaitemmods:15>, <simplyjetpacks:metaitemmods:14>, <enderio:item_alloy_ingot:6> * 10, 6400);
+mods.thermalexpansion.InductionSmelter.addRecipe(<simplyjetpacks:metaitemmods:4>, <simplyjetpacks:metaitemmods:3>, <enderio:item_alloy_ingot:4> * 10, 3200);
+mods.thermalexpansion.InductionSmelter.addRecipe(<simplyjetpacks:metaitemmods:5>, <simplyjetpacks:metaitemmods:4>, <enderio:item_alloy_ingot:0> * 10, 4800);
+mods.thermalexpansion.InductionSmelter.addRecipe(<simplyjetpacks:metaitemmods:6>, <simplyjetpacks:metaitemmods:5>, <enderio:item_alloy_ingot:6> * 10, 6400);
 
 // Nutritious stick
-mods.thermalexpansion.Transposer.addFillRecipe(<simplyjetpacks:metaitemmods:6>, <simplyjetpacks:metaitemmods:5>, <liquid:aerotheum> * 4000, 12800);
-mods.nuclearcraft.Infuser.addRecipe(<simplyjetpacks:metaitemmods:5>, <liquid:aerotheum> * 4000, <simplyjetpacks:metaitemmods:6>);
+mods.thermalexpansion.Transposer.addFillRecipe(<simplyjetpacks:metaitemmods:15>, <simplyjetpacks:metaitemmods:14>, <liquid:aerotheum> * 4000, 12800);
+mods.nuclearcraft.Infuser.addRecipe(<simplyjetpacks:metaitemmods:14>, <liquid:aerotheum> * 4000, <simplyjetpacks:metaitemmods:15>);
 
 // Creative capacitor bank
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:block_cap_bank:0>, [
@@ -231,6 +235,109 @@ recipes.addShaped(<enderio:item_material:51> * 6, [
 	[<ore:dustLapis>, <ore:dustQuartz>, <ore:dustEnder>], 
 	[<ore:dustQuartz>, <ore:dustPetrotheum>, <ore:dustQuartz>], 
 	[<ore:dustEnder>, <ore:dustQuartz>, <ore:dustLapis>]
+]);
+
+// Soul machine chassis
+mods.thermalexpansion.InductionSmelter.removeRecipe(<enderio:item_material:0>, <enderio:item_material:52>);
+
+recipes.addShaped(<enderio:item_material:53>, [
+	[<ore:dyeSoulMachine>, <ore:plateSoularium>, <ore:dyeSoulMachine>], 
+	[<ore:plateSoularium>, <ore:itemMachineChassi>, <ore:plateSoularium>], 
+	[<ore:dyeSoulMachine>, <ore:plateSoularium>, <ore:dyeSoulMachine>]
+]);
+
+// End steel machine chassis
+recipes.remove(<enderio:item_material:66>);
+
+recipes.addShaped(<enderio:item_material:66>, [
+	[<ore:plateGelidEnderium>, <enderio:block_end_iron_bars>, <ore:plateGelidEnderium>], 
+	[<enderio:block_end_iron_bars>, <enderio:item_material:53>, <enderio:block_end_iron_bars>], 
+	[<ore:plateGelidEnderium>, <enderio:block_end_iron_bars>, <ore:plateGelidEnderium>]
+]);
+
+// Enhanced dye blend
+recipes.remove(<enderio:item_material:67> * 4);
+
+recipes.addShaped(<enderio:item_material:67> * 4, [
+	[<ore:itemEnderCrystalPowder>, <ore:dustPlatinum>, <ore:itemEnderCrystalPowder>], 
+	[<ore:dustPlatinum>, <ore:dustMana>, <ore:dustPlatinum>], 
+	[<ore:itemEnderCrystalPowder>, <ore:dustPlatinum>, <ore:itemEnderCrystalPowder>]
+]);
+
+// Enhanced machine chassis
+recipes.addShaped(<enderio:item_material:54>, [
+	[<ore:plateStellarAlloy>, <ore:dyeEnhancedMachine>, <ore:plateStellarAlloy>], 
+	[<ore:dyeEnhancedMachine>, <ore:itemEndSteelMachineChassi>, <ore:dyeEnhancedMachine>], 
+	[<ore:plateStellarAlloy>, <ore:dyeEnhancedMachine>, <ore:plateStellarAlloy>]
+]);
+
+// Wireless dish assembly
+recipes.remove(<enderio:item_material:65>);
+
+recipes.addShaped(<enderio:item_material:65>, [
+	[<enderio:item_capacitor_crystalline>, <ore:ingotGelidEnderium>, null], 
+	[null, <ore:gearDiamatineEmpowered>, <ore:ingotGelidEnderium>], 
+	[<enderio:item_capacitor_crystalline>, <ore:ingotGelidEnderium>, null]
+]);
+
+// Infinity dust
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:block_infinity_fog:0>, <enderio:item_material:20>, 4000);
+mods.nuclearcraft.Manufactory.addRecipe(<enderio:item_material:20>, <enderio:block_infinity_fog:0>);
+
+// Glowing nano particles
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:block_holier_fog>, <minecraft:glowstone_dust>, 4000);
+mods.nuclearcraft.Manufactory.addRecipe(<minecraft:glowstone_dust>, <enderio:block_holier_fog>);
+
+// Withering dust
+mods.thermalexpansion.Pulverizer.addRecipe(<enderio:item_material:63> * 4, <minecraft:skull:1>, 8000);
+mods.nuclearcraft.Manufactory.addRecipe(<minecraft:skull:1>, <enderio:item_material:63> * 4);
+
+// Enchanter
+recipes.remove(<enderio:block_enchanter>);
+
+recipes.addShaped(<enderio:block_enchanter>, [
+	[null, <enderio:item_xp_transfer>, null], 
+	[<ore:gearPalisEmpowered>, <minecraft:enchanting_table>, <ore:gearPalisEmpowered>], 
+	[<ore:blockDarkSteel>, <ore:itemSoulMachineChassi>, <ore:blockDarkSteel>]
+]);
+
+// Travel anchor
+recipes.remove(<enderio:block_travel_anchor>);
+
+recipes.addShaped(<enderio:block_travel_anchor>, [
+	[<ore:ingotPulsatingIron>, <ore:itemConduitBinder>, <ore:ingotPulsatingIron>],
+	[<ore:itemConduitBinder>, <ore:itemPulsatingCrystal>, <ore:itemConduitBinder>],
+	[<ore:ingotPulsatingIron>, <ore:itemConduitBinder>, <ore:ingotPulsatingIron>]
+]);
+
+// Telepad
+recipes.remove(<enderio:block_tele_pad>);
+
+recipes.addShaped(0, <enderio:block_tele_pad>, [
+	[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>], 
+	[<ore:ingotEndSteel>, <mekanism:teleportationcore>, <ore:ingotEndSteel>], 
+	[<ore:ingotEndSteel>, <enderio:block_travel_anchor>, <ore:ingotEndSteel>]
+]);
+
+// Experience rod
+recipes.remove(<enderio:item_xp_transfer:0>);
+
+recipes.addShaped(<enderio:item_xp_transfer:0>, [
+	[null, <actuallyadditions:item_crystal_empowered:4>, <ore:itemVibrantCrystal>], 
+	[<actuallyadditions:item_crystal_empowered:4>, <ore:gearVibrantAlloy>, <actuallyadditions:item_crystal_empowered:4>], 
+	[<ore:itemVibrantCrystal>, <actuallyadditions:item_crystal_empowered:4>, null]
+]);
+
+// Aversion obelisk
+recipes.replaceAllOccurences(<ore:gearEnergized>, <cyclicmagic:magnet_anti_block>, <enderio:block_aversion_obelisk>);
+
+// Wireless charger
+recipes.remove(<enderio:block_wireless_charger>);
+
+recipes.addShaped(<enderio:block_wireless_charger>, [
+	[<ore:ingotVividAlloy>, <ore:ingotVividAlloy>, <ore:ingotVividAlloy>], 
+	[<ore:ingotVividAlloy>, <ore:skullEnderResonator>, <ore:ingotVividAlloy>], 
+	[<ore:ingotVividAlloy>, <enderio:item_capacitor_vivid>, <ore:ingotVividAlloy>]
 ]);
 
 // Animal token
@@ -300,6 +407,22 @@ mods.nuclearcraft.Enricher.addRecipe(<thermalfoundation:material:1028>, <liquid:
 
 // Fire water
 mods.nuclearcraft.Enricher.addRecipe(<thermalfoundation:material:1024>, <liquid:water> * 1000, <liquid:fire_water> * 1000);
+
+// Liquid sunshine
+mods.nuclearcraft.Enricher.addRecipe(<minecraft:double_plant:0>, <liquid:fire_water> * 1000, <liquid:liquid_sunshine> * 1000);
+
+// Hootch
+mods.nuclearcraft.Enricher.addRecipe(<minecraft:poisonous_potato>, <liquid:water> * 1000, <liquid:hootch> * 1000);
+
+// Nutrient Distillation
+mods.nuclearcraft.Enricher.addRecipe(<minecraft:skull:2>, <liquid:water> * 1000, <liquid:nutrient_distillation> * 1000);
+
+// Vapor of levity
+mods.nuclearcraft.Enricher.addRecipe(<enderio:item_material:37>, <liquid:ender_distillation> * 1000, <liquid:vapor_of_levity> * 1000);
+
+// Cloud seed
+mods.nuclearcraft.Enricher.addRecipe(<mekanism:salt>, <liquid:water> * 1000, <liquid:cloud_seed> * 1000);
+mods.nuclearcraft.Enricher.addRecipe(<mekanism:saltblock>, <liquid:cloud_seed> * 1000, <liquid:cloud_seed_concentrated> * 1000);
 
 // Stellar equipment (500M RF)
 recipes.remove(<enderio:item_stellar_alloy_sword>);
@@ -380,7 +503,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<contenttweaker:stellar_armor_plating>,
 	<enderio:item_capacitor_stellar>,
 	<enderio:item_material:44>,
-	<redstonerepository:armor.plate_gelid>,
+	<redstonerepository:armor.chestplategelid>,
 	<deepmoblearning:glitch_infused_chestplate>,
 	<cyclicmagic:purple_chestplate>
 ]);
@@ -395,7 +518,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<contenttweaker:stellar_armor_plating>,
 	<enderio:item_capacitor_stellar>,
 	<enderio:item_material:44>,
-	<redstonerepository:armor.legs_gelid>,
+	<redstonerepository:armor.leggings_gelid>,
 	<deepmoblearning:glitch_infused_leggings>,
 	<cyclicmagic:purple_leggings>
 ]);

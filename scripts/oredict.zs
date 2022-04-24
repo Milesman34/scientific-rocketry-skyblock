@@ -12,7 +12,7 @@ import crafttweaker.item.IItemStack;
 <ore:blockSiliconCarbide>.add(<contenttweaker:silicon_carbide_block>);
 <ore:nuggetTinSilver>.add(<contenttweaker:tin_silver_alloy_nugget>);
 <ore:ingotAdamantium>.add(<contenttweaker:adamantium_ingot>);
-<ore:ingotDarkSoularium>.add(<simplyjetpacks:metaitemmods:3>);
+<ore:ingotDarkSoularium>.add(<simplyjetpacks:metaitemmods:12>);
 <ore:nuggetDarkSoularium>.add(<contenttweaker:dark_soularium_nugget>);
 <ore:ingotReinforcedThermalloy>.add(<contenttweaker:reinforced_thermalloy_ingot>);
 <ore:blockEternity>.add(<contenttweaker:eternity_block>);
@@ -49,7 +49,6 @@ import crafttweaker.item.IItemStack;
 <ore:gearOsmiridium>.add(<contenttweaker:osmiridium_gear>);
 <ore:nuggetOpinionium>.add(<contenttweaker:opinionium_nugget>);
 <ore:gearEternity>.add(<contenttweaker:eternity_gear>);
-<ore:plateCertusQuartz>.add(<contenttweaker:certus_quartz_plate>);
 <ore:plateBlackIron>.add(<contenttweaker:black_iron_plate>);
 <ore:blockAdamantium>.add(<contenttweaker:adamantium_block>);
 <ore:plateEternity>.add(<contenttweaker:eternity_plate>);
@@ -73,7 +72,6 @@ import crafttweaker.item.IItemStack;
 <ore:ingotTungstensteel>.add(<contenttweaker:tungstensteel_ingot>);
 <ore:gearFerroboron>.add(<contenttweaker:ferroboron_alloy_gear>);
 <ore:nuggetArdite>.add(<contenttweaker:ardite_nugget>);
-<ore:plateFluix>.add(<contenttweaker:fluix_plate>);
 <ore:gearMagnesiumDiboride>.add(<contenttweaker:magnesium_diboride_alloy_gear>);
 <ore:blockDarkSoularium>.add(<contenttweaker:dark_soularium_block>);
 <ore:plateLithiumManganeseDioxide>.add(<contenttweaker:lithium_manganese_dioxide_alloy_plate>);
@@ -219,6 +217,7 @@ import crafttweaker.item.IItemStack;
 <ore:oreCAdamantium>.add(<contenttweaker:adamantium_ore>);
 <ore:oreCOpinionium>.add(<contenttweaker:opinionium_ore>);
 <ore:oreCEternity>.add(<contenttweaker:eternity_ore>);
+<ore:gemGelid>.add(<redstonerepository:material:5>);
 
 // Basic drawers (made with python bc too lazy)
 var drawers = [

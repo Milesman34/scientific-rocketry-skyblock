@@ -18,9 +18,9 @@
 			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
-				JetpackParticleType: 0
+				JetpackParticle: 0
 			},
-			Damage: 19s
+			Damage: 25s
 		}],
 		ignore_nbt: 1b
 	}],

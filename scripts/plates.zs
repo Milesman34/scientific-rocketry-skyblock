@@ -42,20 +42,6 @@ for plate in dense_plates {
     mods.nuclearcraft.Pressurizer.removeRecipeWithOutput(plate);
 }
 
-// Adds custom plate recipes
-mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fluix_plate>, <appliedenergistics2:material:7>, 4000);
-mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:fluix_plate>, <appliedenergistics2:material:12> * 2, 4000);
-
-mods.nuclearcraft.Pressurizer.addRecipe(<appliedenergistics2:material:7>, <contenttweaker:fluix_plate>);
-mods.nuclearcraft.Pressurizer.addRecipe(<appliedenergistics2:material:12> * 2, <contenttweaker:fluix_plate>);
-
-// AE2 crystal plate fixes
-mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:certus_quartz_plate>, <appliedenergistics2:material:0>, 4000);
-mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:certus_quartz_plate>, <appliedenergistics2:material:10> * 2, 4000);
-
-mods.nuclearcraft.Pressurizer.addRecipe(<appliedenergistics2:material:0>, <contenttweaker:certus_quartz_plate>);
-mods.nuclearcraft.Pressurizer.addRecipe(<appliedenergistics2:material:10> * 2, <contenttweaker:certus_quartz_plate>);
-
 // Adds plate recipes for pure nether quartz
 mods.thermalexpansion.Compactor.addPressRecipe(<moreplates:nether_quartz_plate>, <appliedenergistics2:material:11> * 2, 4000);
 
@@ -112,7 +98,7 @@ var plates_items = [
     <projectred-core:resource_item:105>,
     <redstonearsenal:material:160>,
     <redstonerepository:material:5>,
-    <simplyjetpacks:metaitemmods:3>,
+    <simplyjetpacks:metaitemmods:12>,
     <extendedcrafting:material:0>,
     <deepmoblearning:glitch_infused_ingot>,
     <contenttweaker:reinforced_thermalloy_ingot>,

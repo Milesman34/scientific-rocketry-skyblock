@@ -23,15 +23,15 @@ mods.avaritia.ExtremeCrafting.remove(<avaritia:neutronium_compressor>);
 mods.avaritia.ExtremeCrafting.remove(<avaritia:endest_pearl>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:endest_pearl>, [
-	[null, null, null, <advancedrocketry:warpmonitor>, <advancedrocketry:warpcore>, <advancedrocketry:warpmonitor>, null, null, null], 
+	[null, null, <enderutilities:enderpart:17>, <advancedrocketry:warpmonitor>, <advancedrocketry:warpcore>, <advancedrocketry:warpmonitor>, <enderutilities:enderpart:17>, null, null], 
 	[null, <ore:blockEnderBiotite>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <ore:blockEnderBiotite>, null], 
-	[null, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <environmentaltech:void_ore_miner_cont_6>, <enderio:item_capacitor_stellar>, <environmentaltech:void_ore_miner_cont_6>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, null], 
-	[<advancedrocketry:warpmonitor>, <extendedcrafting:material:40>, <environmentaltech:void_ore_miner_cont_6>, <enderio:item_capacitor_stellar>, <extendedcrafting:storage:6>, <enderio:item_capacitor_stellar>, <environmentaltech:void_ore_miner_cont_6>, <extendedcrafting:material:40>, <advancedrocketry:warpmonitor>], 
-	[<advancedrocketry:warpcore>, <extendedcrafting:material:40>, <enderio:item_capacitor_stellar>, <extendedcrafting:storage:6>, <ore:blockEnhancedEnder>, <extendedcrafting:storage:6>, <enderio:item_capacitor_stellar>, <extendedcrafting:material:40>, <advancedrocketry:warpcore>], 
-	[<advancedrocketry:warpmonitor>, <extendedcrafting:material:40>, <environmentaltech:void_ore_miner_cont_6>, <enderio:item_capacitor_stellar>, <extendedcrafting:storage:6>, <enderio:item_capacitor_stellar>, <environmentaltech:void_ore_miner_cont_6>, <extendedcrafting:material:40>, <advancedrocketry:warpmonitor>], 
-	[null, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <environmentaltech:void_ore_miner_cont_6>, <enderio:item_capacitor_stellar>, <environmentaltech:void_ore_miner_cont_6>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, null], 
+	[<enderutilities:enderpart:17>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <enderutilities:energy_bridge:1>, <enderio:item_capacitor_stellar>, <enderutilities:energy_bridge:1>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <enderutilities:enderpart:17>], 
+	[<advancedrocketry:warpmonitor>, <extendedcrafting:material:40>, <simplyjetpacks:itemjetpack:25>, <enderio:item_capacitor_stellar>, <extendedcrafting:storage:6>, <enderio:item_capacitor_stellar>, <simplyjetpacks:itemjetpack:25>, <extendedcrafting:material:40>, <advancedrocketry:warpmonitor>], 
+	[<advancedrocketry:warpcore>, <extendedcrafting:material:40>, <enderio:item_capacitor_stellar>, <extendedcrafting:storage:6>, <environmentaltech:void_ore_miner_cont_6>, <extendedcrafting:storage:6>, <enderio:item_capacitor_stellar>, <extendedcrafting:material:40>, <advancedrocketry:warpcore>], 
+	[<advancedrocketry:warpmonitor>, <extendedcrafting:material:40>, <simplyjetpacks:itemjetpack:25>, <enderio:item_capacitor_stellar>, <extendedcrafting:storage:6>, <enderio:item_capacitor_stellar>, <simplyjetpacks:itemjetpack:25>, <extendedcrafting:material:40>, <advancedrocketry:warpmonitor>], 
+	[<enderutilities:enderpart:17>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <enderutilities:energy_bridge:2>, <enderio:item_capacitor_stellar>, <enderutilities:energy_bridge:2>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <enderutilities:enderpart:17>], 
 	[null, <ore:blockEnderBiotite>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>, <ore:blockEnderBiotite>, null], 
-	[null, null, null, <advancedrocketry:warpmonitor>, <advancedrocketry:warpcore>, <advancedrocketry:warpmonitor>, null, null, null]
+	[null, null, <enderutilities:enderpart:17>, <advancedrocketry:warpmonitor>, <advancedrocketry:warpcore>, <advancedrocketry:warpmonitor>, <enderutilities:enderpart:17>, null, null]
 ]);
 
 // Infinity catalyst

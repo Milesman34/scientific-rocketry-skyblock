@@ -29,6 +29,6 @@ recipes.addShaped(<minecraft:beacon>, [
 // Elytra
 recipes.addShaped(<minecraft:elytra>, [
     [<ore:ingotMelodicAlloy>, null, <ore:ingotMelodicAlloy>],
-    [<simplyjetpacks:metaitemmods:4>, <actuallyadditions:item_chest_crystal_light_blue>, <simplyjetpacks:metaitemmods:4>],
+    [<simplyjetpacks:metaitemmods:13>, <actuallyadditions:item_chest_crystal_light_blue>, <simplyjetpacks:metaitemmods:13>],
     [<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal_empowered:5>]
 ]);

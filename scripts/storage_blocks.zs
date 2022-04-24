@@ -19,7 +19,7 @@ var ingots = [
     <nuclearcraft:alloy:15>,
     <projectred-core:resource_item:103>,
     <projectred-core:resource_item:104>,
-    <simplyjetpacks:metaitemmods:3>,
+    <simplyjetpacks:metaitemmods:12>,
     <libvulpes:productingot:3>,
     <contenttweaker:reinforced_thermalloy_ingot>,
     <contenttweaker:osgloglas_ingot>,

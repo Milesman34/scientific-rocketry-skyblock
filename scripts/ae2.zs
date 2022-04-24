@@ -391,7 +391,7 @@ recipes.remove(<appliedenergistics2:part:460>);
 recipes.addShaped(<appliedenergistics2:part:460>, [
     [null, <ore:ingotVibrantAlloy>, null], 
 	[<ore:ingotVibrantAlloy>, <appliedenergistics2:material:24>, <ore:ingotVibrantAlloy>], 
-	[<ore:plateFluix>, <ore:plateFluix>, <ore:plateFluix>]
+	[<ore:gemFluix>, <ore:gemFluix>, <ore:gemFluix>]
 ]);
 
 // Packager

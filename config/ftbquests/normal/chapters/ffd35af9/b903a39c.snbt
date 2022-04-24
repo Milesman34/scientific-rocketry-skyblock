@@ -1,5 +1,5 @@
 {
-	x: -3.5d,
+	x: -4.5d,
 	y: -3.0d,
 	tasks: [{
 		uid: "3b7657b0",
@@ -11,16 +11,16 @@
 			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
-				JetpackParticleType: 0
+				JetpackParticle: 0
 			},
-			Damage: 1s
+			Damage: 16s
 		}],
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "1ac1b123",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 4",
+		item: "thermalfoundation:material 1 131",
 		count: 16
 	}]
 }

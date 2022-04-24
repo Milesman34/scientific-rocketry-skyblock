@@ -2,7 +2,7 @@
 	x: -4.5d,
 	y: 1.0d,
 	dependencies: [
-		"5616efba"
+		"0761fb86"
 	],
 	tasks: [{
 		uid: "06cad3cd",
@@ -14,9 +14,9 @@
 			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 0,
-				JetpackParticleType: 0
+				JetpackParticle: 0
 			},
-			Damage: 18s
+			Damage: 24s
 		}],
 		ignore_nbt: 1b
 	}],

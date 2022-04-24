@@ -381,19 +381,10 @@ recipes.addShaped(<redstonerepository:material:6>, [
 	[<ore:gemGelid>, <ore:dustMana>, null]
 ]);
 
-// Endoscopic gastromizer
-recipes.remove(<redstonerepository:feeder>);
-
-recipes.addShaped(<redstonerepository:feeder>, [
-	[<ore:stringFluxed>, <thermalexpansion:capacitor:4>, <ore:stringFluxed>], 
-	[<ore:plateGelidEnderium>, <forge:bucketfilled>.withTag({FluidName: "mushroom_stew", Amount: 1000}), <ore:plateGelidEnderium>], 
-	[<ore:dustMana>, <ore:gearGelidEnderium>, <ore:dustMana>]
-]);
-
 // Gelid enderium ring
-recipes.remove(<redstonerepository:ring_base>);
+recipes.remove(<redstonerepository:util.ring_base>);
 
-recipes.addShaped(<redstonerepository:ring_base>, [
+recipes.addShaped(<redstonerepository:util.ring_base>, [
 	[<ore:dustMana>, <ore:ingotGelidEnderium>, <ore:dustMana>], 
 	[<ore:ingotGelidEnderium>, <actuallyadditions:item_misc:6>, <ore:ingotGelidEnderium>], 
 	[<ore:dustMana>, <ore:gemGelid>, <ore:dustMana>]
@@ -415,6 +406,21 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:capacitor:320
 // Mithril hardened glass
 mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotMithril>, <thermalfoundation:glass:8> * 2);
 mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotIridium>, <thermalfoundation:glass:7> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotCopper>, <thermalfoundation:glass:0> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotTin>, <thermalfoundation:glass:1> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotSilver>, <thermalfoundation:glass:2> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotAluminum>, <thermalfoundation:glass:4> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotNickel>, <thermalfoundation:glass:5> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotPlatinum>, <thermalfoundation:glass:6> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotSteel>, <thermalfoundation:glass_alloy:0> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotElectrum>, <thermalfoundation:glass_alloy:1> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotInvar>, <thermalfoundation:glass_alloy:2> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotBronze>, <thermalfoundation:glass_alloy:3> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotConstantan>, <thermalfoundation:glass_alloy:4> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotSignalum>, <thermalfoundation:glass_alloy:5> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotLumium>, <thermalfoundation:glass_alloy:6> * 2);
+mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:blockGlassHardened> * 2, <ore:ingotEnderium>, <thermalfoundation:glass_alloy:7> * 2);
+
 mods.nuclearcraft.AlloyFurnace.addRecipe(<ore:ingotLead>, <ore:dustObsidian> * 4, <thermalfoundation:glass:3> * 2);
 
 // Auxiliary reception coil

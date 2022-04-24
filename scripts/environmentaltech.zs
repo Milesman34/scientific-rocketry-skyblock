@@ -309,4 +309,4 @@ recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateIridium>, <environmental
 recipes.replaceAllOccurences(<ore:blockGlass>, <ore:fusedQuartz>, <environmentaltech:laser_core>);
 
 // Creative flight modifier
-recipes.replaceAllOccurences(<minecraft:leather>, <simplyjetpacks:itemjetpack:4>, <environmentaltech:modifier_creative_flight>);
+recipes.replaceAllOccurences(<minecraft:leather>, <simplyjetpacks:metaitemmods:11>, <environmentaltech:modifier_creative_flight>);

@@ -7,9 +7,9 @@
 		id: "simplyjetpacks:itemjetpack",
 		tag: {
 			Energy: 0,
-			JetpackParticleType: 0
+			JetpackParticle: 0
 		},
-		Damage: 4s
+		Damage: 24s
 	},
 	always_invisible: false,
 	group: 0,
