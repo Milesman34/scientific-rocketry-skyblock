@@ -225,7 +225,7 @@
             <artifact>contenttweaker:infinite_catalyst</artifact>
             <isKnown>false</isKnown>
             <gravitationalMultiplier>50</gravitationalMultiplier>
-			<orbitalDistance>1337</orbitalDistance>
+			<orbitalDistance>500</orbitalDistance>
 			<orbitalPhi>0</orbitalPhi>
 			<rotationalPeriod>2000000000</rotationalPeriod>
 			<atmosphereDensity>100</atmosphereDensity>
