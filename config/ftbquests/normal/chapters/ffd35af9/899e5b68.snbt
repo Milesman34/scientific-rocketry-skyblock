@@ -12,15 +12,12 @@
 		uid: "ace380a6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 25s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 25s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

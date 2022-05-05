@@ -8,10 +8,7 @@
 		uid: "cb0b8671",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_end_steel_pickaxe"
+			item: "enderio:item_end_steel_pickaxe"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

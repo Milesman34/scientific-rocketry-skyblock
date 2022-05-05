@@ -44,11 +44,11 @@ recipes.remove(<extendedcrafting:table_ultimate>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:table_ultimate>, [
 	[<ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>], 
-	[<ore:plateCrystalMatrix>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extracells:storage.component:17>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <ore:plateCrystalMatrix>], 
-	[<environmentaltech:structure_frame_6>, <extendedcrafting:material:12>, <extracells:storage.component:3>, <extendedcrafting:material:40>, <extracells:storage.component:3>, <extendedcrafting:material:12>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <extracells:storage.component:10>, <extendedcrafting:material:40>, <extendedcrafting:table_elite>, <extendedcrafting:material:40>, <extracells:storage.component:10>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <extendedcrafting:material:12>, <extracells:storage.component:3>, <extendedcrafting:material:40>, <extracells:storage.component:3>, <extendedcrafting:material:12>, <environmentaltech:structure_frame_6>], 
-	[<ore:plateCrystalMatrix>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <extracells:storage.component:17>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <ore:plateCrystalMatrix>], 
+	[<ore:plateCrystalMatrix>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <aeadditions:storage.component:13>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <ore:plateCrystalMatrix>], 
+	[<environmentaltech:structure_frame_6>, <extendedcrafting:material:12>, <aeadditions:storage.component:3>, <extendedcrafting:material:40>, <aeadditions:storage.component:3>, <extendedcrafting:material:12>, <environmentaltech:structure_frame_6>], 
+	[<environmentaltech:structure_frame_6>, <aeadditions:storage.component:6>, <extendedcrafting:material:40>, <extendedcrafting:table_elite>, <extendedcrafting:material:40>, <aeadditions:storage.component:6>, <environmentaltech:structure_frame_6>], 
+	[<environmentaltech:structure_frame_6>, <extendedcrafting:material:12>, <aeadditions:storage.component:3>, <extendedcrafting:material:40>, <aeadditions:storage.component:3>, <extendedcrafting:material:12>, <environmentaltech:structure_frame_6>], 
+	[<ore:plateCrystalMatrix>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <aeadditions:storage.component:13>, <extendedcrafting:material:12>, <extendedcrafting:material:12>, <ore:plateCrystalMatrix>], 
 	[<ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <ore:plateCrystalMatrix>, <ore:plateCrystalMatrix>]
 ]);
 

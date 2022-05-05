@@ -12,10 +12,7 @@
 		uid: "0e7a659c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_end_steel_chestplate"
+			item: "enderio:item_end_steel_chestplate"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -24,10 +21,7 @@
 		uid: "b70ef807",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_end_steel_leggings"
+			item: "enderio:item_end_steel_leggings"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -36,10 +30,7 @@
 		uid: "73c82319",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_end_steel_boots"
+			item: "enderio:item_end_steel_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -48,10 +39,7 @@
 		uid: "b86eb1df",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_end_steel_helmet"
+			item: "enderio:item_end_steel_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

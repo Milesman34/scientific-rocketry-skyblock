@@ -50,9 +50,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:resource:5>, 21474
 	<environmentaltech:structure_frame_6>,
 	<mekanismgenerators:reactor:1>,
 	<minecraft:dragon_egg>,
-	<extracells:storage.component:3>,
-	<extracells:storage.component:10>,
-	<extracells:storage.component:17>,
+	<aeadditions:storage.component:3>,
+	<aeadditions:storage.component:6>,
+	<aeadditions:storage.component:13>,
 	<enderio:item_capacitor_totemic>
 ]);
 

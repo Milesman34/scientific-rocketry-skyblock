@@ -13,9 +13,6 @@
 		uid: "dd042df1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:end_exchanger",
 			tag: {
 				exmode: 0,
@@ -34,9 +31,6 @@
 		uid: "50c8169b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:vibrant_exchanger",
 			tag: {
 				exmode: 0,
@@ -55,9 +49,6 @@
 		uid: "6865300b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:melodic_exchanger",
 			tag: {
 				exmode: 0,
@@ -76,9 +67,6 @@
 		uid: "fd9bfab5",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:resonant_exchanger",
 			tag: {
 				exmode: 0,
@@ -97,9 +85,6 @@
 		uid: "eb81cf7a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:ultimate_exchanger",
 			tag: {
 				exmode: 0,
@@ -118,9 +103,6 @@
 		uid: "bc74a61b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:end_steel_exchanger",
 			tag: {
 				exmode: 0,

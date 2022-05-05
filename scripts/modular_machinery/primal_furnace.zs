@@ -49,3 +49,8 @@ mods.modularmachinery.RecipeBuilder.newBuilder('processelectrotine', 'primal_fur
 mods.modularmachinery.RecipeBuilder.newBuilder('processruby', 'primal_furnace', 1).addEnergyPerTickInput(1000000).addItemOutput(<projectred-core:resource_item:200> * 192).addItemInput(<projectred-exploration:ore:0> * 64).addFluidInput(<liquid:mana> * 40).build();
 mods.modularmachinery.RecipeBuilder.newBuilder('processperidot', 'primal_furnace', 1).addEnergyPerTickInput(1000000).addItemOutput(<projectred-core:resource_item:202> * 192).addItemInput(<projectred-exploration:ore:2> * 64).addFluidInput(<liquid:mana> * 40).build();
 mods.modularmachinery.RecipeBuilder.newBuilder('processsapphire', 'primal_furnace', 1).addEnergyPerTickInput(1000000).addItemOutput(<projectred-core:resource_item:201> * 192).addItemInput(<projectred-exploration:ore:1> * 64).addFluidInput(<liquid:mana> * 40).build();
+
+// U235 recipes for fast molybdenum
+mods.modularmachinery.RecipeBuilder.newBuilder("u235process", "primal_furnace", 1).addEnergyPerTickInput(1000000).addItemOutput(<nuclearcraft:depleted_fuel_uranium:11> * 64).addItemInput(<nuclearcraft:fuel_uranium:11> * 64).addFluidInput(<liquid:mana> * 40).build();
+mods.modularmachinery.RecipeBuilder.newBuilder("u235process2", "primal_furnace", 1).addEnergyPerTickInput(1000000).addItemOutput(<nuclearcraft:depleted_fuel_uranium:9> * 64).addItemInput(<nuclearcraft:fuel_uranium:9> * 64).addFluidInput(<liquid:mana> * 40).build();
+mods.modularmachinery.RecipeBuilder.newBuilder("u235process3", "primal_furnace", 1).addEnergyPerTickInput(1000000).addItemOutput(<nuclearcraft:depleted_fuel_uranium:10> * 64).addItemInput(<nuclearcraft:fuel_uranium:10> * 64).addFluidInput(<liquid:mana> * 40).build();

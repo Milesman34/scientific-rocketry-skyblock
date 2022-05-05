@@ -13,9 +13,6 @@
 		uid: "f2807a27",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:diamond_exchanger",
 			tag: {
 				exmode: 0,
@@ -34,9 +31,6 @@
 		uid: "464cc99b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:electrical_steel_exchanger",
 			tag: {
 				exmode: 0,
@@ -55,9 +49,6 @@
 		uid: "10edee8b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:vivid_exchanger",
 			tag: {
 				exmode: 0,

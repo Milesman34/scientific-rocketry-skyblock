@@ -13,9 +13,6 @@
 		uid: "f68c1695",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "simplyjetpacks:itemjetpack",
 			tag: {
 				Energy: 200000,

@@ -5,10 +5,10 @@
 		uid: "e4c41062",
 		type: "item",
 		items: [{
+			id: "enderio:item_dark_steel_sword",
 			ForgeCaps: {
 				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_dark_steel_sword"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

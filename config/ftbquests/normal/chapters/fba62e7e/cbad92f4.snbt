@@ -13,10 +13,10 @@
 		type: "item",
 		items: [{
 			id: "mekanism:basicblock2",
+			Damage: 4s,
 			tag: {
 				tier: 2
-			},
-			Damage: 4s
+			}
 		}]
 	}],
 	rewards: [{

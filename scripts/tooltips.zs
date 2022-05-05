@@ -149,3 +149,6 @@
 <environmentaltech:erodium_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));
 <environmentaltech:pladium_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));
 <environmentaltech:kyronite_crystal>.addTooltip(format.aqua("Must be crafted until you have a T4 Void Ore Miner"));
+
+// Molybdenum
+<nuclearcraft:fission_dust:6>.addTooltip(format.aqua("Once you make some the normal way, you can process U235 fuel pellets much faster in the Primal Furnace"));

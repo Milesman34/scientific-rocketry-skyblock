@@ -13,11 +13,11 @@
 		type: "item",
 		items: [{
 			id: "thermalinnovation:drill",
+			Damage: 1s,
 			tag: {
 				Energy: 120000,
 				Mode: 2
-			},
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

@@ -12,10 +12,7 @@
 		uid: "cd3e2015",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "avaritia:infinity_sword"
+			item: "avaritia:infinity_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

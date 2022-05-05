@@ -13,9 +13,6 @@
 		uid: "d86040a4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:golden_exchanger",
 			tag: {
 				exmode: 0,
@@ -34,9 +31,6 @@
 		uid: "8c34c8fe",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:pulsating_iron_exchanger",
 			tag: {
 				exmode: 0,
@@ -55,9 +49,6 @@
 		uid: "b60992b4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:energetic_silver_exchanger",
 			tag: {
 				exmode: 0,

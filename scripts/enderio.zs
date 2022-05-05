@@ -255,6 +255,15 @@ recipes.addShaped(<enderio:item_material:66>, [
 	[<ore:plateGelidEnderium>, <enderio:block_end_iron_bars>, <ore:plateGelidEnderium>]
 ]);
 
+// Soul dye blend
+recipes.remove(<enderio:item_material:52> * 6);
+
+recipes.addShaped(<enderio:item_material:52> * 6, [
+	[<ore:dustSoularium>, <ore:dustQuartz>, <ore:dustPetrotheum>], 
+	[<ore:dustQuartz>, <ore:dustElectrumFlux>, <ore:dustQuartz>], 
+	[<ore:dustPetrotheum>, <ore:dustQuartz>, <ore:dustSoularium>]
+]);
+
 // Enhanced dye blend
 recipes.remove(<enderio:item_material:67> * 4);
 

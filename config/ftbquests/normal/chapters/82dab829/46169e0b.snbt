@@ -12,10 +12,7 @@
 		uid: "fe0ef058",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "exnihilocreatio:crook_wood"
+			item: "exnihilocreatio:crook_wood"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -13,9 +13,6 @@
 		uid: "a78395ed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:stone_exchanger",
 			tag: {
 				exmode: 0,
@@ -34,9 +31,6 @@
 		uid: "3704f791",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:conductive_iron_exchanger",
 			tag: {
 				exmode: 0,
@@ -55,9 +49,6 @@
 		uid: "2f4dae49",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:crude_steel_exchanger",
 			tag: {
 				exmode: 0,
@@ -76,9 +67,6 @@
 		uid: "cde6dc41",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:leadstone_exchanger",
 			tag: {
 				exmode: 0,

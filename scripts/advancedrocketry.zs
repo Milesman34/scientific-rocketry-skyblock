@@ -282,7 +282,7 @@ recipes.addShaped(<advancedrocketry:satellitecontrolcenter>, [
 recipes.remove(<advancedrocketry:blackholegenerator>);
 
 recipes.addShaped(<advancedrocketry:blackholegenerator>, [
-	[<libvulpes:battery:1>, <extracells:storage.component:0>, <libvulpes:battery:1>], 
+	[<libvulpes:battery:1>, <aeadditions:storage.component:0>, <libvulpes:battery:1>], 
 	[<rftools:matter_booster>, <libvulpes:advstructuremachine>, <rftools:matter_booster>], 
 	[<libvulpes:elitemotor>, <appliedenergistics2:material:47>, <libvulpes:elitemotor>]
 ]);

@@ -13,9 +13,6 @@
 		uid: "adba1d31",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:emerald_exchanger",
 			tag: {
 				exmode: 0,
@@ -34,9 +31,6 @@
 		uid: "94575af2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:energetic_exchanger",
 			tag: {
 				exmode: 0,
@@ -55,9 +49,6 @@
 		uid: "aa2f2a33",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:crystalline_exchanger",
 			tag: {
 				exmode: 0,
@@ -76,9 +67,6 @@
 		uid: "7aa4f599",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:reinforced_exchanger",
 			tag: {
 				exmode: 0,
@@ -97,9 +85,6 @@
 		uid: "e0c49268",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:advanced_exchanger",
 			tag: {
 				exmode: 0,

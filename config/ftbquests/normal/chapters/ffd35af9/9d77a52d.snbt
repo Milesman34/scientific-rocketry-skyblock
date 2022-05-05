@@ -13,9 +13,6 @@
 		uid: "b11713d4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:stellar_exchanger",
 			tag: {
 				exmode: 0,

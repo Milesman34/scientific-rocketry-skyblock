@@ -5,10 +5,10 @@
 		uid: "4d634afe",
 		type: "item",
 		items: [{
+			id: "enderio:item_dark_steel_pickaxe",
 			ForgeCaps: {
 				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_dark_steel_pickaxe"
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

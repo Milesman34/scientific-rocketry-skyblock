@@ -13,10 +13,7 @@
 		uid: "828f405d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "avaritia:infinity_helmet"
+			item: "avaritia:infinity_helmet"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -25,10 +22,7 @@
 		uid: "47d58e1e",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "avaritia:infinity_chestplate"
+			item: "avaritia:infinity_chestplate"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -37,10 +31,7 @@
 		uid: "930bc8d2",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "avaritia:infinity_pants"
+			item: "avaritia:infinity_pants"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -49,10 +40,7 @@
 		uid: "966bbb37",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "avaritia:infinity_boots"
+			item: "avaritia:infinity_boots"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

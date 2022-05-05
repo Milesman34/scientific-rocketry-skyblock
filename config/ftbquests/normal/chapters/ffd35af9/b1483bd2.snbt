@@ -6,10 +6,10 @@
 		type: "item",
 		items: [{
 			id: "actuallyadditions:item_drill",
+			Damage: 3s,
 			tag: {
 				Energy: 0
-			},
-			Damage: 3s
+			}
 		}],
 		ignore_nbt: 1b
 	}],
