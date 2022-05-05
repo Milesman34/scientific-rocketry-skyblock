@@ -155,7 +155,7 @@ recipes.remove(<enderutilities:msu:0>);
 
 recipes.addShaped(<enderutilities:msu:0>, [
 	[<enderutilities:enderpart:2>, <enderutilities:asu:0>, <enderutilities:enderpart:2>], 
-	[<enderutilities:enderpart:17>, <extracells:storage.component:0>, <enderutilities:enderpart:17>], 
+	[<enderutilities:enderpart:17>, <aeadditions:storage.component:0>, <enderutilities:enderpart:17>], 
 	[<enderutilities:enderpart:2>, <enderutilities:asu:0>, <enderutilities:enderpart:2>]
 ]);
 

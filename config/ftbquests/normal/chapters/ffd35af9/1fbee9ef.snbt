@@ -14,10 +14,10 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:capacitor",
+			Damage: 1s,
 			tag: {
 				Energy: 8000000
-			},
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

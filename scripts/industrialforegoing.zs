@@ -31,7 +31,7 @@ recipes.removeByRecipeName("industrialforegoing:black_hole_unit");
 recipes.addShaped(<industrialforegoing:black_hole_unit>, [
 	[<mekanism:polyethene:2>, <ore:blockEndSteel>, <mekanism:polyethene:2>], 
 	[<ore:ingotEnder>, <thermalexpansion:frame:147>, <ore:ingotEnder>], 
-	[<extracells:storage.component>, <storagedrawers:compdrawers>, <extracells:storage.component>]
+	[<aeadditions:storage.component:0>, <storagedrawers:compdrawers>, <aeadditions:storage.component:0>]
 ]);
 
 // Black hole tank
@@ -40,7 +40,7 @@ recipes.removeByRecipeName("industrialforegoing:black_hole_tank");
 recipes.addShaped(<industrialforegoing:black_hole_tank>, [
 	[<mekanism:polyethene:2>, <ore:blockEndSteel>, <mekanism:polyethene:2>], 
 	[<ore:ingotEnder>, <thermalexpansion:frame:147>, <ore:ingotEnder>], 
-	[<extracells:storage.component:8>, <mekanism:machineblock2:11>.withTag({tier: 3}), <extracells:storage.component:8>]
+	[<aeadditions:storage.component:4>, <mekanism:machineblock2:11>.withTag({tier: 3}), <aeadditions:storage.component:4>]
 ]);
 
 // Black hole controller

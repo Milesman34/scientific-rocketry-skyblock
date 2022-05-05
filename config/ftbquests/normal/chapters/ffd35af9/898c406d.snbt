@@ -8,15 +8,12 @@
 		uid: "06cad3cd",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 24s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 24s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

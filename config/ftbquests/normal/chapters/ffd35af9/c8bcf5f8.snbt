@@ -12,9 +12,6 @@
 		uid: "04c1c306",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonerepository:armor.chestplategelid",
 			tag: {
 				Energy: 0
@@ -27,9 +24,6 @@
 		uid: "8e439221",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonerepository:armor.leggings_gelid",
 			tag: {
 				Energy: 0
@@ -42,9 +36,6 @@
 		uid: "cfd26cb3",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonerepository:armor.boots_gelid",
 			tag: {
 				Energy: 0
@@ -57,9 +48,6 @@
 		uid: "9895192f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonerepository:armor.helmet_gelid",
 			tag: {
 				Energy: 0

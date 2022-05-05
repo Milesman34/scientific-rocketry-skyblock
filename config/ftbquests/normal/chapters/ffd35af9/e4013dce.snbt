@@ -8,9 +8,6 @@
 		uid: "fc439d44",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonerepository:tool.sword_gelid",
 			tag: {
 				Energy: 0

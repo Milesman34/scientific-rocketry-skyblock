@@ -9,10 +9,7 @@
 		uid: "bee0270a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
-			id: "enderio:item_stellar_alloy_sword"
+			item: "enderio:item_stellar_alloy_sword"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

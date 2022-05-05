@@ -9,12 +9,12 @@
 		uid: "cae6cbe8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonearsenal:armor.plate_flux",
 			tag: {
 				Energy: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,
@@ -24,12 +24,12 @@
 		uid: "b39fa19f",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonearsenal:armor.legs_flux",
 			tag: {
 				Energy: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,
@@ -39,12 +39,12 @@
 		uid: "68eebf34",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonearsenal:armor.boots_flux",
 			tag: {
 				Energy: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,
@@ -54,12 +54,12 @@
 		uid: "833a496a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "redstonearsenal:armor.helmet_flux",
 			tag: {
 				Energy: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,

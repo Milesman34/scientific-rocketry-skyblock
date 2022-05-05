@@ -122,7 +122,7 @@ recipes.addShaped(<contenttweaker:osgloglas_photovoltaic_cell> * 2, [
 ]);
 
 // Osgloglas solar panel (73728000 RF)
-mods.extendedcrafting.CombinationCrafting.addRecipe(<solarflux:custom_solar_panel_osgloglas>, 73728000, 1000000, <solarflux:custom_solar_panel_iridium>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<solarflux:custom_solar_panel_osgloglas>, 20000000, 1000000, <solarflux:custom_solar_panel_iridium>, [
     <solarflux:custom_solar_panel_iridium>,
     <contenttweaker:osgloglas_ingot>,
     <contenttweaker:osgloglas_ingot>,
@@ -172,7 +172,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:custom_solar_panel_a
 ]);
 
 // Neutronium photovoltaic cell (2147483647 RF)
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:neutronium_photovoltaic_cell>, 2147483647, 1000000, <contenttweaker:adamantium_photovoltaic_cell>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:neutronium_photovoltaic_cell>, 1000000000, 1000000, <contenttweaker:adamantium_photovoltaic_cell>, [
     <contenttweaker:adamantium_photovoltaic_cell>,
     <contenttweaker:adamantium_photovoltaic_cell>,
     <avaritia:resource:4>,

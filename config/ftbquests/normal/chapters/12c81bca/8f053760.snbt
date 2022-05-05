@@ -12,9 +12,6 @@
 		uid: "97ebfed8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "avaritia:infinity_pickaxe",
 			tag: {
 				ench: [{

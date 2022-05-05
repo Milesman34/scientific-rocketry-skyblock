@@ -10,13 +10,13 @@
 		type: "item",
 		title: "Any drawerBasic",
 		items: [{
+			id: "itemfilters:filter",
 			ForgeCaps: {
 				Parent: {
-					data: "drawerBasic",
-					id: "ore"
+					id: "ore",
+					data: "drawerBasic"
 				}
-			},
-			id: "itemfilters:filter"
+			}
 		}]
 	}],
 	rewards: [{

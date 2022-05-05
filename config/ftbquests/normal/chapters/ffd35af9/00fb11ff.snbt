@@ -10,9 +10,6 @@
 		uid: "b2ae9242",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:wooden_exchanger",
 			tag: {
 				exmode: 0,
@@ -22,6 +19,9 @@
 				blockstate: {
 					Name: "minecraft:air"
 				}
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,
@@ -31,9 +31,6 @@
 		uid: "c31201f0",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "exchangers:tuberous_exchanger",
 			tag: {
 				exmode: 0,
@@ -43,6 +40,9 @@
 				blockstate: {
 					Name: "minecraft:air"
 				}
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,

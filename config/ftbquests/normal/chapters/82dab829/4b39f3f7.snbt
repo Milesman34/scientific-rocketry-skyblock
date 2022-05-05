@@ -1,0 +1,24 @@
+{
+	title: "Dolls",
+	x: -1.0d,
+	y: 4.0d,
+	text: [
+		"Can be used to spawn mobs using a Barrel of some fluid and the corresponding type of Doll."
+	],
+	dependencies: [
+		"f8e7aa62"
+	],
+	tasks: [{
+		uid: "50edbb62",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "14522b32",
+		type: "item",
+		item: "exnihilocreatio:item_material 1 1",
+		count: 32
+	}]
+}

@@ -296,7 +296,7 @@ recipes.addShaped(<threng:big_assembler:2>, [
 recipes.remove(<threng:big_assembler:3>);
 
 recipes.addShaped(<threng:big_assembler:3>, [
-	[<threng:big_assembler:0>, <extracells:storage.component:0>, <threng:big_assembler:0>], 
+	[<threng:big_assembler:0>, <aeadditions:storage.component:0>, <threng:big_assembler:0>], 
 	[<ore:circuitUltimate>, <ore:blockTungsten>, <ore:circuitUltimate>], 
 	[<threng:big_assembler:0>, <appliedenergistics2:interface>, <threng:big_assembler:0>]
 ]);
@@ -503,11 +503,11 @@ recipes.replaceAllOccurences(<appliedenergistics2:quartz_glass>, <appliedenergis
 mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:creative_energy_cell>, [
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <extendedcrafting:singularity_custom:178>, <appliedenergistics2:dense_energy_cell>, <ore:circuitUltimate>, <extendedcrafting:singularity_custom:142>, <ore:circuitUltimate>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:178>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:101>, <extracells:storage.component:3>, <nuclearcraft:quantum_computer_controller>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:101>, <appliedenergistics2:dense_energy_cell>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <threng:material:4>, <extracells:storage.component:3>, <appliedenergistics2:quantum_link>, <appliedenergistics2:quantum_ring>, <appliedenergistics2:quantum_link>, <extracells:storage.component:3>, <threng:material:4>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:101>, <aeadditions:storage.component:3>, <nuclearcraft:quantum_computer_controller>, <aeadditions:storage.component:3>, <extendedcrafting:singularity_custom:101>, <appliedenergistics2:dense_energy_cell>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <threng:material:4>, <aeadditions:storage.component:3>, <appliedenergistics2:quantum_link>, <appliedenergistics2:quantum_ring>, <appliedenergistics2:quantum_link>, <aeadditions:storage.component:3>, <threng:material:4>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <extendedcrafting:singularity_custom:142>, <nuclearcraft:quantum_computer_controller>, <appliedenergistics2:quantum_ring>, <extendedcrafting:singularity_custom:179>, <appliedenergistics2:quantum_ring>, <nuclearcraft:quantum_computer_controller>, <extendedcrafting:singularity_custom:142>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <threng:material:4>, <extracells:storage.component:3>, <appliedenergistics2:quantum_link>, <appliedenergistics2:quantum_ring>, <appliedenergistics2:quantum_link>, <extracells:storage.component:3>, <threng:material:4>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:101>, <extracells:storage.component:3>, <nuclearcraft:quantum_computer_controller>, <extracells:storage.component:3>, <extendedcrafting:singularity_custom:101>, <appliedenergistics2:dense_energy_cell>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <threng:material:4>, <aeadditions:storage.component:3>, <appliedenergistics2:quantum_link>, <appliedenergistics2:quantum_ring>, <appliedenergistics2:quantum_link>, <aeadditions:storage.component:3>, <threng:material:4>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:101>, <aeadditions:storage.component:3>, <nuclearcraft:quantum_computer_controller>, <aeadditions:storage.component:3>, <extendedcrafting:singularity_custom:101>, <appliedenergistics2:dense_energy_cell>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <extendedcrafting:singularity_custom:178>, <appliedenergistics2:dense_energy_cell>, <ore:circuitUltimate>, <extendedcrafting:singularity_custom:142>, <ore:circuitUltimate>, <appliedenergistics2:dense_energy_cell>, <extendedcrafting:singularity_custom:178>, <ore:plateCosmicNeutronium>], 
 	[<ore:blockCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:blockCosmicNeutronium>]
 ]);
@@ -522,25 +522,25 @@ recipes.remove(<extracpus:crafting_storage_4096k>);
 recipes.remove(<extracpus:crafting_storage_16384k>);
 
 recipes.addShaped(<extracpus:crafting_storage_256k>, [
-	[<ore:ingotOsgloglas>, <extracells:storage.component>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <aeadditions:storage.component:0>, <ore:ingotOsgloglas>], 
 	[<ore:plateEmeradicEmpowered>, <appliedenergistics2:crafting_unit>, <ore:plateEmeradicEmpowered>], 
 	[<ore:ingotOsgloglas>, <ore:gearOsgloglas>, <ore:ingotOsgloglas>]
 ]);
 
 recipes.addShaped(<extracpus:crafting_storage_1024k>, [
-	[<ore:ingotMithril>, <extracells:storage.component:1>, <ore:ingotMithril>], 
+	[<ore:ingotMithril>, <aeadditions:storage.component:1>, <ore:ingotMithril>], 
 	[<threng:material:4>, <appliedenergistics2:crafting_unit>, <threng:material:4>], 
 	[<ore:gearMithril>, <ore:blockMithril>, <ore:gearMithril>]
 ]);
 
 recipes.addShaped(<extracpus:crafting_storage_4096k>, [
-	[<ore:ingotAdamantium>, <extracells:storage.component:2>, <ore:ingotAdamantium>], 
+	[<ore:ingotAdamantium>, <aeadditions:storage.component:2>, <ore:ingotAdamantium>], 
 	[<ore:plateCrystalMatrix>, <appliedenergistics2:crafting_unit>, <ore:plateCrystalMatrix>], 
 	[<ore:ingotAdamantium>, <ore:gearAdamantium>, <ore:ingotAdamantium>]
 ]);
 
 recipes.addShaped(<extracpus:crafting_storage_16384k>, [
-	[<ore:ingotUltimate>, <extracells:storage.component:3>, <ore:ingotUltimate>], 
+	[<ore:ingotUltimate>, <aeadditions:storage.component:3>, <ore:ingotUltimate>], 
 	[<industrialforegoing:black_hole_controller_reworked>, <appliedenergistics2:crafting_unit>, <industrialforegoing:black_hole_controller_reworked>], 
 	[<ore:ingotUltimate>, <environmentaltech:structure_frame_6>, <ore:ingotUltimate>]
 ]);

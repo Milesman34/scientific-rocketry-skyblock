@@ -8,15 +8,12 @@
 		uid: "3484945b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"ocdevices:item_analyze": {}
-			},
 			id: "simplyjetpacks:itemjetpack",
+			Damage: 9s,
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
-			},
-			Damage: 9s
+			}
 		}],
 		ignore_nbt: 1b
 	}],
