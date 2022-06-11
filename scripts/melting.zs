@@ -948,6 +948,8 @@ mods.nuclearcraft.Melter.addRecipe(<contenttweaker:manganese_oxide_gear>, <liqui
 
 mods.nuclearcraft.IngotFormer.addRecipe(<liquid:manganese_oxide> * 144, <nuclearcraft:ingot:14>);
 
+furnace.addRecipe(<nuclearcraft:ingot:14>, <nuclearcraft:dust:14>);
+
 mods.nuclearcraft.SaltMixer.addRecipe(<liquid:manganese> * 144, <liquid:oxygen> * 1000, <liquid:manganese_oxide> * 144);
 
 // Molten manganese dioxide
